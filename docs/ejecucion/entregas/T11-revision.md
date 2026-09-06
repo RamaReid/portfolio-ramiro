@@ -1,8 +1,8 @@
 # Revisión T11 — Programación e IA desde GitHub
 
-**Tarea:** T11  
-**Revisor:** Integrador / Codex  
-**Fecha:** 2026-09-06  
+**Tarea:** T11
+**Revisor:** Integrador / Codex
+**Fecha:** 2026-09-06
 **Resultado:** entrega revisada; `completa`
 
 ## Puntos contrastados
@@ -21,4 +21,3 @@
 La entrega cumple los criterios editoriales y técnicos de T11. La docencia y la ficha histórica de `RamaReid.github.io` quedan registradas como pendientes independientes y no se presentan como experiencia nueva por inferencia.
 
 T11 puede cerrarse como `completa`. No hay push, despliegue ni URL pública comprobada.
-
