@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getProject, projects } from '../../../data/portfolio';
+import { getEvidenceForProject } from '../../../data/evidence';
+import { loadProjectText } from '../../../data/project-content';
+import '../../../styles/global.css';
+
+export function getStaticPaths() {
+  return projects.map((project) => ({ params: { slug: project.slug } }));
+}
+
+const slug = Astro.params.slug ?? '';
+const project = getProject(slug);
+if (!project) throw new Error(`Proyecto no encontrado: ${slug}`);
+const evidence = getEvidenceForProject(project.id);
+const body = loadProjectText(project.slug);
+const paragraphs = body.split(/\n\n+/).filter(Boolean);
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CreativeWork',
+  name: project.title,
+  description: project.lead,
+  url: `https://example.invalid/proyectos/garcia-delillo/${project.slug}/`,
+  image: evidence?.assets.map((asset: { src: string }) => `https://example.invalid${asset.src}`),
+};
+---
+<BaseLayout title={`${project.title} · García Delillo`} description={project.lead} canonical={`/proyectos/garcia-delillo/${project.slug}/`}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+  <section class="project-hero page-width">
+    <p class="breadcrumb"><a href="/">Inicio</a> / <a href="/casos/garcia-delillo/">García Delillo</a> / Proyecto</p>
+    <p class="eyebrow">Proyecto relacionado</p>
+    <h1>{project.title}</h1>
+    <p class="project-lead">{project.lead}</p>
+    <p><a class="text-link" href={`/casos/garcia-delillo/`}>Volver al caso piloto</a></p>
+  </section>
+
+  <section class="section page-width" aria-labelledby="relato-titulo">
+    <div class="project-body prose">
+      <h2 id="relato-titulo">Relato del proyecto</h2>
+      {paragraphs.map((paragraph: string) => <p>{paragraph}</p>)}
+    </div>
+  </section>
+
+  {evidence && <section class="section page-width" aria-labelledby="galeria-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Evidencias</p><h2 id="galeria-titulo">Recursos visuales</h2></div><p>{evidence.assets.length} imágenes procedentes de la página revisada de GDweb.</p></div>
+    <div class="gallery">
+      {evidence.assets.map((asset: { src: string; alt: string }) => <figure><img src={asset.src} alt={asset.alt} loading="lazy" width="640" height="480" /><figcaption>{asset.alt}</figcaption></figure>)}
+    </div>
+  </section>}
+</BaseLayout>

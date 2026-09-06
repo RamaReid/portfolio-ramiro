@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { capabilities, stages } from '../../data/portfolio';
+import '../../styles/global.css';
+
+export function getStaticPaths() {
+  return capabilities.map((capability) => ({ params: { slug: capability.slug } }));
+}
+
+const capability = capabilities.find((item) => item.slug === Astro.params.slug);
+if (!capability) throw new Error(`Capacidad no encontrada: ${Astro.params.slug}`);
+const relatedStages = stages.filter((stage) => {
+  if (capability.id === 'capability-representation' || capability.id === 'capability-modeling') return stage.id === 'stage-representation';
+  if (capability.id === 'capability-design' || capability.id === 'capability-development') return stage.id === 'stage-project-development';
+  return stage.id === 'stage-construction';
+});
+---
+<BaseLayout title={`${capability.title} · Portfolio`} description={capability.description} canonical={`/capacidades/${capability.slug}/`}>
+  <section class="project-hero page-width">
+    <p class="breadcrumb"><a href="/">Inicio</a> / Capacidad</p>
+    <p class="eyebrow">Capacidad</p>
+    <h1>{capability.title}</h1>
+    <p class="project-lead">{capability.description}</p>
+  </section>
+  <section class="section page-width" aria-labelledby="relacion-titulo">
+    <div class="prose"><h2 id="relacion-titulo">Relación con el recorrido</h2><p>Esta capacidad forma parte de la organización editorial del caso piloto y se conecta con el mapa y la navegación textual.</p></div>
+    <div class="stage-grid">{relatedStages.map((stage) => <article class="stage-card"><strong>{stage.periodLabel}</strong><h3>{stage.title}</h3><p>{stage.description}</p><a class="text-link" href={`/trayectoria/#${stage.slug}`}>Abrir etapa</a></article>)}</div>
+  </section>
+</BaseLayout>

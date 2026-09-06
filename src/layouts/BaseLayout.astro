@@ -1,0 +1,48 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+const {
+  title = 'Portfolio de Ramiro García Reid',
+  description = 'Portfolio profesional organizado alrededor del eje: El output cambia. El método permanece.',
+  canonical,
+} = Astro.props;
+const siteUrl = 'https://example.invalid';
+const canonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="page-width header-inner">
+        <a class="brand" href="/">Ramiro García Reid</a>
+        <nav aria-label="Navegación principal">
+          <a href="/casos/garcia-delillo/">Caso piloto</a>
+          <a href="/trayectoria/">Trayectoria</a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenido">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="page-width">
+        <p>El output cambia. El método permanece.</p>
+      </div>
+    </footer>
+  </body>
+</html>

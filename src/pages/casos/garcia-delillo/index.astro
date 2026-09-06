@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { caseStudy, capabilities, projects, stages } from '../../../data/portfolio';
+import { loadEvidenceManifest } from '../../../data/evidence';
+import '../../../styles/global.css';
+
+const manifest = loadEvidenceManifest();
+const featured = manifest.projects.map((project) => ({ ...project, asset: project.assets[0] })).filter((project) => project.asset);
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: caseStudy.title,
+  description: caseStudy.summary,
+  url: 'https://example.invalid/casos/garcia-delillo/',
+};
+---
+<BaseLayout title={`${caseStudy.title} · Portfolio`} description={caseStudy.summary} canonical={caseStudy.href}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+  <section class="case-hero page-width">
+    <p class="breadcrumb"><a href="/">Inicio</a> / Caso</p>
+    <p class="eyebrow">Caso piloto</p>
+    <h1>{caseStudy.title}</h1>
+    <p class="lede">{caseStudy.summary}</p>
+  </section>
+
+  <section class="section page-width" aria-labelledby="recorrido-titulo">
+    <div class="prose">
+      <p class="eyebrow">El output cambia. El método permanece.</p>
+      <h2 id="recorrido-titulo">Un recorrido por etapas</h2>
+      <p>El caso recorre una secuencia profesional declarada: primero la representación y el modelado, después el diseño y el desarrollo de proyectos, y finalmente la dirección de obras. El catálogo de proyectos de GDweb aporta el relato textual y las evidencias visuales relacionadas.</p>
+    </div>
+    <div class="stage-grid">
+      {stages.map((stage) => <article class="stage-card" id={stage.slug}><strong>{stage.periodLabel}</strong><h3>{stage.title}</h3><p>{stage.description}</p></article>)}
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="capacidades-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Capacidades</p><h2 id="capacidades-titulo">Lo que conecta las etapas</h2></div><p>La navegación textual conserva estas relaciones aunque el mapa no se cargue.</p></div>
+    <div class="card-grid">
+      {capabilities.map((capability) => <a class="card" href={`/capacidades/${capability.slug}/`}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="proyectos-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Catálogo</p><h2 id="proyectos-titulo">Proyectos relacionados</h2></div><p>Texto y recursos visuales provienen de las páginas de proyecto revisadas de GDweb.</p></div>
+    <div class="card-grid">
+      {projects.map((project) => {
+        const resource = featured.find((item) => item.id === project.id);
+        return <a class="card" href={`/proyectos/garcia-delillo/${project.slug}/`}>
+          {resource?.asset && <img src={resource.asset.src} alt={resource.asset.alt} loading="lazy" width="640" height="480" />}
+          <div><h3>{project.title}</h3><p>{project.lead}</p></div>
+          <span class="text-link">Abrir proyecto</span>
+        </a>;
+      })}
+    </div>
+  </section>
+</BaseLayout>

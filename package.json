@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-ramiro",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "check": "astro check",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "latest",
+    "@dagrejs/dagre": "latest",
+    "@xyflow/react": "latest",
+    "astro": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "shiki": "4.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

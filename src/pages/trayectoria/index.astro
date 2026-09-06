@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { stages } from '../../data/portfolio';
+import '../../styles/global.css';
+---
+<BaseLayout title="Trayectoria · Portfolio" description="Recorrido temporal complementario del portfolio de Ramiro García Reid." canonical="/trayectoria/">
+  <section class="project-hero page-width">
+    <p class="breadcrumb"><a href="/">Inicio</a> / Trayectoria</p>
+    <p class="eyebrow">Recorrido complementario</p>
+    <h1>Trayectoria</h1>
+    <p class="project-lead">Las etapas se leen como un recorrido y enlazan con el caso de García Delillo y sus capacidades.</p>
+  </section>
+  <section class="section page-width" aria-labelledby="etapas-titulo">
+    <div class="stage-grid" id="etapas-titulo">
+      {stages.map((stage) => <article class="stage-card" id={stage.slug}><strong>{stage.periodLabel}</strong><h2>{stage.title}</h2><p>{stage.description}</p><a class="text-link" href="/casos/garcia-delillo/">Ver caso relacionado</a></article>)}
+    </div>
+  </section>
+</BaseLayout>
