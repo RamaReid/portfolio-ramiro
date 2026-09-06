@@ -163,6 +163,16 @@ La información debería distinguir visual o textualmente entre:
 
 Esta distinción forma parte del valor profesional del portfolio: muestra criterio, trazabilidad y honestidad documental.
 
+## Requisito confirmado de descubrimiento e interpretación
+
+El contenido público debe facilitar que buscadores tradicionales y buscadores con IA descubran, interpreten y extraigan la información del portfolio.
+
+La arquitectura debe entregar el contenido esencial como texto en el HTML inicial, con estructura semántica y enlaces rastreables. Identidad profesional, rol, período, intervención, resultado conocido y evidencias deben poder comprenderse sin depender de ejecutar JavaScript o accionar una interacción. Los recursos visuales deben contar con contexto textual suficiente.
+
+La implementación de metadatos y datos estructurados debe mantener la misma información aprobada que ve el visitante. Se comprobará la extracción desde el HTML y el acceso desde la URL publicada; la indexación, el posicionamiento y las citas dependen de cada buscador.
+
+El [análisis tecnológico](analisis_tecnologico.md) desarrolla la propuesta técnica y sus criterios de verificación.
+
 ## Interacciones posibles
 
 Las siguientes son posibilidades para evaluar, no requisitos aprobados:

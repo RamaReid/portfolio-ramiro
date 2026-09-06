@@ -1,0 +1,802 @@
+{
+    "version":  1,
+    "source":  "GDweb",
+    "status":  "local",
+    "note":  "Contenido visual copiado desde el sitio existente; la censura adicional queda como revisión posterior antes de publicar",
+    "projects":  [
+                     {
+                         "id":  "cedahause",
+                         "title":  "CeDaHause",
+                         "sourcePage":  "GDweb/cedahause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-bano-ducha2.png",
+                                            "alt":  "Bano con ducha tipo spa en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-bano-ducha2.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-cocina-1panoramica.png",
+                                            "alt":  "Cocina con ventana horizontal en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-cocina-1panoramica.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-comedor.png",
+                                            "alt":  "Comedor con gran ventanal en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-comedor.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-dormitorio-vestido.png",
+                                            "alt":  "Vestidor integrado en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-dormitorio-vestido.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-dormitorio-vestido3.png",
+                                            "alt":  "Dormitorio principal al atardecer en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-dormitorio-vestido3.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-exterior-relacion.png",
+                                            "alt":  "Revestimiento vertical con tonos oxidados en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-exterior-relacion.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-exterior-sur.png",
+                                            "alt":  "Pilotes elevando la vivienda en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-exterior-sur.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-exterior-voladisos.png",
+                                            "alt":  "Estructura de hormigon visto en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-exterior-voladisos.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-living.png",
+                                            "alt":  "Salon con chimenea en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-living.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-panoramica-frente.png",
+                                            "alt":  "Puente vidriado sobre el terreno en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-panoramica-frente.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/cedahause/cedahause-quincho.png",
+                                            "alt":  "Quincho exterior en Cedahause",
+                                            "source":  "GDweb/img/cedahause/cedahause-quincho.png",
+                                            "page":  "GDweb/cedahause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "donahause",
+                         "title":  "DoNaHause",
+                         "sourcePage":  "GDweb/donahause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-bano2-banera.png",
+                                            "alt":  "Bano con banera y ventana en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-bano2-banera.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-bano-principal.png",
+                                            "alt":  "Bano principal en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-bano-principal.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-cocina.png",
+                                            "alt":  "Cocina en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-cocina.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-comedor-living.png",
+                                            "alt":  "Comedor y living en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-comedor-living.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-esterior-galeria.png",
+                                            "alt":  "Galeria blanca techada en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-esterior-galeria.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-exterior-detalle.png",
+                                            "alt":  "Detalle exterior en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-exterior-detalle.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-exterior-hero-norte.png",
+                                            "alt":  "Basamento de piedra y revoque de tierra en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-exterior-hero-norte.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/Donahause-exterior-sur (2).png",
+                                            "alt":  "Exterior sur de Donahause",
+                                            "source":  "GDweb/img/donahause/Donahause-exterior-sur (2).png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-ingreso.interior.png",
+                                            "alt":  "Ingreso interior en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-ingreso.interior.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-panoramica-living-pasillo.png",
+                                            "alt":  "Salon rojo con pasillo y doble altura en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-panoramica-living-pasillo.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/donahause/donahause-quincho-b.png",
+                                            "alt":  "Quincho en Donahause",
+                                            "source":  "GDweb/img/donahause/donahause-quincho-b.png",
+                                            "page":  "GDweb/donahause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "gadehause",
+                         "title":  "GaDeHause",
+                         "sourcePage":  "GDweb/gadehause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-bano-principal.png",
+                                            "alt":  "Baño principal en Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-bano-principal.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-cocina.png",
+                                            "alt":  "Cocina en Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-cocina.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-dormitorio.png",
+                                            "alt":  "Detalle de Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-dormitorio.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-dormitorio2.png",
+                                            "alt":  "Tocador y detalles en Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-dormitorio2.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-escritorio.png",
+                                            "alt":  "Escritorio en Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-escritorio.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-exterior-este.png",
+                                            "alt":  "Detalle de Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-exterior-este.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-exterior-oeste.png",
+                                            "alt":  "Detalle de Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-exterior-oeste.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-exterior-sur.png",
+                                            "alt":  "Exterior sur de Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-exterior-sur.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-living-comedor.png",
+                                            "alt":  "Estar y comedor integrado en Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-living-comedor.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-living-comedor1.png",
+                                            "alt":  "Living y comedor en Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-living-comedor1.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/gadehause/gadehause-pileta-portal.png",
+                                            "alt":  "Piscina y exterior en Gadehause",
+                                            "source":  "GDweb/img/gadehause/gadehause-pileta-portal.png",
+                                            "page":  "GDweb/gadehause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "jobehause",
+                         "title":  "JoBeHause",
+                         "sourcePage":  "GDweb/jobehause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-bano-11.png",
+                                            "alt":  "Baño en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-bano-11.png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-bano-12.png",
+                                            "alt":  "Baño en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-bano-12.png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-bano-2 (9).png",
+                                            "alt":  "Baño en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-bano-2 (9).png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-cocina (3).png",
+                                            "alt":  "Detalle de cocina en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-cocina (3).png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-comedor-comedor.png",
+                                            "alt":  "Gran salón en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-comedor-comedor.png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-dormitorio-panoramica2-2.png",
+                                            "alt":  "Dormitorio panoramico en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-dormitorio-panoramica2-2.png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-exterior-entrada1.png",
+                                            "alt":  "Ingreso exterior de Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-exterior-entrada1.png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-exterior-norte (2).png",
+                                            "alt":  "Exterior norte de Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-exterior-norte (2).png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-exterior-oeste (2).png",
+                                            "alt":  "Basamento y volumen en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-exterior-oeste (2).png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-living1.png",
+                                            "alt":  "Living en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-living1.png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jobehause/jobehause-living-21.png",
+                                            "alt":  "Living en Jobehause",
+                                            "source":  "GDweb/img/jobehause/jobehause-living-21.png",
+                                            "page":  "GDweb/jobehause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "jomahause",
+                         "title":  "JoMaHause",
+                         "sourcePage":  "GDweb/jomahause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-bano-bacha.png",
+                                            "alt":  "Baño en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-bano-bacha.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-bano-banera.png",
+                                            "alt":  "Baño en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-bano-banera.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-cocina.png",
+                                            "alt":  "Cocina en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-cocina.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-cocina-comedor-panoramica.png",
+                                            "alt":  "Cocina y comedor en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-cocina-comedor-panoramica.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-dormitorio.png",
+                                            "alt":  "Dormitorio en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-dormitorio.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-entrada.png",
+                                            "alt":  "Ingreso en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-entrada.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-escritorio.png",
+                                            "alt":  "Escritorio en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-escritorio.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-exterior-entrada.png",
+                                            "alt":  "Exterior de acceso en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-exterior-entrada.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-living.png",
+                                            "alt":  "Estar en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-living.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-living-2.png",
+                                            "alt":  "Estar en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-living-2.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jomahause/jomahause-quincho-comedor-panoramica.png",
+                                            "alt":  "Quincho y comedor en Jomahause",
+                                            "source":  "GDweb/img/jomahause/jomahause-quincho-comedor-panoramica.png",
+                                            "page":  "GDweb/jomahause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "jonohause",
+                         "title":  "JoNoHause",
+                         "sourcePage":  "GDweb/jonohause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-bano-1.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-bano-1.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-cocina-1.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-cocina-1.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-comedor.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-comedor.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-dormitorio-2.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-dormitorio-2.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-estar-1.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-estar-1.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-exterior-este.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-exterior-este.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-exterior-norte-panoramica.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-exterior-norte-panoramica.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-exterior-oeste.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-exterior-oeste.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-exterior-portal.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-exterior-portal.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-exterior-sur-panoramica.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-exterior-sur-panoramica.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/jonohause/jonohause-quincho.png",
+                                            "alt":  "Detalle de Jonohause",
+                                            "source":  "GDweb/img/jonohause/jonohause-quincho.png",
+                                            "page":  "GDweb/jonohause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "magahause",
+                         "title":  "MaGaHause",
+                         "sourcePage":  "GDweb/magahause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-altillo (5).png",
+                                            "alt":  "Altillo en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-altillo (5).png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-bano-bacha-2.png",
+                                            "alt":  "Baño en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-bano-bacha-2.png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-bano-ducha.png",
+                                            "alt":  "Baño en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-bano-ducha.png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-cocina.png",
+                                            "alt":  "Cocina en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-cocina.png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-dormitorio.png",
+                                            "alt":  "Dormitorio en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-dormitorio.png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-entrada (2).png",
+                                            "alt":  "Entrada en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-entrada (2).png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-exterior-norte(3).png",
+                                            "alt":  "Exterior norte de Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-exterior-norte(3).png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-exterior-norte-detalle (2).png",
+                                            "alt":  "Detalle exterior en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-exterior-norte-detalle (2).png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-exterior-norte-terraza.png",
+                                            "alt":  "Exterior norte terraza en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-exterior-norte-terraza.png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-living-comedor-panoramica.png",
+                                            "alt":  "Living y comedor en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-living-comedor-panoramica.png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/magahause/magahause-quincho (2).png",
+                                            "alt":  "Quincho en Magahause",
+                                            "source":  "GDweb/img/magahause/magahause-quincho (2).png",
+                                            "page":  "GDweb/magahause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "markhause",
+                         "title":  "MarkHause",
+                         "sourcePage":  "GDweb/markhause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/markhause/markhause-bano-bacha-2.png",
+                                            "alt":  "Bano con bacha en Markhause",
+                                            "source":  "GDweb/img/markhause/markhause-bano-bacha-2.png",
+                                            "page":  "GDweb/markhause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/markhause/markhause-bano-ducha.png",
+                                            "alt":  "Bano con ducha en Markhause",
+                                            "source":  "GDweb/img/markhause/markhause-bano-ducha.png",
+                                            "page":  "GDweb/markhause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/markhause/markhause-cocina.png",
+                                            "alt":  "Cocina en Markhause",
+                                            "source":  "GDweb/img/markhause/markhause-cocina.png",
+                                            "page":  "GDweb/markhause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/markhause/markhause-detalle-ventana.png",
+                                            "alt":  "Detalle de ventana en Markhause",
+                                            "source":  "GDweb/img/markhause/markhause-detalle-ventana.png",
+                                            "page":  "GDweb/markhause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/markhause/markhause-dormitorio.png",
+                                            "alt":  "Dormitorio en Markhause",
+                                            "source":  "GDweb/img/markhause/markhause-dormitorio.png",
+                                            "page":  "GDweb/markhause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/markhause/markhause-living.png",
+                                            "alt":  "Living en Markhause",
+                                            "source":  "GDweb/img/markhause/markhause-living.png",
+                                            "page":  "GDweb/markhause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/markhause/markhause-living-comedor-panoramica.png",
+                                            "alt":  "Living y comedor en Markhause",
+                                            "source":  "GDweb/img/markhause/markhause-living-comedor-panoramica.png",
+                                            "page":  "GDweb/markhause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "scohause",
+                         "title":  "ScoHause",
+                         "sourcePage":  "GDweb/scohause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scohause-bano-3.png",
+                                            "alt":  "Bano en Scohause",
+                                            "source":  "GDweb/img/scohause/scohause-bano-3.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scohause-bano-bacha.png",
+                                            "alt":  "Bano con bacha en Scohause",
+                                            "source":  "GDweb/img/scohause/scohause-bano-bacha.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scohause-bano-ducha-2.png",
+                                            "alt":  "Bano con ducha en Scohause",
+                                            "source":  "GDweb/img/scohause/scohause-bano-ducha-2.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scohause-cocina-1.png",
+                                            "alt":  "Cocina en Scohause",
+                                            "source":  "GDweb/img/scohause/scohause-cocina-1.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scohause-cocina-quincho-panoramica.png",
+                                            "alt":  "Detalle de Scohause",
+                                            "source":  "GDweb/img/scohause/scohause-cocina-quincho-panoramica.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scohause-galeria-panoramica.png",
+                                            "alt":  "Detalle de Scohause",
+                                            "source":  "GDweb/img/scohause/scohause-galeria-panoramica.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scohause-living-comedor.png",
+                                            "alt":  "Living y comedor en Scohause",
+                                            "source":  "GDweb/img/scohause/scohause-living-comedor.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/scohause/scolahause-interior-living.png",
+                                            "alt":  "Living interior en Scohause",
+                                            "source":  "GDweb/img/scohause/scolahause-interior-living.png",
+                                            "page":  "GDweb/scohause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "vidahause",
+                         "title":  "ViDaHause",
+                         "sourcePage":  "GDweb/vidahause.html",
+                         "relation":  "Texto y recursos visuales del mismo proyecto",
+                         "assets":  [
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-bano-bacha (3).png",
+                                            "alt":  "Baño con bacha en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-bano-bacha (3).png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-bano-detalles-b.png",
+                                            "alt":  "Detalle de baño en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-bano-detalles-b.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-cocina (3).png",
+                                            "alt":  "Detalle de cocina en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-cocina (3).png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-cocina.png",
+                                            "alt":  "Cocina en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-cocina.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-dormitorio.png",
+                                            "alt":  "Dormitorio en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-dormitorio.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-exterior-detalle1.png",
+                                            "alt":  "Detalle exterior en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-exterior-detalle1.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-exterior-entrada.png",
+                                            "alt":  "Entrada exterior en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-exterior-entrada.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-exterior-talle1r.png",
+                                            "alt":  "Detalle exterior en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-exterior-talle1r.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-living.png",
+                                            "alt":  "Estar en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-living.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        },
+                                        {
+                                            "src":  "/evidencias/garcia-delillo/vidahause/vidahause-vista-sur-patio.png",
+                                            "alt":  "Vista sur patio en Vidahause",
+                                            "source":  "GDweb/img/vidahause/vidahause-vista-sur-patio.png",
+                                            "page":  "GDweb/vidahause.html",
+                                            "status":  "approved"
+                                        }
+                                    ]
+                     }
+                 ]
+}
