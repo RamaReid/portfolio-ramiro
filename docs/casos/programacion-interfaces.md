@@ -47,4 +47,3 @@ Fuentes: [gd-arquitectura](https://github.com/RamaReid/gd-arquitectura/tree/edae
 La programación web y el modelado de contenido se conectan con el caso de [Productoria](../casos/productoria.md), donde la interfaz forma parte de un flujo de entrevista conversacional y construcción de un mapa organizacional. El caso de García Delillo conserva su recorrido propio de representación, diseño y dirección de obras.
 
 La autoría o coautoría de las piezas se registra como declaración curricular del titular. La matriz privada conserva el repositorio revisado, el commit, la clasificación de cada afirmación y los materiales que no se trasladan al sitio público.
-
