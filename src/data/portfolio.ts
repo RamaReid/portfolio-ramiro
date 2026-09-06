@@ -36,6 +36,17 @@ export type CaseStudy = {
   projectIds: string[];
 };
 
+export type TimelineEvent = {
+  id: string;
+  stageId: string;
+  slug: string;
+  title: string;
+  periodLabel?: string;
+  description: string;
+  href: string;
+  caseIds: string[];
+};
+
 export type GraphNode = {
   id: string;
   label: string;
@@ -190,6 +201,17 @@ export const caseStudies: CaseStudy[] = [
 
 export const caseStudy = caseStudies[0];
 export const productoriaCase = caseStudies[1];
+
+export const timelineEvents: TimelineEvent[] = stages.map((stage) => ({
+  id: `timeline-${stage.id}`,
+  stageId: stage.id,
+  slug: stage.slug,
+  title: stage.title,
+  periodLabel: stage.periodLabel,
+  description: stage.description,
+  href: `/trayectoria/#${stage.slug}`,
+  caseIds: caseStudies.filter((item) => item.stageIds.includes(stage.id)).map((item) => item.id),
+}));
 
 export const graphNodes: GraphNode[] = [
   ...caseStudies.map((item) => ({ id: item.id, label: item.title, kind: 'case' as const, href: item.href, description: item.summary })),

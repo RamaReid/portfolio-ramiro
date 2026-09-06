@@ -2,7 +2,7 @@
 
 **Actualizado:** 2026-09-06  
 **Responsable del tablero:** Integrador  
-**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08 y T09 completas; T10 y T11 esperan sus dependencias; no hay push, despliegue ni publicación.
+**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08, T09 y T10 completas; T11 espera sus fichas aprobadas; no hay push, despliegue ni publicación.
 
 Este tablero es la fuente operativa para pasar encargos a otros modelos. El integrador es la única persona responsable de cambiar estados y cerrar tareas. Cada encargo debe transmitirse junto con la revisión de Git, los cambios locales no confirmados y los archivos permitidos.
 
@@ -31,7 +31,7 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 | T07 | Preparar la base técnica | `completa` | T01, T05 | Desarrollo | Aplicación Astro local ejecutable y `entregas/T07.md` |
 | T08 | Integrar el primer recorrido completo | `completa` | T03, T04, T06, T07 | Desarrollo | `entregas/T08.md` y `entregas/T08-revision.md` |
 | T09 | Ampliar casos | `completa` | T08 y fuente aprobada para Productoria | Desarrollo / Integrador | Caso Productoria integrado y `entregas/T09.md` |
-| T10 | Incorporar la trayectoria temporal | `espera_dependencia` | T08, T05 | Desarrollo / Contenido | Recorrido temporal accesible |
+| T10 | Incorporar la trayectoria temporal | `completa` | T08, T05 | Desarrollo / Contenido | `trayectoria/` como cronología accesible y `entregas/T10.md` |
 | T11 | Incorporar método, IA y docencia | `espera_dependencia` | T08 y fichas aprobadas | Contenido / Desarrollo | Secciones conectadas al mapa |
 | T12 | Resolver contacto y perfiles | `espera_decision` | T05, D13 | Integrador / Contenido | Contacto y perfiles aprobados |
 | T13 | Validar la versión integral | `espera_dependencia` | T08–T12 aplicables | Desarrollo | Informe de validación |
@@ -162,6 +162,8 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 **Entregable:** cronología accesible, con etapas y enlaces al contenido existente.
 
 **Criterios de cierre:** cada fecha tiene fuente o está marcada como abierta; la cronología no se convierte en la única forma de leer el contenido; funciona con teclado, móvil y sin JavaScript.
+
+**Resultado:** la ruta `/trayectoria/` usa `timelineEvents`, conserva los tres períodos aprobados, enlaza capacidades y casos relacionados y fue validada localmente. Ver `entregas/T10.md` y `entregas/T10-revision.md`.
 
 ### T11 — Incorporar método, IA y docencia
 

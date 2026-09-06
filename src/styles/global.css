@@ -80,6 +80,14 @@ h3 { margin: 0 0 .65rem; font-size: 1.2rem; }
 .stage-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .stage-card { padding: 1.2rem; border-top: 4px solid var(--teal); background: var(--surface); }
 .stage-card strong { display: block; color: var(--accent); font-size: .9rem; }
+.timeline { display: grid; gap: 1rem; margin: 2rem 0 0; padding: 0; list-style: none; }
+.timeline-item { display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1rem; align-items: start; }
+.timeline-marker { display: grid; min-height: 4rem; place-items: center; border: 1px solid var(--teal); border-radius: 50%; color: var(--teal); background: var(--surface); font-weight: 800; }
+.timeline-period { margin: 0 0 .7rem; color: var(--muted); font-size: .9rem; }
+.timeline-period strong { display: inline; color: var(--accent); }
+.timeline-links { margin-top: 1.2rem; padding-top: .9rem; border-top: 1px solid var(--line); }
+.timeline-links .eyebrow { margin-bottom: .35rem; }
+.timeline-links ul { display: flex; flex-wrap: wrap; gap: .4rem 1rem; margin: 0; padding-left: 1.1rem; color: var(--muted); }
 .evidence-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
 .evidence-card { margin: 0; border: 1px solid var(--line); background: var(--surface); }
 .evidence-card img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
@@ -105,6 +113,8 @@ h3 { margin: 0 0 .65rem; font-size: 1.2rem; }
   nav { gap: .7rem; }
   h1 { font-size: clamp(3rem, 16vw, 5rem); }
   .card-grid, .stage-grid, .evidence-grid, .gallery { grid-template-columns: 1fr; }
+  .timeline-item { grid-template-columns: 2.5rem minmax(0, 1fr); gap: .7rem; }
+  .timeline-marker { min-height: 2.5rem; font-size: .8rem; }
   .flow-shell { height: 26rem; }
 }
 @media (prefers-reduced-motion: reduce) {
