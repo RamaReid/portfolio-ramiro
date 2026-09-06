@@ -51,6 +51,11 @@ h3 { margin: 0 0 .65rem; font-size: 1.2rem; }
 .static-list { display: grid; gap: .7rem; margin: 0; padding: 0; list-style: none; }
 .static-list li { padding: .9rem 1rem; border: 1px solid var(--line); background: var(--surface); }
 .static-list small { display: block; color: var(--muted); }
+.static-connections { margin-top: 2rem; }
+.connection-list { display: grid; gap: .7rem; margin: 0; padding: 0; list-style: none; }
+.connection-list li { padding: .9rem 1rem; border: 1px solid var(--line); background: var(--surface); }
+.connection-list small { display: block; margin-top: .25rem; color: var(--muted); }
+.node-connections { margin-top: 1.3rem; }
 .explorer-interactive { margin-top: 2rem; }
 .explorer-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; margin-bottom: .8rem; }
 .toolbar-label { color: var(--muted); font-weight: 700; }

@@ -84,6 +84,7 @@ function ExplorerCanvas({ graphNodes, graphEdges }: ExplorerProps) {
   const [stageFilter, setStageFilter] = useState('all');
 
   const activeNode = graphNodes.find((node) => node.id === activeId) ?? graphNodes[0];
+  const graphNodeById = useMemo(() => new Map(graphNodes.map((node) => [node.id, node])), [graphNodes]);
   const connectedIds = useMemo(() => {
     const related = new Set([activeId]);
     graphEdges.forEach((edge) => {
@@ -92,6 +93,7 @@ function ExplorerCanvas({ graphNodes, graphEdges }: ExplorerProps) {
     });
     return related;
   }, [activeId, graphEdges]);
+  const activeConnections = graphEdges.filter((edge) => edge.source === activeId || edge.target === activeId);
 
   const displayedNodes = nodes.map((node) => {
     const stageMatches = stageFilter === 'all' || node.id === stageFilter || connectedIds.has(node.id);
@@ -150,6 +152,19 @@ function ExplorerCanvas({ graphNodes, graphEdges }: ExplorerProps) {
         <h3>{activeNode.label}</h3>
         <p>{activeNode.description}</p>
         <a className="text-link" href={activeNode.href}>Abrir detalle</a>
+        <div className="node-connections">
+          <p className="eyebrow">Conexiones</p>
+          <ul className="connection-list">
+            {activeConnections.map((edge) => {
+              const relatedId = edge.source === activeId ? edge.target : edge.source;
+              const relatedNode = graphNodeById.get(relatedId);
+              return relatedNode ? <li key={edge.id}>
+                <a href={relatedNode.href}>{relatedNode.label}</a>
+                <small><strong>{edge.label}:</strong> {edge.explanation}</small>
+              </li> : null;
+            })}
+          </ul>
+        </div>
       </aside>
     </div>
   );

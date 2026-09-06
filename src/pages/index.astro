@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Explorer from '../components/Explorer';
 import { caseStudy, capabilities, graphEdges, graphNodes, projects, stages } from '../data/portfolio';
 import '../styles/global.css';
+
+const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
 ---
 <BaseLayout
   title="Portfolio de Ramiro García Reid"
@@ -49,6 +51,21 @@ import '../styles/global.css';
         <p class="prose">El mapa destaca conexiones para orientar la exploración. La lista textual mantiene el recorrido cuando no hay JavaScript, en lectores de pantalla y en pantallas pequeñas.</p>
       </div>
     </div>
+
+    <section class="static-connections" aria-labelledby="conexiones-titulo">
+      <p class="eyebrow">Relaciones explicadas</p>
+      <h3 id="conexiones-titulo">Como se conecta el recorrido</h3>
+      <ul class="connection-list">
+        {graphEdges.map((edge) => {
+          const source = graphNodeById.get(edge.source);
+          const target = graphNodeById.get(edge.target);
+          return source && target ? <li>
+            <div><a href={source.href}>{source.label}</a> <span aria-hidden="true">→</span> <a href={target.href}>{target.label}</a></div>
+            <small><strong>{edge.label}:</strong> {edge.explanation}</small>
+          </li> : null;
+        })}
+      </ul>
+    </section>
 
     <Explorer graphNodes={graphNodes} graphEdges={graphEdges} client:only="react" />
   </section>

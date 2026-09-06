@@ -2,7 +2,7 @@
 
 **Actualizado:** 2026-09-06  
 **Responsable del tablero:** Integrador  
-**Estado general:** T01, T02, T03, T04, T05, T06 y T07 completas; T08 disponible; todavía no hay commit, push, despliegue ni publicación.
+**Estado general:** T01, T02, T03, T04, T05, T06, T07 y T08 completas; T09, T10 y T11 esperan sus dependencias; no hay push, despliegue ni publicación.
 
 Este tablero es la fuente operativa para pasar encargos a otros modelos. El integrador es la única persona responsable de cambiar estados y cerrar tareas. Cada encargo debe transmitirse junto con la revisión de Git, los cambios locales no confirmados y los archivos permitidos.
 
@@ -29,7 +29,7 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 | T05 | Definir páginas, datos y conexiones | `completa` | T03, T04 | Arquitectura | `docs/arquitectura_contenido.md` y `entregas/T05.md` |
 | T06 | Diseñar la experiencia del explorador | `completa` | T01, T05 | Diseño | `docs/diseno_experiencia.md` y `entregas/T06.md` |
 | T07 | Preparar la base técnica | `completa` | T01, T05 | Desarrollo | Aplicación Astro local ejecutable y `entregas/T07.md` |
-| T08 | Integrar el primer recorrido completo | `disponible` | T03, T04, T06, T07 | Desarrollo | Mapa, fallback, caso y evidencias |
+| T08 | Integrar el primer recorrido completo | `completa` | T03, T04, T06, T07 | Desarrollo | `entregas/T08.md` y `entregas/T08-revision.md` |
 | T09 | Ampliar casos | `espera_dependencia` | T08 y fuente aprobada por caso | Encargos separados | Casos adicionales integrados |
 | T10 | Incorporar la trayectoria temporal | `espera_dependencia` | T08, T05 | Desarrollo / Contenido | Recorrido temporal accesible |
 | T11 | Incorporar método, IA y docencia | `espera_dependencia` | T08 y fichas aprobadas | Contenido / Desarrollo | Secciones conectadas al mapa |
