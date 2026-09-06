@@ -6,6 +6,7 @@ import '../../../styles/global.css';
 
 const manifest = loadEvidenceManifest();
 const featured = manifest.projects.map((project) => ({ ...project, asset: project.assets[0] })).filter((project) => project.asset);
+const caseCapabilities = capabilities.filter((capability) => capability.caseIds.includes(caseStudy.id));
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
@@ -37,7 +38,7 @@ const structuredData = {
   <section class="section page-width" aria-labelledby="capacidades-titulo">
     <div class="section-heading"><div><p class="eyebrow">Capacidades</p><h2 id="capacidades-titulo">Lo que conecta las etapas</h2></div><p>La navegación textual conserva estas relaciones aunque el mapa no se cargue.</p></div>
     <div class="card-grid">
-      {capabilities.map((capability) => <a class="card" href={`/capacidades/${capability.slug}/`}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
+      {caseCapabilities.map((capability) => <a class="card" href={`/capacidades/${capability.slug}/`}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
     </div>
   </section>
 

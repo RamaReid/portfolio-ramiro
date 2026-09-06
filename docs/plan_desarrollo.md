@@ -263,7 +263,7 @@ La prioridad narrativa depende de P01. La tabla indica qué trabajo destraba cad
 
 | Candidato del inventario | Trabajo siguiente | Uso posible al quedar preparado |
 |---|---|---|
-| F04 y F05, diagnóstico conversacional | Aclarar estado, rol y resultados; seleccionar una conversación autorizada y explicar el flujo | Caso sobre traducción del método a IA. Evaluar agrupar las variantes para evitar relatos repetidos |
+| F04 Productoria / Genio Productor | Documentar el prototipo de entrevista, su persistencia de eventos y su mapa de nodos con la fuente de GitHub revisada | Caso sobre traducción del método de organización y modelado a un producto digital; mantener F05 separado hasta contrastar sus fuentes |
 | F03, producción y diseño técnico | Confirmar denominación del rol; preparar una pieza técnica y el contexto de su intervención | Caso sobre organización productiva y coordinación |
 | F01, construcción | Identificar una obra concreta con período, participación y materiales autorizados | Caso sobre evolución desde representación hasta dirección |
 | F02, servicios turísticos | Conciliar período y duración; conseguir evidencias del sistema de servicio y de la intervención | Caso sobre operación y experiencia de usuario |

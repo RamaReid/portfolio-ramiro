@@ -11,6 +11,8 @@ export type Capability = {
   slug: string;
   title: string;
   description: string;
+  caseIds: string[];
+  stageIds: string[];
 };
 
 export type ProjectSummary = {
@@ -19,6 +21,19 @@ export type ProjectSummary = {
   title: string;
   lead: string;
   sourcePage: string;
+  caseId: string;
+};
+
+export type CaseStudy = {
+  id: string;
+  slug: string;
+  title: string;
+  summary: string;
+  href: string;
+  sourcePage?: string;
+  stageIds: string[];
+  capabilityIds: string[];
+  projectIds: string[];
 };
 
 export type GraphNode = {
@@ -35,14 +50,6 @@ export type GraphEdge = {
   target: string;
   label: string;
   explanation: string;
-};
-
-export const caseStudy = {
-  id: 'garcia-delillo',
-  slug: 'garcia-delillo',
-  title: 'García Delillo Construcciones',
-  summary: 'Una evolución profesional desde la representación y el modelado hasta el desarrollo de proyectos y la dirección de obras.',
-  href: '/casos/garcia-delillo/',
 };
 
 export const stages: Stage[] = [
@@ -75,73 +82,162 @@ export const capabilities: Capability[] = [
     slug: 'representacion',
     title: 'Representación',
     description: 'Hacer visible una propuesta para poder entenderla, comunicarla y revisarla.',
+    caseIds: ['garcia-delillo'],
+    stageIds: ['stage-representation'],
   },
   {
     id: 'capability-modeling',
     slug: 'modelado-y-visualizacion',
     title: 'Modelado y visualización',
     description: 'Traducir una idea espacial a formas que otras personas puedan interpretar.',
+    caseIds: ['garcia-delillo'],
+    stageIds: ['stage-representation'],
   },
   {
     id: 'capability-design',
     slug: 'diseno-de-proyectos',
     title: 'Diseño de proyectos',
     description: 'Organizar decisiones de diseño dentro del desarrollo de un proyecto.',
+    caseIds: ['garcia-delillo'],
+    stageIds: ['stage-project-development'],
   },
   {
     id: 'capability-development',
     slug: 'desarrollo-de-proyectos',
     title: 'Desarrollo de proyectos',
     description: 'Conectar propuesta, comunicación y desarrollo de proyecto.',
+    caseIds: ['garcia-delillo'],
+    stageIds: ['stage-project-development'],
   },
   {
     id: 'capability-direction',
     slug: 'direccion-de-obras',
     title: 'Dirección de obras',
     description: 'Acompañar la realización de proyectos en obra según el alcance documentado.',
+    caseIds: ['garcia-delillo'],
+    stageIds: ['stage-construction'],
+  },
+  {
+    id: 'capability-conversational-architecture',
+    slug: 'arquitectura-conversacional',
+    title: 'Arquitectura conversacional',
+    description: 'Diseñar entrevistas que avanzan por preguntas y convierten respuestas en una estructura legible.',
+    caseIds: ['productoria'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-systems-modeling',
+    slug: 'modelado-de-sistemas',
+    title: 'Modelado de sistemas',
+    description: 'Representar una organización mediante entidades, relaciones y jerarquías que pueden explorarse.',
+    caseIds: ['productoria'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-organizational-diagnosis',
+    slug: 'diagnostico-organizacional',
+    title: 'Diagnóstico organizacional',
+    description: 'Ordenar información sobre una empresa para detectar estructura, funcionamiento y áreas de análisis.',
+    caseIds: ['productoria'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-workflow-design',
+    slug: 'diseno-de-workflows',
+    title: 'Diseño de workflows',
+    description: 'Secuenciar conversación, persistencia y actualización de un resultado visual.',
+    caseIds: ['productoria'],
+    stageIds: [],
   },
 ];
 
 export const projects: ProjectSummary[] = [
-  { id: 'cedahause', slug: 'cedahause', title: 'CeDaHause', lead: 'Habitar la pendiente sin tocarla', sourcePage: 'GDweb/cedahause.html' },
-  { id: 'donahause', slug: 'donahause', title: 'DoNaHause', lead: 'Tradición con carácter propio', sourcePage: 'GDweb/donahause.html' },
-  { id: 'gadehause', slug: 'gadehause', title: 'GaDeHause', lead: 'Racionalismo anclado a la tierra', sourcePage: 'GDweb/gadehause.html' },
-  { id: 'jobehause', slug: 'jobehause', title: 'JoBeHause', lead: 'Clasicismo atemporal', sourcePage: 'GDweb/jobehause.html' },
-  { id: 'jomahause', slug: 'jomahause', title: 'JoMaHause', lead: 'Arcos que reciben, fuego que reúne', sourcePage: 'GDweb/jomahause.html' },
-  { id: 'jonohause', slug: 'jonohause', title: 'JoNoHause', lead: 'Tradición habitada', sourcePage: 'GDweb/jonohause.html' },
-  { id: 'magahause', slug: 'magahause', title: 'MaGaHause', lead: 'Solidez habitable', sourcePage: 'GDweb/magahause.html' },
-  { id: 'markhause', slug: 'markhause', title: 'MarkHause', lead: 'Galería y luz: una casa de campo contemporánea', sourcePage: 'GDweb/markhause.html' },
-  { id: 'scohause', slug: 'scohause', title: 'ScoHause', lead: 'Tradición contemporánea, vivida', sourcePage: 'GDweb/scohause.html' },
-  { id: 'vidahause', slug: 'vidahause', title: 'ViDaHause', lead: 'Una casa que se vive en la galería', sourcePage: 'GDweb/vidahause.html' },
+  { id: 'cedahause', slug: 'cedahause', title: 'CeDaHause', lead: 'Habitar la pendiente sin tocarla', sourcePage: 'GDweb/cedahause.html', caseId: 'garcia-delillo' },
+  { id: 'donahause', slug: 'donahause', title: 'DoNaHause', lead: 'Tradición con carácter propio', sourcePage: 'GDweb/donahause.html', caseId: 'garcia-delillo' },
+  { id: 'gadehause', slug: 'gadehause', title: 'GaDeHause', lead: 'Racionalismo anclado a la tierra', sourcePage: 'GDweb/gadehause.html', caseId: 'garcia-delillo' },
+  { id: 'jobehause', slug: 'jobehause', title: 'JoBeHause', lead: 'Clasicismo atemporal', sourcePage: 'GDweb/jobehause.html', caseId: 'garcia-delillo' },
+  { id: 'jomahause', slug: 'jomahause', title: 'JoMaHause', lead: 'Arcos que reciben, fuego que reúne', sourcePage: 'GDweb/jomahause.html', caseId: 'garcia-delillo' },
+  { id: 'jonohause', slug: 'jonohause', title: 'JoNoHause', lead: 'Tradición habitada', sourcePage: 'GDweb/jonohause.html', caseId: 'garcia-delillo' },
+  { id: 'magahause', slug: 'magahause', title: 'MaGaHause', lead: 'Solidez habitable', sourcePage: 'GDweb/magahause.html', caseId: 'garcia-delillo' },
+  { id: 'markhause', slug: 'markhause', title: 'MarkHause', lead: 'Galería y luz: una casa de campo contemporánea', sourcePage: 'GDweb/markhause.html', caseId: 'garcia-delillo' },
+  { id: 'scohause', slug: 'scohause', title: 'ScoHause', lead: 'Tradición contemporánea, vivida', sourcePage: 'GDweb/scohause.html', caseId: 'garcia-delillo' },
+  { id: 'vidahause', slug: 'vidahause', title: 'ViDaHause', lead: 'Una casa que se vive en la galería', sourcePage: 'GDweb/vidahause.html', caseId: 'garcia-delillo' },
 ];
 
+export const caseStudies: CaseStudy[] = [
+  {
+    id: 'garcia-delillo',
+    slug: 'garcia-delillo',
+    title: 'García Delillo Construcciones',
+    summary: 'Una evolución profesional desde la representación y el modelado hasta el desarrollo de proyectos y la dirección de obras.',
+    href: '/casos/garcia-delillo/',
+    stageIds: stages.map((stage) => stage.id),
+    capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('garcia-delillo')).map((capability) => capability.id),
+    projectIds: projects.filter((project) => project.caseId === 'garcia-delillo').map((project) => project.id),
+  },
+  {
+    id: 'productoria',
+    slug: 'productoria',
+    title: 'Productoria · Genio Productor',
+    summary: 'Un prototipo de entrevista conversacional que transforma información sobre una empresa en un mapa de nodos y relaciones.',
+    href: '/casos/productoria/',
+    sourcePage: 'https://github.com/productoria/bci-next-app',
+    stageIds: [],
+    capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('productoria')).map((capability) => capability.id),
+    projectIds: [],
+  },
+];
+
+export const caseStudy = caseStudies[0];
+export const productoriaCase = caseStudies[1];
+
 export const graphNodes: GraphNode[] = [
-  { id: caseStudy.id, label: caseStudy.title, kind: 'case', href: caseStudy.href, description: caseStudy.summary },
+  ...caseStudies.map((item) => ({ id: item.id, label: item.title, kind: 'case' as const, href: item.href, description: item.summary })),
   ...stages.map((stage) => ({ id: stage.id, label: stage.title, kind: 'stage' as const, href: `/trayectoria/#${stage.slug}`, description: stage.description })),
   ...capabilities.map((capability) => ({ id: capability.id, label: capability.title, kind: 'capability' as const, href: `/capacidades/${capability.slug}/`, description: capability.description })),
   ...projects.map((project) => ({ id: project.id, label: project.title, kind: 'project' as const, href: `/proyectos/garcia-delillo/${project.slug}/`, description: project.lead })),
 ];
 
 export const graphEdges: GraphEdge[] = [
-  ...stages.map((stage) => ({
-    id: `${caseStudy.id}-${stage.id}`,
-    source: caseStudy.id,
-    target: stage.id,
-    label: 'Etapa',
-    explanation: `El caso organiza el recorrido mediante la etapa «${stage.title}».`,
-  })),
-  { id: 'stage-representation-capability-representation', source: 'stage-representation', target: 'capability-representation', label: 'Capacidad aplicada', explanation: 'La representación se organiza como capacidad del primer tramo del caso.' },
-  { id: 'stage-representation-capability-modeling', source: 'stage-representation', target: 'capability-modeling', label: 'Capacidad aplicada', explanation: 'El modelado y la visualización forman parte del primer tramo del caso.' },
-  { id: 'stage-project-development-capability-design', source: 'stage-project-development', target: 'capability-design', label: 'Capacidad aplicada', explanation: 'El diseño de proyectos forma parte del tramo de desarrollo de proyectos.' },
-  { id: 'stage-project-development-capability-development', source: 'stage-project-development', target: 'capability-development', label: 'Capacidad aplicada', explanation: 'El desarrollo de proyectos aparece como capacidad del segundo tramo.' },
-  { id: 'stage-construction-capability-direction', source: 'stage-construction', target: 'capability-direction', label: 'Capacidad aplicada', explanation: 'La dirección de obras identifica el tercer tramo declarado.' },
-  ...projects.map((project) => ({
-    id: `${caseStudy.id}-${project.id}`,
-    source: caseStudy.id,
-    target: project.id,
-    label: 'Proyecto relacionado',
-    explanation: `La página de GDweb presenta ${project.title} dentro del catálogo de la empresa.`,
-  })),
+  ...caseStudies.flatMap((item) => [
+    ...item.stageIds.map((stageId) => {
+      const stage = stages.find((candidate) => candidate.id === stageId);
+      return {
+        id: `${item.id}-${stageId}`,
+        source: item.id,
+        target: stageId,
+        label: 'Etapa',
+        explanation: stage ? `El caso organiza el recorrido mediante la etapa «${stage.title}».` : 'El caso se relaciona con esta etapa.',
+      };
+    }),
+    ...item.capabilityIds.map((capabilityId) => {
+      const capability = capabilities.find((candidate) => candidate.id === capabilityId);
+      return {
+        id: `${item.id}-${capabilityId}`,
+        source: item.id,
+        target: capabilityId,
+        label: 'Capacidad aplicada',
+        explanation: capability ? `El caso muestra la capacidad de ${capability.title.toLowerCase()} dentro del trabajo documentado.` : 'El caso se relaciona con esta capacidad.',
+      };
+    }),
+    ...item.projectIds.map((projectId) => {
+      const project = projects.find((candidate) => candidate.id === projectId);
+      return {
+        id: `${item.id}-${projectId}`,
+        source: item.id,
+        target: projectId,
+        label: 'Proyecto relacionado',
+        explanation: project ? `La página de GDweb presenta ${project.title} dentro del catálogo de la empresa.` : 'El caso se relaciona con este proyecto.',
+      };
+    }),
+  ]),
+  ...capabilities.flatMap((capability) => capability.stageIds.map((stageId) => ({
+    id: `${stageId}-${capability.id}`,
+    source: stageId,
+    target: capability.id,
+    label: 'Capacidad aplicada',
+    explanation: `La capacidad de ${capability.title.toLowerCase()} aparece vinculada a esta etapa del recorrido.`,
+  }))),
 ];
 
 export function getProject(slug: string) {

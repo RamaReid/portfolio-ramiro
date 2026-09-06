@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Explorer from '../components/Explorer';
-import { caseStudy, capabilities, graphEdges, graphNodes, projects, stages } from '../data/portfolio';
+import { caseStudies, caseStudy, capabilities, graphEdges, graphNodes, projects, stages } from '../data/portfolio';
 import '../styles/global.css';
 
 const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
@@ -40,7 +40,7 @@ const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
         <h3>Mapa y navegación textual</h3>
         <p class="sr-only">El mapa interactivo aparece después de cargar JavaScript. La lista siguiente contiene el mismo contenido esencial.</p>
         <ul class="static-list">
-          <li><a href={caseStudy.href}><strong>{caseStudy.title}</strong></a><small>{caseStudy.summary}</small></li>
+          {caseStudies.map((item) => <li><a href={item.href}><strong>{item.title}</strong></a><small>{item.summary}</small></li>)}
           {stages.map((stage) => <li><a href={`/trayectoria/#${stage.slug}`}><strong>{stage.title}</strong></a><small>{stage.periodLabel} · {stage.description}</small></li>)}
           {capabilities.map((capability) => <li><a href={`/capacidades/${capability.slug}/`}><strong>{capability.title}</strong></a><small>{capability.description}</small></li>)}
           {projects.map((project) => <li><a href={`/proyectos/garcia-delillo/${project.slug}/`}><strong>{project.title}</strong></a><small>{project.lead}</small></li>)}
@@ -70,17 +70,23 @@ const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
     <Explorer graphNodes={graphNodes} graphEdges={graphEdges} client:only="react" />
   </section>
 
-  <section class="section page-width" aria-labelledby="caso-titulo">
+  <section class="section page-width" aria-labelledby="casos-titulo">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Caso piloto</p>
-        <h2 id="caso-titulo">{caseStudy.title}</h2>
+        <p class="eyebrow">Casos seleccionados</p>
+        <h2 id="casos-titulo">Trabajo documentado</h2>
       </div>
-      <p>{caseStudy.summary}</p>
+      <p>Dos recorridos muestran cómo el mismo método puede aplicarse a proyectos espaciales y a un prototipo de producto digital.</p>
     </div>
-    <a class="card" href={caseStudy.href}>
-      <div><h3>Del dibujo a la obra</h3><p>Representación y modelado, diseño y desarrollo de proyectos, y dirección de obras.</p></div>
-      <span class="text-link">Abrir caso completo</span>
-    </a>
+    <div class="card-grid">
+      <a class="card" href={caseStudy.href}>
+        <div><p class="eyebrow">Caso piloto</p><h3>{caseStudy.title}</h3><p>Representación y modelado, diseño y desarrollo de proyectos, y dirección de obras.</p></div>
+        <span class="text-link">Abrir caso completo</span>
+      </a>
+      {caseStudies.filter((item) => item.id !== caseStudy.id).map((item) => <a class="card" href={item.href}>
+        <div><p class="eyebrow">Caso adicional</p><h3>{item.title}</h3><p>{item.summary}</p></div>
+        <span class="text-link">Abrir caso completo</span>
+      </a>)}
+    </div>
   </section>
 </BaseLayout>

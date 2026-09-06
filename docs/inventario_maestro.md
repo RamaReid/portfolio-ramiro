@@ -47,16 +47,16 @@ Este documento es una base de trabajo. No constituye todavía el portfolio final
 - Evidencia asociada: `01_Trayectoria_y_CV/RGarciaReidUX.pdf`, `04_Diseno_Tecnico_3B`.
 - Pendiente: confirmar denominación formal del cargo y reunir métricas de producción, calidad o crecimiento.
 
-### F04 - Bot consultor para PyMEs
+### F04 - Productoria / Genio Productor
 
-- Categoría: sistemas / IA / automatización.
-- Período: documentos fechados entre octubre de 2024 y 2025.
-- Rol: diseño del concepto, flujo conversacional y criterios de diagnóstico.
-- Problema: información empresarial dispersa y dificultad para detectar inconsistencias operativas.
-- Intervención: toma estructurada de datos sobre procesos, roles, áreas, administración, recursos humanos, infraestructura y comercialización; devolución de sugerencias.
-- Capacidades: arquitectura conversacional, pensamiento sistémico, diagnóstico y diseño de workflows.
-- Evidencia asociada: `02_Proyectos_IA/Bot.docx` y variantes de casos.
-- Pendiente: estado del prototipo, herramienta utilizada, usuarios y resultados.
+- Categoría: producto digital / IA aplicada / modelado de sistemas.
+- Período: commit revisado del 11 de diciembre de 2024; no se presenta como período completo del proyecto.
+- Participación declarada: autoría y coautoría del proyecto.
+- Problema: relevar información sobre una empresa y convertirla en una representación organizacional explorable.
+- Intervención documentada: entrevista conversacional, persistencia de eventos y actualización de nodos y relaciones durante la sesión.
+- Capacidades: arquitectura conversacional, modelado de sistemas, diagnóstico organizacional y diseño de workflows.
+- Evidencia asociada: repositorio privado/restringido [productoria/bci-next-app](https://github.com/productoria/bci-next-app), commit `20567e6e1f0a4afe386386118db2ca93847975f0`.
+- Límite vigente: no se publican código, conversaciones de prueba, credenciales, usuarios, métricas ni estado de producción.
 
 ### F05 - Casos conversacionales para negocios
 

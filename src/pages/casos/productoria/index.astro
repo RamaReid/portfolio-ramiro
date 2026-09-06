@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { capabilities, productoriaCase } from '../../../data/portfolio';
+import '../../../styles/global.css';
+
+const relatedCapabilities = capabilities.filter((capability) => productoriaCase.capabilityIds.includes(capability.id));
+const repositoryUrl = 'https://github.com/productoria/bci-next-app';
+const reviewedCommit = '20567e6e1f0a4afe386386118db2ca93847975f0';
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: productoriaCase.title,
+  description: productoriaCase.summary,
+  url: 'https://example.invalid/casos/productoria/',
+};
+---
+<BaseLayout title={`${productoriaCase.title} · Portfolio`} description={productoriaCase.summary} canonical={productoriaCase.href}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+  <section class="case-hero page-width">
+    <p class="breadcrumb"><a href="/">Inicio</a> / Caso</p>
+    <p class="eyebrow">Caso adicional · Productoria</p>
+    <h1>{productoriaCase.title}</h1>
+    <p class="lede">{productoriaCase.summary}</p>
+  </section>
+
+  <section class="section page-width" aria-labelledby="alcance-titulo">
+    <div class="prose">
+      <p class="eyebrow">El output cambia. El método permanece.</p>
+      <h2 id="alcance-titulo">De una entrevista a una estructura explorable</h2>
+      <p>El repositorio revisado contiene un prototipo de producto digital para entrevistar a una persona sobre su empresa y representar la información en un gráfico. La conversación se organiza como una sesión guiada: el asistente pregunta, recibe respuestas y puede crear o quitar nodos y relaciones a medida que entiende la estructura descrita.</p>
+      <p>La participación se registra como autoría y coautoría del proyecto. La fuente consultada es una instantánea del repositorio proporcionado para esta ficha; el caso presenta su alcance técnico y no agrega métricas de uso, resultados comerciales ni estado de producción.</p>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="flujo-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Flujo documentado</p><h2 id="flujo-titulo">Cómo funciona el prototipo</h2></div><p>La secuencia se reconstruye a partir de las rutas de interfaz, dominio y agente de la revisión.</p></div>
+    <div class="stage-grid">
+      <article class="stage-card"><strong>01</strong><h3>Entrevista</h3><p>La persona conversa con un asistente que pregunta por su nombre, empresa, rol, estructura, funcionamiento, fortalezas, oportunidades, debilidades y desafíos.</p></article>
+      <article class="stage-card"><strong>02</strong><h3>Persistencia</h3><p>Los mensajes de la sesión se guardan como eventos asociados a un wizard para poder reconstruir la conversación y el estado del diagrama.</p></article>
+      <article class="stage-card"><strong>03</strong><h3>Construcción del mapa</h3><p>El agente dispone de herramientas para agregar o quitar nodos y relaciones; el resultado se muestra con React Flow.</p></article>
+      <article class="stage-card"><strong>04</strong><h3>Lectura del sistema</h3><p>La estructura resultante permite observar entidades, relaciones y jerarquías de la empresa como una representación gráfica.</p></article>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="capacidades-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Capacidades conectadas</p><h2 id="capacidades-titulo">Lo que pone en juego el caso</h2></div><p>Estas capacidades se mantienen separadas de las etapas temporales del caso de García Delillo.</p></div>
+    <div class="card-grid">
+      {relatedCapabilities.map((capability) => <a class="card" href={`/capacidades/${capability.slug}/`}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="decisiones-titulo">
+    <div class="prose">
+      <p class="eyebrow">Decisiones técnicas observables</p>
+      <h2 id="decisiones-titulo">Una base web con eventos y herramientas de IA</h2>
+      <ul>
+        <li>Next.js 14, React 18 y TypeScript forman la aplicación de interfaz y servidor.</li>
+        <li>OpenAI se utiliza en el agente conversacional; la instantánea revisada declara el modelo <code>gpt-4o</code>.</li>
+        <li>React Flow representa el diagrama y permite actualizar nodos y relaciones durante la conversación.</li>
+        <li>DynamoDB almacena usuarios, sesiones y eventos del diagrama mediante servicios de dominio.</li>
+        <li>La autenticación se integra con Google mediante Auth.js/NextAuth y un adaptador de DynamoDB.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="fuentes-titulo">
+    <div class="prose">
+      <p class="eyebrow">Trazabilidad</p>
+      <h2 id="fuentes-titulo">Fuente revisada y límites</h2>
+      <p>La ficha se elaboró sobre el commit <code>{reviewedCommit}</code>. Se revisaron la interfaz inicial, el dashboard de conversación, el agente de la primera sesión, los tipos de eventos y el visor de laboratorio. Las conversaciones de prueba, imágenes, credenciales y archivos privados permanecen fuera del portfolio.</p>
+      <ul>
+        <li><a class="text-link" href={`${repositoryUrl}/tree/${reviewedCommit}`} rel="noreferrer">Repositorio de Productoria en GitHub</a></li>
+        <li><a class="text-link" href={`${repositoryUrl}/blob/${reviewedCommit}/app/page.tsx`} rel="noreferrer">Interfaz inicial</a></li>
+        <li><a class="text-link" href={`${repositoryUrl}/blob/${reviewedCommit}/components/wizard/dashboard.tsx`} rel="noreferrer">Dashboard y actualización del diagrama</a></li>
+        <li><a class="text-link" href={`${repositoryUrl}/tree/${reviewedCommit}/ai/agents/charismatic-first-session`} rel="noreferrer">Agente de entrevista</a></li>
+      </ul>
+      <p><a class="text-link" href="/">Volver al explorador</a></p>
+    </div>
+  </section>
+</BaseLayout>
