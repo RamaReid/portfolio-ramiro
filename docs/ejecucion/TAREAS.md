@@ -2,7 +2,7 @@
 
 **Actualizado:** 2026-09-06  
 **Responsable del tablero:** Integrador  
-**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08, T09 y T10 completas; T11 espera sus fichas aprobadas; no hay push, despliegue ni publicación.
+**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08, T09, T10 y T11 completas; T12 espera una decisión de contacto y perfiles; no hay push, despliegue ni publicación.
 
 Este tablero es la fuente operativa para pasar encargos a otros modelos. El integrador es la única persona responsable de cambiar estados y cerrar tareas. Cada encargo debe transmitirse junto con la revisión de Git, los cambios locales no confirmados y los archivos permitidos.
 
@@ -32,7 +32,7 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 | T08 | Integrar el primer recorrido completo | `completa` | T03, T04, T06, T07 | Desarrollo | `entregas/T08.md` y `entregas/T08-revision.md` |
 | T09 | Ampliar casos | `completa` | T08 y fuente aprobada para Productoria | Desarrollo / Integrador | Caso Productoria integrado y `entregas/T09.md` |
 | T10 | Incorporar la trayectoria temporal | `completa` | T08, T05 | Desarrollo / Contenido | `trayectoria/` como cronología accesible y `entregas/T10.md` |
-| T11 | Incorporar método, IA y docencia | `espera_dependencia` | T08 y fichas aprobadas | Contenido / Desarrollo | Secciones conectadas al mapa |
+| T11 | Incorporar programación e IA desde GitHub | `completa` | T08, T09 y perfil revisado | Contenido / Desarrollo / Integrador | Caso público, capacidades y matriz privada |
 | T12 | Resolver contacto y perfiles | `espera_decision` | T05, D13 | Integrador / Contenido | Contacto y perfiles aprobados |
 | T13 | Validar la versión integral | `espera_dependencia` | T08–T12 aplicables | Desarrollo | Informe de validación |
 | T14 | Revisar de forma independiente | `espera_dependencia` | T13 | Revisor | Informe de revisión |
@@ -165,14 +165,16 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 
 **Resultado:** la ruta `/trayectoria/` usa `timelineEvents`, conserva los tres períodos aprobados, enlaza capacidades y casos relacionados y fue validada localmente. Ver `entregas/T10.md` y `entregas/T10-revision.md`.
 
-### T11 — Incorporar método, IA y docencia
+### T11 — Incorporar programación e IA desde GitHub
 
-**Objetivo:** incorporar capacidades metodológicas y otros ejes solo cuando sus fichas estén aprobadas.
+**Objetivo:** incorporar una selección verificable de programación web e IA a partir del perfil público de GitHub y de la ficha Productoria ya revisada.
 
-**Dependencias:** T08 y fichas de contenido aprobadas.  
-**Entregable:** secciones conectadas al mapa y al relato, con afirmaciones trazables.
+**Dependencias:** T08, T09 y perfil GitHub revisado.
+**Entregable:** caso público de programación e interfaces, capacidades conectadas al mapa y matriz privada de repositorios.
 
-**Criterios de cierre:** cada sección explica una práctica concreta y su relación con casos; no presenta aspiraciones como experiencia realizada.
+**Criterios de cierre:** cada sección explica una práctica concreta y su relación con casos; cada afirmación técnica apunta a un repositorio y commit revisados; los repositorios vacíos, los placeholders y la información privada quedan fuera; no presenta aspiraciones como experiencia realizada.
+
+**Resultado:** `/casos/programacion-interfaces/` incorpora la selección pública y Productoria conserva su ficha independiente. La matriz privada está en `referencias_privadas/04_GitHub_RamaReid/` y T11 quedó revisada como `completa`. La docencia y la ficha histórica de `RamaReid.github.io` permanecen pendientes de un encargo específico.
 
 ### T12 — Resolver contacto y perfiles
 

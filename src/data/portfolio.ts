@@ -160,6 +160,54 @@ export const capabilities: Capability[] = [
     caseIds: ['productoria'],
     stageIds: [],
   },
+  {
+    id: 'capability-applied-ai',
+    slug: 'ia-aplicada',
+    title: 'IA aplicada',
+    description: 'Integrar un agente conversacional dentro de un flujo que produce una representación explorable.',
+    caseIds: ['productoria'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-web-development',
+    slug: 'desarrollo-web',
+    title: 'Desarrollo web',
+    description: 'Construir interfaces y recorridos web con HTML, CSS, JavaScript, TypeScript y React.',
+    caseIds: ['programming-interfaces'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-interface-architecture',
+    slug: 'arquitectura-de-interfaces',
+    title: 'Arquitectura de interfaces',
+    description: 'Organizar rutas, componentes y estados para que una experiencia interactiva tenga una lectura clara.',
+    caseIds: ['programming-interfaces'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-interactive-narrative',
+    slug: 'narrativa-interactiva',
+    title: 'Narrativa interactiva',
+    description: 'Convertir una secuencia de contenidos en escenas, transiciones y recorridos navegables.',
+    caseIds: ['programming-interfaces'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-frontend-motion',
+    slug: 'motion-design-frontend',
+    title: 'Motion design frontend',
+    description: 'Diseñar loaders, animaciones SVG/CSS y cambios de estado que acompañan la lectura de una interfaz.',
+    caseIds: ['programming-interfaces'],
+    stageIds: [],
+  },
+  {
+    id: 'capability-content-modeling',
+    slug: 'modelado-de-contenido',
+    title: 'Modelado de contenido',
+    description: 'Estructurar catálogos, fichas y relaciones para que el contenido pueda alimentar distintas vistas.',
+    caseIds: ['programming-interfaces'],
+    stageIds: [],
+  },
 ];
 
 export const projects: ProjectSummary[] = [
@@ -197,10 +245,22 @@ export const caseStudies: CaseStudy[] = [
     capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('productoria')).map((capability) => capability.id),
     projectIds: [],
   },
+  {
+    id: 'programming-interfaces',
+    slug: 'programacion-interfaces',
+    title: 'Programación, interfaces y sistemas visuales',
+    summary: 'Una selección de repositorios que reúne aplicaciones web, navegación editorial, modelado de catálogos y sistemas de movimiento para frontend.',
+    href: '/casos/programacion-interfaces/',
+    sourcePage: 'https://github.com/RamaReid',
+    stageIds: [],
+    capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('programming-interfaces')).map((capability) => capability.id),
+    projectIds: [],
+  },
 ];
 
 export const caseStudy = caseStudies[0];
 export const productoriaCase = caseStudies[1];
+export const programmingCase = caseStudies[2];
 
 export const timelineEvents: TimelineEvent[] = stages.map((stage) => ({
   id: `timeline-${stage.id}`,

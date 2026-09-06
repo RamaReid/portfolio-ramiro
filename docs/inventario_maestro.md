@@ -94,6 +94,17 @@ Este documento es una base de trabajo. No constituye todavía el portfolio final
 - Evidencia asociada: `05_Produccion_Creativa`.
 - Pendiente: propósito, funcionamiento, pruebas físicas y grado de desarrollo.
 
+### F09 - Programación, interfaces e IA desde GitHub
+
+- Categoría: programación web / interfaces / IA aplicada.
+- Fuente pública: [perfil RamaReid en GitHub](https://github.com/RamaReid) y repositorios enlazados.
+- Intervención documentada: aplicaciones React/TypeScript, catálogo interactivo, navegación editorial, loaders SVG/CSS/JavaScript, PageFlip y prototipos web estáticos.
+- Caso incorporado: `docs/casos/programacion-interfaces.md`.
+- Capacidades: desarrollo web, arquitectura de interfaces, narrativa interactiva, motion design frontend y modelado de contenido.
+- Relación IA: Productoria conserva la ficha independiente con su repositorio y matriz propios.
+- Límite: no se publican métricas, clientes, despliegues, datos privados ni contenido de demostración como obra real.
+- Trazabilidad ampliada: `referencias_privadas/04_GitHub_RamaReid/matriz_programacion_ia.md`.
+
 ## Huecos de información
 
 1. Fechas exactas de varios proyectos de IA.

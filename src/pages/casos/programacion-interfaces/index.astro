@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { capabilities, programmingCase } from '../../../data/portfolio';
+import '../../../styles/global.css';
+
+const relatedCapabilities = capabilities.filter((capability) => programmingCase.capabilityIds.includes(capability.id));
+const profileUrl = 'https://github.com/RamaReid';
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: programmingCase.title,
+  description: programmingCase.summary,
+  url: 'https://example.invalid/casos/programacion-interfaces/',
+};
+---
+<BaseLayout title={`${programmingCase.title} · Portfolio`} description={programmingCase.summary} canonical={programmingCase.href}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+  <section class="case-hero page-width">
+    <p class="breadcrumb"><a href="/">Inicio</a> / Caso</p>
+    <p class="eyebrow">Caso adicional · GitHub</p>
+    <h1>{programmingCase.title}</h1>
+    <p class="lede">{programmingCase.summary}</p>
+  </section>
+
+  <section class="section page-width" aria-labelledby="alcance-titulo">
+    <div class="prose">
+      <p class="eyebrow">El output cambia. El método permanece.</p>
+      <h2 id="alcance-titulo">Del contenido a la interfaz</h2>
+      <p>Este caso reúne repositorios públicos de programación web e interfaces. El hilo común está en convertir una estructura de contenido en rutas, componentes, estados y transiciones que puedan recorrerse.</p>
+      <p>La selección describe implementaciones observables en los repositorios. No agrega métricas, clientes, despliegues ni resultados comerciales que no estén documentados en las fuentes.</p>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="piezas-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Repositorios revisados</p><h2 id="piezas-titulo">Piezas del conjunto</h2></div><p>Las fuentes enlazadas permiten revisar la implementación correspondiente.</p></div>
+    <div class="stage-grid">
+      <article class="stage-card"><strong>01</strong><h3>OMMI</h3><p>Aplicación Vite con React y TypeScript para un catálogo interactivo. El escenario, las líneas y los productos se coordinan mediante datos y estado de selección.</p><a class="text-link" href="https://github.com/RamaReid/OMMI/tree/da3ac2ab774b05481af4c3891b7fb35b7265b6f8" rel="noreferrer">Ver fuente de OMMI</a></article>
+      <article class="stage-card"><strong>02</strong><h3>Seamless Navigation</h3><p>Aplicación React con rutas, escenas, transiciones y páginas de proyecto para una experiencia editorial de arquitectura.</p><a class="text-link" href="https://github.com/RamaReid/seamless-navigation/tree/69858047a2a902ed63565f83afa493f95f6ac8d2" rel="noreferrer">Ver fuente de Seamless Navigation</a></article>
+      <article class="stage-card"><strong>03</strong><h3>Loaders y movimiento</h3><p>Variantes de loaders con SVG, máscaras, CSS, ciclos de animación y eventos de transición, agrupadas como una línea de exploración frontend.</p><a class="text-link" href="https://github.com/RamaReid/Loader-GD/tree/edb5d8fbf9dfecbb10f488ddacc32b6885b50836" rel="noreferrer">Ver fuente del loader</a></article>
+      <article class="stage-card"><strong>04</strong><h3>Revista PageFlip</h3><p>Revista interactiva con HTML, CSS, JavaScript y PageFlip, preparada para recorrer una secuencia editorial en distintas pantallas.</p><a class="text-link" href="https://github.com/RamaReid/carruselHTML/tree/af7d70eff6963d17ba39d61b91b90840f2be03e8" rel="noreferrer">Ver fuente de la revista</a></article>
+      <article class="stage-card"><strong>05</strong><h3>Prototipos de arquitectura</h3><p>Variantes de sitios editoriales y estáticos para arquitectura. El contenido de demostración se mantiene fuera de las afirmaciones del portfolio.</p><a class="text-link" href="https://github.com/RamaReid/gd-arquitectura/tree/edaead93ddd1bf73af7eaa5357855e2e92ca5d66" rel="noreferrer">Ver fuente de arquitectura</a></article>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="capacidades-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Capacidades conectadas</p><h2 id="capacidades-titulo">Lo que pone en juego el caso</h2></div><p>Estas capacidades describen prácticas técnicas observables en el conjunto de repositorios.</p></div>
+    <div class="card-grid">
+      {relatedCapabilities.map((capability) => <a class="card" href={`/capacidades/${capability.slug}/`}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="limites-titulo">
+    <div class="prose">
+      <p class="eyebrow">Trazabilidad y límites</p>
+      <h2 id="limites-titulo">Cómo leer la selección</h2>
+      <p>La participación se presenta como declaración curricular del titular. En el caso de <em>seamless-navigation</em>, el historial revisado contiene commits de distintos autores y por eso no se atribuye cada cambio individual.</p>
+      <p>Los repositorios vacíos, los sitios sin contenido suficiente y los datos de demostración no se usan para afirmar obras, clientes o resultados. El caso de IA aplicado a Productoria tiene una ficha independiente.</p>
+      <p><a class="text-link" href={profileUrl} rel="noreferrer">Abrir el perfil público de RamaReid en GitHub</a></p>
+    </div>
+  </section>
+</BaseLayout>
