@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "check": "astro check",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "evidences:optimize": "node scripts/optimize-evidences.mjs"
   },
   "dependencies": {
     "@astrojs/react": "latest",

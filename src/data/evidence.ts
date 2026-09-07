@@ -3,6 +3,9 @@ import { join } from 'node:path';
 
 export type EvidenceAsset = {
   src: string;
+  fallbackSrc: string;
+  width: number;
+  height: number;
   alt: string;
   source: string;
   page: string;

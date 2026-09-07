@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EvidencePicture from '../../../components/EvidencePicture.astro';
 import { caseStudy, capabilities, projects, stages } from '../../../data/portfolio';
 import { loadEvidenceManifest } from '../../../data/evidence';
 import '../../../styles/global.css';
@@ -48,7 +49,7 @@ const structuredData = {
       {projects.map((project) => {
         const resource = featured.find((item) => item.id === project.id);
         return <a class="card" href={`/proyectos/garcia-delillo/${project.slug}/`}>
-          {resource?.asset && <img src={resource.asset.src} alt={resource.asset.alt} loading="lazy" width="640" height="480" />}
+          {resource?.asset && <EvidencePicture asset={resource.asset} />}
           <div><h3>{project.title}</h3><p>{project.lead}</p></div>
           <span class="text-link">Abrir proyecto</span>
         </a>;

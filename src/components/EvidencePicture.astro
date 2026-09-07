@@ -1,0 +1,13 @@
+---
+import type { EvidenceAsset } from '../data/evidence';
+
+interface Props {
+  asset: EvidenceAsset;
+}
+
+const { asset } = Astro.props;
+---
+<picture>
+  <source srcset={asset.src} type="image/webp" />
+  <img src={asset.fallbackSrc} alt={asset.alt} width={asset.width} height={asset.height} loading="lazy" decoding="async" />
+</picture>

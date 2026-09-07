@@ -196,7 +196,7 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 
 **Criterios de cierre:** el informe diferencia cambio local, commit, push, despliegue y URL comprobada; no se declara aprobado un punto sin evidencia.
 
-**Resultado:** la versión local generó 31 páginas, respondió HTTP 200 en 31 rutas y validó 33 enlaces internos. El HTML mantiene contenido esencial, metadatos y fallback textual, y no expone `referencias_privadas` ni `.env`. El peso de salida es 232.456.184 bytes por las evidencias visuales; queda como riesgo de rendimiento para T14/T15. T13 está `completa`.
+**Resultado:** la versión local generó 31 páginas, respondió HTTP 200 en 31 rutas y validó 33 enlaces internos. El HTML mantiene contenido esencial, metadatos y fallback textual, y no expone `referencias_privadas` ni `.env`. Las 102 PNG fueron preservadas en privado y sustituidas en la salida pública por 102 WebP y 102 JPEG; el peso de `dist/` bajó de 232.456.184 a 22.477.614 bytes. T13 está `completa`; T14 debe revisar la experiencia final antes de publicar.
 
 ### T14 — Revisión independiente
 

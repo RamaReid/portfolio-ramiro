@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EvidencePicture from '../../../components/EvidencePicture.astro';
 import { getProject, projects } from '../../../data/portfolio';
 import { getEvidenceForProject } from '../../../data/evidence';
 import { loadProjectText } from '../../../data/project-content';
@@ -44,7 +45,7 @@ const structuredData = {
   {evidence && <section class="section page-width" aria-labelledby="galeria-titulo">
     <div class="section-heading"><div><p class="eyebrow">Evidencias</p><h2 id="galeria-titulo">Recursos visuales</h2></div><p>{evidence.assets.length} imágenes procedentes de la página revisada de GDweb.</p></div>
     <div class="gallery">
-      {evidence.assets.map((asset: { src: string; alt: string }) => <figure><img src={asset.src} alt={asset.alt} loading="lazy" width="640" height="480" /><figcaption>{asset.alt}</figcaption></figure>)}
+      {evidence.assets.map((asset) => <figure><EvidencePicture asset={asset} /><figcaption>{asset.alt}</figcaption></figure>)}
     </div>
   </section>}
 </BaseLayout>
