@@ -17,4 +17,3 @@
 ## Resultado de la revisión
 
 T12 cumple sus criterios y puede marcarse como `completa`. El próximo paquete es T13, que depende de las tareas aplicables y de la versión integral local. No hay push, despliegue ni URL pública del portfolio comprobada.
-
