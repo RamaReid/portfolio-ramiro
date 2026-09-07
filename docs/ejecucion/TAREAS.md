@@ -1,8 +1,8 @@
 # Tablero de tareas
 
-**Actualizado:** 2026-09-06  
+**Actualizado:** 2026-09-07
 **Responsable del tablero:** Integrador  
-**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12 y T13 completas; T14 está disponible para revisión independiente; no hay push, despliegue ni publicación.
+**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12, T13 y T14 completas; T15 espera D14; no hay push, despliegue ni publicación.
 
 Este tablero es la fuente operativa para pasar encargos a otros modelos. El integrador es la única persona responsable de cambiar estados y cerrar tareas. Cada encargo debe transmitirse junto con la revisión de Git, los cambios locales no confirmados y los archivos permitidos.
 
@@ -35,7 +35,7 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 | T11 | Incorporar programación e IA desde GitHub | `completa` | T08, T09 y perfil revisado | Contenido / Desarrollo / Integrador | Caso público, capacidades y matriz privada |
 | T12 | Resolver contacto y perfiles | `completa` | T05, D13 | Integrador / Contenido | `/contacto/` y GitHub comprobado |
 | T13 | Validar la versión integral | `completa` | T08–T12 aplicables | Desarrollo | Informe de validación |
-| T14 | Revisar de forma independiente | `disponible` | T13 | Revisor | Informe de revisión |
+| T14 | Revisar de forma independiente | `completa` | T13 | Revisor | `entregas/T14.md` |
 | T15 | Publicar y fijar mantenimiento | `espera_dependencia` | T14, D14 | Integrador | Publicación mediante GitHub y mantenimiento documentado |
 
 ## Encargos

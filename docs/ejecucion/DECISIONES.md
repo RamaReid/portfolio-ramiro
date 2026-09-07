@@ -31,7 +31,7 @@ Para el mapa del piloto se adopta como dirección de implementación React dentr
 | D14 | Alojamiento, dominio y publicación | T15 prepara con antecedentes de T07 | Destino, configuración y efecto del push; autorización de publicación aplicable |
 | D15 | Analítica y mantenimiento | T15 | Necesidad de analítica si se elige, responsable y forma de actualización |
 
-Para el caso curricular de T03, la autorización textual cubre GD-01 a GD-04. Además, el titular confirmó que los textos de las páginas de proyecto de `GDweb` ya cuentan con revisión editorial por formar parte de la web de la empresa; esos textos se incorporan al catálogo de proyectos con su procedencia. T04 mantiene separada la selección visual: imágenes, planos, videos, renders y documentos requieren ficha y revisión antes de llevarse al frontend.
+Para el caso curricular de T03, la autorización textual cubre GD-01 a GD-04. Además, el titular confirmó que los textos de las páginas de proyecto de `GDweb` ya cuentan con revisión editorial por formar parte de la web de la empresa; esos textos se incorporan al catálogo de proyectos con su procedencia. T04 mantuvo separada la selección visual y completó ficha, procedencia, textos alternativos y revisión para las 102 imágenes que ahora tienen derivados web locales. Imágenes, planos, videos, renders y documentos adicionales siguen requiriendo revisión propia antes de incorporarse.
 
 Versiones compatibles, nombres internos y organización de código dentro del contrato son decisiones rutinarias de implementación. El ejecutor las documenta y verifica. Agregar otro framework, un servicio o una función que cambie el alcance requiere una decisión concreta, no una suposición.
 

@@ -1,7 +1,7 @@
 ﻿# Evidencias visuales de García Delillo Construcciones
 
 **Fuente:** carpetas de imágenes y páginas de proyecto del sitio existente de GDweb  
-**Estado:** derivados web preparados desde material editorial revisado; los originales PNG permanecen preservados fuera de la salida pública y todavía no hubo publicación.
+**Estado:** derivados web integrados en la salida local desde material editorial revisado; los originales PNG permanecen preservados fuera de la salida pública y todavía no hubo publicación externa.
 
 Cada recurso conserva la ruta de origen y el texto alternativo existente en la página de proyecto. Las imágenes se organizan por proyecto para que el mapa y las páginas puedan consumir el mismo manifiesto.
 

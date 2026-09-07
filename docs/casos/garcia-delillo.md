@@ -1,6 +1,6 @@
 # García Delillo Construcciones
 
-**Estado editorial:** texto y evidencias visuales preparados para el piloto; pendiente de integración técnica  
+**Estado editorial:** texto y evidencias visuales integrados en la versión local del piloto; pendiente de revisión independiente y publicación externa
 **Idioma:** español  
 **Caso piloto:** evolución profesional dentro de una empresa de construcciones en Tandil
 
@@ -66,7 +66,7 @@ Esta lectura organiza el caso para el portfolio. Es una interpretación editoria
 
 ## Alcance de evidencias
 
-El piloto incorpora 102 imágenes organizadas por proyecto en el [catálogo de evidencias](./evidencias-garcia-delillo.md). Los originales privados permanecen fuera del repositorio; cada recurso conserva su procedencia y el texto alternativo existente en la página revisada de `GDweb`. La censura adicional podrá aplicarse en una revisión posterior antes de publicar.
+El piloto incorpora 102 imágenes organizadas por proyecto en el [catálogo de evidencias](./evidencias-garcia-delillo.md). La salida local usa derivados WebP con fallback JPEG; los originales PNG permanecen fuera del repositorio. Cada recurso conserva su procedencia y el texto alternativo existente en la página revisada de `GDweb`. Cualquier revisión adicional se hará antes de una publicación externa.
 
 ## Proyectos relacionados
 
@@ -81,4 +81,4 @@ El catálogo textual de los proyectos de `GDweb`, cuya revisión editorial ya fu
 - No se asigna ninguna obra concreta al caso por la sola presencia de un archivo en una carpeta privada.
 - Las fuentes originales y la matriz de trazabilidad permanecen en el área privada y no se incorporan al frontend.
 
-La autorización vigente del relato cubre únicamente GD-01 a GD-04 en esta formulación. T05 debe conservar esa misma información en el contrato de contenido, la navegación textual y el HTML; las evidencias que eventualmente apruebe T04 necesitarán su propia trazabilidad.
+La autorización vigente del relato cubre únicamente GD-01 a GD-04 en esta formulación. El contrato de contenido, la navegación textual y el HTML conservan esa separación. Las evidencias de T04 tienen su propia procedencia, textos alternativos, estado editorial y derivados web.
