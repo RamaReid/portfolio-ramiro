@@ -15,6 +15,7 @@ Este registro contiene decisiones de producto y tecnología. El [tablero](TAREAS
 | D07 | Audiencia y objetivo prioritario | Confirmado por Ramiro; registrado en T01 | Empresas y equipos de tecnología; prioridad en conseguir empleo. Consultoría y colaboración quedan como transferencias posibles de capacidades |
 | D08 | Alcance funcional e idiomas iniciales | Confirmado por Ramiro; registrado en T01 | Español; mapa interactivo de proyectos y capacidades como experiencia principal, equivalente textual en HTML y trayectoria temporal complementaria |
 | D09 | Caso piloto y selección inicial de casos | Confirmado por Ramiro; registrado en T01/T02 | Evolución profesional dentro de García Delillo Construcciones, desde representación y modelado hasta desarrollo de proyectos y dirección de obras, según fuentes y autorizaciones |
+| D13 | Contacto y perfil público | Confirmado por Ramiro al proporcionar el perfil individual; destino comprobado el 2026-09-06 | GitHub (`RamaReid`) funciona como perfil profesional y canal de contacto. No se incorpora correo, teléfono ni formulario en esta etapa |
 
 La aceptación de D03 se refiere a la base presentada. No selecciona versiones, alojamiento, bibliotecas opcionales ni funciones que aún no se definieron. La generación estática de HTML será la base de implementación; una necesidad de servidor se evalúa cuando exista una función concreta que la requiera.
 
@@ -27,7 +28,6 @@ Para el mapa del piloto se adopta como dirección de implementación React dentr
 | D10 | Autorización de cada pieza y afirmación pública | T03/T04 y cada ampliación | Qué texto y derivado se autoriza; el respaldo sensible se conserva en privado |
 | D11 | Arquitectura, URLs y estructura de contenido | T05 | Contrato de páginas y datos; resolver la propuesta de URL por caso desarrollado |
 | D12 | Dirección visual y comportamientos | T06 | Vistas y estados aprobados; coherencia entre diseño y navegación sin JavaScript |
-| D13 | Contacto y perfiles públicos | T01/T05 preparan; T12 implementa | Canal elegido, datos autorizados y destino comprobado; envío si existe formulario |
 | D14 | Alojamiento, dominio y publicación | T15 prepara con antecedentes de T07 | Destino, configuración y efecto del push; autorización de publicación aplicable |
 | D15 | Analítica y mantenimiento | T15 | Necesidad de analítica si se elige, responsable y forma de actualización |
 

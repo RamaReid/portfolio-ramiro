@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/global.css';
+
+const profileUrl = 'https://github.com/RamaReid';
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  name: 'Contacto y perfil público de Ramiro García Reid',
+  description: 'Perfil profesional y canal de contacto público de Ramiro García Reid.',
+  url: 'https://example.invalid/contacto/',
+  mainEntity: {
+    '@type': 'Person',
+    name: 'Ramiro García Reid',
+    url: profileUrl,
+    sameAs: [profileUrl],
+  },
+};
+---
+<BaseLayout title="Contacto y perfil público · Portfolio" description="Perfil profesional y canal de contacto público de Ramiro García Reid." canonical="/contacto/">
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+  <section class="case-hero page-width">
+    <p class="breadcrumb"><a href="/">Inicio</a> / Contacto</p>
+    <p class="eyebrow">Contacto y perfiles</p>
+    <h1>Hablemos a través de GitHub</h1>
+    <p class="lede">El perfil individual de GitHub reúne el trabajo público de programación e interfaces y funciona como canal de contacto para conversar sobre proyectos y oportunidades.</p>
+  </section>
+
+  <section class="section page-width" aria-labelledby="canal-titulo">
+    <div class="prose">
+      <p class="eyebrow">Canal aprobado</p>
+      <h2 id="canal-titulo">Perfil profesional y contacto</h2>
+      <p>Podés conocer los repositorios públicos y establecer contacto desde el perfil de <strong>RamaReid</strong>.</p>
+      <p><a class="text-link" href={profileUrl} rel="me noreferrer">Abrir perfil de GitHub</a></p>
+      <p>El enlace fue comprobado y respondió correctamente durante la preparación de esta entrega.</p>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="alcance-titulo">
+    <div class="prose">
+      <p class="eyebrow">Límite vigente</p>
+      <h2 id="alcance-titulo">Un canal directo</h2>
+      <p>Esta versión no publica correo electrónico, teléfono ni formulario. Si se define otro canal, se incorporará como una decisión documentada y se comprobará antes de publicarlo.</p>
+      <p><a class="text-link" href="/casos/programacion-interfaces/">Ver programación e interfaces</a> · <a class="text-link" href="/casos/productoria/">Ver Productoria</a></p>
+    </div>
+  </section>
+</BaseLayout>
