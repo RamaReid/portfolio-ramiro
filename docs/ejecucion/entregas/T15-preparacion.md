@@ -6,7 +6,7 @@
 
 ## Resultado
 
-La aplicación quedó preparada para publicarse como sitio de usuario de GitHub Pages en `https://ramareid.github.io/`. La configuración de Astro y los metadatos dejaron de usar `example.invalid`, y el workflow ejecuta las comprobaciones antes de cargar `dist/` como artefacto de Pages.
+La aplicación quedó preparada para publicarse como sitio de proyecto de GitHub Pages en `https://ramareid.github.io/portfolio-ramiro/`. La configuración de Astro, las rutas internas y los metadatos usan la subruta del proyecto, y el workflow ejecuta las comprobaciones antes de cargar `dist/` como artefacto de Pages.
 
 ## Comprobaciones previstas en Actions
 
@@ -23,4 +23,4 @@ La aplicación quedó preparada para publicarse como sitio de usuario de GitHub 
 - Push: no realizado.
 - Despliegue: no realizado.
 - URL pública: prevista, no comprobada.
-- Repositorio remoto: todavía no configurado.
+- Repositorio remoto: `origin` vinculado a `https://github.com/RamaReid/portfolio-ramiro.git`.

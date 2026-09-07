@@ -1,5 +1,5 @@
 ---
-import { siteUrl } from '../data/site';
+import { sitePath, siteUrl } from '../data/site';
 
 interface Props {
   title?: string;
@@ -30,13 +30,13 @@ const canonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <header class="site-header">
       <div class="page-width header-inner">
-        <a class="brand" href="/">Ramiro García Reid</a>
+        <a class="brand" href={sitePath('/')}>Ramiro García Reid</a>
         <nav aria-label="Navegación principal">
-          <a href="/casos/garcia-delillo/">Caso piloto</a>
-          <a href="/casos/productoria/">Productoria</a>
-          <a href="/casos/programacion-interfaces/">Programación</a>
-          <a href="/trayectoria/">Trayectoria</a>
-          <a href="/contacto/">Contacto</a>
+          <a href={sitePath('/casos/garcia-delillo/')}>Caso piloto</a>
+          <a href={sitePath('/casos/productoria/')}>Productoria</a>
+          <a href={sitePath('/casos/programacion-interfaces/')}>Programación</a>
+          <a href={sitePath('/trayectoria/')}>Trayectoria</a>
+          <a href={sitePath('/contacto/')}>Contacto</a>
         </nav>
       </div>
     </header>
@@ -46,7 +46,7 @@ const canonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
     <footer class="site-footer">
       <div class="page-width">
         <p>El output cambia. El método permanece.</p>
-        <p><a class="text-link" href="/contacto/">Contacto y perfil público</a></p>
+        <p><a class="text-link" href={sitePath('/contacto/')}>Contacto y perfil público</a></p>
       </div>
     </footer>
   </body>

@@ -1,5 +1,6 @@
 ---
 import type { EvidenceAsset } from '../data/evidence';
+import { siteBase } from '../data/site';
 
 interface Props {
   asset: EvidenceAsset;
@@ -8,6 +9,6 @@ interface Props {
 const { asset } = Astro.props;
 ---
 <picture>
-  <source srcset={asset.src} type="image/webp" />
-  <img src={asset.fallbackSrc} alt={asset.alt} width={asset.width} height={asset.height} loading="lazy" decoding="async" />
+  <source srcset={`${siteBase}${asset.src}`} type="image/webp" />
+  <img src={`${siteBase}${asset.fallbackSrc}`} alt={asset.alt} width={asset.width} height={asset.height} loading="lazy" decoding="async" />
 </picture>

@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import EvidencePicture from '../../../components/EvidencePicture.astro';
 import { caseStudy, capabilities, projects, stages } from '../../../data/portfolio';
 import { loadEvidenceManifest } from '../../../data/evidence';
-import { siteUrl } from '../../../data/site';
+import { sitePath, siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
 const manifest = loadEvidenceManifest();
@@ -20,7 +20,7 @@ const structuredData = {
 <BaseLayout title={`${caseStudy.title} · Portfolio`} description={caseStudy.summary} canonical={caseStudy.href}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
   <section class="case-hero page-width">
-    <p class="breadcrumb"><a href="/">Inicio</a> / Caso</p>
+    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / Caso</p>
     <p class="eyebrow">Caso piloto</p>
     <h1>{caseStudy.title}</h1>
     <p class="lede">{caseStudy.summary}</p>
@@ -40,7 +40,7 @@ const structuredData = {
   <section class="section page-width" aria-labelledby="capacidades-titulo">
     <div class="section-heading"><div><p class="eyebrow">Capacidades</p><h2 id="capacidades-titulo">Lo que conecta las etapas</h2></div><p>La navegación textual conserva estas relaciones aunque el mapa no se cargue.</p></div>
     <div class="card-grid">
-      {caseCapabilities.map((capability) => <a class="card" href={`/capacidades/${capability.slug}/`}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
+      {caseCapabilities.map((capability) => <a class="card" href={sitePath(`/capacidades/${capability.slug}/`)}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
     </div>
   </section>
 
@@ -49,7 +49,7 @@ const structuredData = {
     <div class="card-grid">
       {projects.map((project) => {
         const resource = featured.find((item) => item.id === project.id);
-        return <a class="card" href={`/proyectos/garcia-delillo/${project.slug}/`}>
+        return <a class="card" href={sitePath(`/proyectos/garcia-delillo/${project.slug}/`)}>
           {resource?.asset && <EvidencePicture asset={resource.asset} />}
           <div><h3>{project.title}</h3><p>{project.lead}</p></div>
           <span class="text-link">Abrir proyecto</span>

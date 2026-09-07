@@ -1,11 +1,12 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { capabilities, caseStudies, timelineEvents } from '../../data/portfolio';
+import { sitePath } from '../../data/site';
 import '../../styles/global.css';
 ---
 <BaseLayout title="Trayectoria · Portfolio" description="Recorrido temporal complementario del portfolio de Ramiro García Reid." canonical="/trayectoria/">
   <section class="project-hero page-width">
-    <p class="breadcrumb"><a href="/">Inicio</a> / Trayectoria</p>
+    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / Trayectoria</p>
     <p class="eyebrow">Recorrido complementario</p>
     <h1>Trayectoria</h1>
     <p class="project-lead">Las etapas se leen como una cronología y enlazan con los casos y capacidades que tienen una relación editorial documentada.</p>
@@ -25,7 +26,7 @@ import '../../styles/global.css';
             <p class="timeline-period">Período documentado: <strong>{event.periodLabel}</strong></p>
             <h2>{event.title}</h2>
             <p>{event.description}</p>
-            {relatedCapabilities.length > 0 && <div class="timeline-links"><p class="eyebrow">Capacidades relacionadas</p><ul>{relatedCapabilities.map((capability) => <li><a href={`/capacidades/${capability.slug}/`}>{capability.title}</a></li>)}</ul></div>}
+            {relatedCapabilities.length > 0 && <div class="timeline-links"><p class="eyebrow">Capacidades relacionadas</p><ul>{relatedCapabilities.map((capability) => <li><a href={sitePath(`/capacidades/${capability.slug}/`)}>{capability.title}</a></li>)}</ul></div>}
             {relatedCases.length > 0 && <div class="timeline-links"><p class="eyebrow">Casos relacionados</p><ul>{relatedCases.map((item) => <li><a href={item.href}>{item.title}</a></li>)}</ul></div>}
           </article>
         </li>;

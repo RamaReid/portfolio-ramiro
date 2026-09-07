@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { capabilities, programmingCase } from '../../../data/portfolio';
-import { siteUrl } from '../../../data/site';
+import { sitePath, siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
 const relatedCapabilities = capabilities.filter((capability) => programmingCase.capabilityIds.includes(capability.id));
@@ -17,7 +17,7 @@ const structuredData = {
 <BaseLayout title={`${programmingCase.title} · Portfolio`} description={programmingCase.summary} canonical={programmingCase.href}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
   <section class="case-hero page-width">
-    <p class="breadcrumb"><a href="/">Inicio</a> / Caso</p>
+    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / Caso</p>
     <p class="eyebrow">Caso adicional · GitHub</p>
     <h1>{programmingCase.title}</h1>
     <p class="lede">{programmingCase.summary}</p>
@@ -46,7 +46,7 @@ const structuredData = {
   <section class="section page-width" aria-labelledby="capacidades-titulo">
     <div class="section-heading"><div><p class="eyebrow">Capacidades conectadas</p><h2 id="capacidades-titulo">Lo que pone en juego el caso</h2></div><p>Estas capacidades describen prácticas técnicas observables en el conjunto de repositorios.</p></div>
     <div class="card-grid">
-      {relatedCapabilities.map((capability) => <a class="card" href={`/capacidades/${capability.slug}/`}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
+      {relatedCapabilities.map((capability) => <a class="card" href={sitePath(`/capacidades/${capability.slug}/`)}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
     </div>
   </section>
 

@@ -1,3 +1,5 @@
+import { sitePath } from './site';
+
 export type Stage = {
   id: string;
   slug: string;
@@ -229,7 +231,7 @@ export const caseStudies: CaseStudy[] = [
     slug: 'garcia-delillo',
     title: 'García Delillo Construcciones',
     summary: 'Una evolución profesional desde la representación y el modelado hasta el desarrollo de proyectos y la dirección de obras.',
-    href: '/casos/garcia-delillo/',
+    href: sitePath('/casos/garcia-delillo/'),
     stageIds: stages.map((stage) => stage.id),
     capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('garcia-delillo')).map((capability) => capability.id),
     projectIds: projects.filter((project) => project.caseId === 'garcia-delillo').map((project) => project.id),
@@ -239,7 +241,7 @@ export const caseStudies: CaseStudy[] = [
     slug: 'productoria',
     title: 'Productoria · Genio Productor',
     summary: 'Un prototipo de entrevista conversacional que transforma información sobre una empresa en un mapa de nodos y relaciones.',
-    href: '/casos/productoria/',
+    href: sitePath('/casos/productoria/'),
     sourcePage: 'https://github.com/productoria/bci-next-app',
     stageIds: [],
     capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('productoria')).map((capability) => capability.id),
@@ -250,7 +252,7 @@ export const caseStudies: CaseStudy[] = [
     slug: 'programacion-interfaces',
     title: 'Programación, interfaces y sistemas visuales',
     summary: 'Una selección de repositorios que reúne aplicaciones web, navegación editorial, modelado de catálogos y sistemas de movimiento para frontend.',
-    href: '/casos/programacion-interfaces/',
+    href: sitePath('/casos/programacion-interfaces/'),
     sourcePage: 'https://github.com/RamaReid',
     stageIds: [],
     capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('programming-interfaces')).map((capability) => capability.id),
@@ -269,15 +271,15 @@ export const timelineEvents: TimelineEvent[] = stages.map((stage) => ({
   title: stage.title,
   periodLabel: stage.periodLabel,
   description: stage.description,
-  href: `/trayectoria/#${stage.slug}`,
+  href: sitePath(`/trayectoria/#${stage.slug}`),
   caseIds: caseStudies.filter((item) => item.stageIds.includes(stage.id)).map((item) => item.id),
 }));
 
 export const graphNodes: GraphNode[] = [
   ...caseStudies.map((item) => ({ id: item.id, label: item.title, kind: 'case' as const, href: item.href, description: item.summary })),
-  ...stages.map((stage) => ({ id: stage.id, label: stage.title, kind: 'stage' as const, href: `/trayectoria/#${stage.slug}`, description: stage.description })),
-  ...capabilities.map((capability) => ({ id: capability.id, label: capability.title, kind: 'capability' as const, href: `/capacidades/${capability.slug}/`, description: capability.description })),
-  ...projects.map((project) => ({ id: project.id, label: project.title, kind: 'project' as const, href: `/proyectos/garcia-delillo/${project.slug}/`, description: project.lead })),
+  ...stages.map((stage) => ({ id: stage.id, label: stage.title, kind: 'stage' as const, href: sitePath(`/trayectoria/#${stage.slug}`), description: stage.description })),
+  ...capabilities.map((capability) => ({ id: capability.id, label: capability.title, kind: 'capability' as const, href: sitePath(`/capacidades/${capability.slug}/`), description: capability.description })),
+  ...projects.map((project) => ({ id: project.id, label: project.title, kind: 'project' as const, href: sitePath(`/proyectos/garcia-delillo/${project.slug}/`), description: project.lead })),
 ];
 
 export const graphEdges: GraphEdge[] = [

@@ -36,7 +36,7 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 | T12 | Resolver contacto y perfiles | `completa` | T05, D13 | Integrador / Contenido | `/contacto/` y GitHub comprobado |
 | T13 | Validar la versión integral | `completa` | T08–T12 aplicables | Desarrollo | Informe de validación |
 | T14 | Revisar de forma independiente | `completa` | T13 | Revisor | `entregas/T14.md` |
-| T15 | Publicar y fijar mantenimiento | `en_curso` | T14, D14 | Integrador | Preparación local; falta remoto, push, despliegue y URL comprobada |
+| T15 | Publicar y fijar mantenimiento | `en_curso` | T14, D14 | Integrador | Repositorio separado y rutas de proyecto preparados; falta push, despliegue y URL comprobada |
 
 ## Encargos
 

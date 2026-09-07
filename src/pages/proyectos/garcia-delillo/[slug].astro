@@ -4,7 +4,7 @@ import EvidencePicture from '../../../components/EvidencePicture.astro';
 import { getProject, projects } from '../../../data/portfolio';
 import { getEvidenceForProject } from '../../../data/evidence';
 import { loadProjectText } from '../../../data/project-content';
-import { siteUrl } from '../../../data/site';
+import { sitePath, siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
 export function getStaticPaths() {
@@ -29,11 +29,11 @@ const structuredData = {
 <BaseLayout title={`${project.title} · García Delillo`} description={project.lead} canonical={`/proyectos/garcia-delillo/${project.slug}/`}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
   <section class="project-hero page-width">
-    <p class="breadcrumb"><a href="/">Inicio</a> / <a href="/casos/garcia-delillo/">García Delillo</a> / Proyecto</p>
+    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / <a href={sitePath('/casos/garcia-delillo/')}>García Delillo</a> / Proyecto</p>
     <p class="eyebrow">Proyecto relacionado</p>
     <h1>{project.title}</h1>
     <p class="project-lead">{project.lead}</p>
-    <p><a class="text-link" href={`/casos/garcia-delillo/`}>Volver al caso piloto</a></p>
+    <p><a class="text-link" href={sitePath('/casos/garcia-delillo/')}>Volver al caso piloto</a></p>
   </section>
 
   <section class="section page-width" aria-labelledby="relato-titulo">

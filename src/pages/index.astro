@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Explorer from '../components/Explorer';
 import { caseStudies, caseStudy, capabilities, graphEdges, graphNodes, projects, stages } from '../data/portfolio';
+import { sitePath } from '../data/site';
 import '../styles/global.css';
 
 const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
@@ -41,9 +42,9 @@ const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
         <p class="sr-only">El mapa interactivo aparece después de cargar JavaScript. La lista siguiente contiene el mismo contenido esencial.</p>
         <ul class="static-list">
           {caseStudies.map((item) => <li><a href={item.href}><strong>{item.title}</strong></a><small>{item.summary}</small></li>)}
-          {stages.map((stage) => <li><a href={`/trayectoria/#${stage.slug}`}><strong>{stage.title}</strong></a><small>{stage.periodLabel} · {stage.description}</small></li>)}
-          {capabilities.map((capability) => <li><a href={`/capacidades/${capability.slug}/`}><strong>{capability.title}</strong></a><small>{capability.description}</small></li>)}
-          {projects.map((project) => <li><a href={`/proyectos/garcia-delillo/${project.slug}/`}><strong>{project.title}</strong></a><small>{project.lead}</small></li>)}
+          {stages.map((stage) => <li><a href={sitePath(`/trayectoria/#${stage.slug}`)}><strong>{stage.title}</strong></a><small>{stage.periodLabel} · {stage.description}</small></li>)}
+          {capabilities.map((capability) => <li><a href={sitePath(`/capacidades/${capability.slug}/`)}><strong>{capability.title}</strong></a><small>{capability.description}</small></li>)}
+          {projects.map((project) => <li><a href={sitePath(`/proyectos/garcia-delillo/${project.slug}/`)}><strong>{project.title}</strong></a><small>{project.lead}</small></li>)}
         </ul>
       </div>
       <div>
