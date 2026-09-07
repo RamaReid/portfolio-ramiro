@@ -1,8 +1,10 @@
 # Instrucciones para ejecutar el portfolio con otros modelos
 
+**Continuación del producto:** Is My Life es el sistema completo y este portfolio una de sus proyecciones. El núcleo privado es [RamaReid/is-my-life](https://github.com/RamaReid/is-my-life); para desarrollar el núcleo, usar el [kit local de encargos](../is-my-life/LEEME.md). Las prioridades y fotografías de estado de esta guía corresponden al piloto profesional; no sustituyen el alcance actual. La aplicación Astro del piloto ya existe.
+
 Este es el punto de entrada para continuar el trabajo sin depender del historial del chat. La prioridad es preparar un caso verificable, implementar su recorrido completo con contenido legible por buscadores y extender el patrón mediante tareas acotadas.
 
-La base acordada es Astro, TypeScript, HTML, CSS y Markdown. El repositorio todavía no contiene una aplicación. Las decisiones de audiencia, casos, diseño, contacto y alojamiento se resuelven donde corresponde; no se deducen del stack elegido.
+La base acordada del piloto es Astro, TypeScript, HTML, CSS y Markdown. Al redactar originalmente esta guía todavía no había aplicación; ese estado quedó superado por la implementación y sus entregas. Las decisiones se verifican contra sus registros vigentes y las instrucciones actuales.
 
 ## Lectura inicial
 

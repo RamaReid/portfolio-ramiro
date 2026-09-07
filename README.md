@@ -1,12 +1,14 @@
 # Portfolio profesional de Ramiro García Reid
 
+Este portfolio es la primera proyección profesional de **Is My Life**, la aplicación general de memoria personal. El núcleo privado vive en [RamaReid/is-my-life](https://github.com/RamaReid/is-my-life). El [kit local de implementación](docs/is-my-life/LEEME.md) conserva el plan por etapas, contratos y encargos pequeños para continuar con otros modelos usando la vida de Ramiro como ejemplo real.
+
 Repositorio de trabajo para construir un portfolio profesional interactivo organizado temporalmente alrededor del eje:
 
 > El output cambia. El método permanece.
 
 ## Estado
 
-La aplicación Astro está integrada y validada localmente. La publicación mediante GitHub Pages está preparada para el repositorio `RamaReid.github.io`; todavía no se hizo push ni se comprobó una URL pública.
+La aplicación Astro está implementada en `RamaReid/portfolio-ramiro`, con workflow de GitHub Pages y Node 22. El historial de trabajo registra el push y un despliegue exitoso del commit `2c8140b`; la comprobación HTTP pública quedó pendiente por un problema de la herramienta. El nuevo kit documenta ese punto de partida sin presentar Is My Life como ya implementado.
 
 ## Estructura
 
