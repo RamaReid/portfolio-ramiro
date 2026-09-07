@@ -2,7 +2,7 @@
 
 **Actualizado:** 2026-09-06  
 **Responsable del tablero:** Integrador  
-**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11 y T12 completas; T13 espera la versión integral; no hay push, despliegue ni publicación.
+**Estado general:** T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12 y T13 completas; T14 está disponible para revisión independiente; no hay push, despliegue ni publicación.
 
 Este tablero es la fuente operativa para pasar encargos a otros modelos. El integrador es la única persona responsable de cambiar estados y cerrar tareas. Cada encargo debe transmitirse junto con la revisión de Git, los cambios locales no confirmados y los archivos permitidos.
 
@@ -34,8 +34,8 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 | T10 | Incorporar la trayectoria temporal | `completa` | T08, T05 | Desarrollo / Contenido | `trayectoria/` como cronología accesible y `entregas/T10.md` |
 | T11 | Incorporar programación e IA desde GitHub | `completa` | T08, T09 y perfil revisado | Contenido / Desarrollo / Integrador | Caso público, capacidades y matriz privada |
 | T12 | Resolver contacto y perfiles | `completa` | T05, D13 | Integrador / Contenido | `/contacto/` y GitHub comprobado |
-| T13 | Validar la versión integral | `espera_dependencia` | T08–T12 aplicables | Desarrollo | Informe de validación |
-| T14 | Revisar de forma independiente | `espera_dependencia` | T13 | Revisor | Informe de revisión |
+| T13 | Validar la versión integral | `completa` | T08–T12 aplicables | Desarrollo | Informe de validación |
+| T14 | Revisar de forma independiente | `disponible` | T13 | Revisor | Informe de revisión |
 | T15 | Publicar y fijar mantenimiento | `espera_dependencia` | T14, D14 | Integrador | Publicación mediante GitHub y mantenimiento documentado |
 
 ## Encargos
@@ -195,6 +195,8 @@ Este tablero es la fuente operativa para pasar encargos a otros modelos. El inte
 **Entregable:** informe reproducible con comandos, resultados, incidencias y estado de cada comprobación.
 
 **Criterios de cierre:** el informe diferencia cambio local, commit, push, despliegue y URL comprobada; no se declara aprobado un punto sin evidencia.
+
+**Resultado:** la versión local generó 31 páginas, respondió HTTP 200 en 31 rutas y validó 33 enlaces internos. El HTML mantiene contenido esencial, metadatos y fallback textual, y no expone `referencias_privadas` ni `.env`. El peso de salida es 232.456.184 bytes por las evidencias visuales; queda como riesgo de rendimiento para T14/T15. T13 está `completa`.
 
 ### T14 — Revisión independiente
 

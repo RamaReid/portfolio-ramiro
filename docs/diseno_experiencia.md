@@ -50,4 +50,4 @@ La experiencia no agrega afirmaciones al relato editorial. Las imágenes se mues
 
 ## Decisiones pendientes
 
-El dominio, la información de contacto, la publicación y la selección de casos adicionales permanecen fuera de este piloto. La revisión de censura adicional de las evidencias queda pendiente antes de publicar.
+El dominio, la publicación y la selección de casos adicionales permanecen fuera de este piloto. El contacto usa el perfil público de GitHub aprobado en T12. La revisión de censura adicional de las evidencias queda pendiente antes de publicar.

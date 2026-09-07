@@ -144,6 +144,7 @@ Estas rutas son una propuesta de T05 y deben conservar slugs estables si D11 no 
 | Proyecto | `/proyectos/garcia-delillo/cedahause/` | Texto del proyecto, relación con el caso, galería autorizada y enlaces de retorno |
 | Capacidad | `/capacidades/representacion-y-modelado/` | Descripción, proyectos y etapas que la aplican, con texto visible suficiente |
 | Trayectoria | `/trayectoria/` | Eventos temporales y enlaces al contenido existente; las fechas abiertas se mantienen como tales |
+| Contacto | `/contacto/` | Perfil público aprobado, canal de contacto, contexto profesional y límites vigentes |
 | Evidencia | `/evidencias/garcia-delillo/cedahause/` | Solo si una evidencia requiere una página propia; la galería puede bastar en el caso o proyecto |
 
 Los slugs se escriben en minúscula, sin acentos, con guiones y sin datos personales. Una URL directa no debe depender de una selección previa en el mapa ni de un estado almacenado en el navegador.
