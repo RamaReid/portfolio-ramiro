@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import EvidencePicture from '../../../components/EvidencePicture.astro';
 import { caseStudy, capabilities, projects, stages } from '../../../data/portfolio';
 import { loadEvidenceManifest } from '../../../data/evidence';
+import { siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
 const manifest = loadEvidenceManifest();
@@ -13,7 +14,7 @@ const structuredData = {
   '@type': 'WebPage',
   name: caseStudy.title,
   description: caseStudy.summary,
-  url: 'https://example.invalid/casos/garcia-delillo/',
+  url: `${siteUrl}/casos/garcia-delillo/`,
 };
 ---
 <BaseLayout title={`${caseStudy.title} · Portfolio`} description={caseStudy.summary} canonical={caseStudy.href}>

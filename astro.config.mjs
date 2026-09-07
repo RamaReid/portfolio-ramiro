@@ -3,5 +3,5 @@ import react from '@astrojs/react';
 
 export default defineConfig({
   integrations: [react()],
-  site: 'https://example.invalid',
+  site: 'https://ramareid.github.io',
 });

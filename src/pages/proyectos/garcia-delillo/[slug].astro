@@ -4,6 +4,7 @@ import EvidencePicture from '../../../components/EvidencePicture.astro';
 import { getProject, projects } from '../../../data/portfolio';
 import { getEvidenceForProject } from '../../../data/evidence';
 import { loadProjectText } from '../../../data/project-content';
+import { siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
 export function getStaticPaths() {
@@ -21,8 +22,8 @@ const structuredData = {
   '@type': 'CreativeWork',
   name: project.title,
   description: project.lead,
-  url: `https://example.invalid/proyectos/garcia-delillo/${project.slug}/`,
-  image: evidence?.assets.map((asset: { src: string }) => `https://example.invalid${asset.src}`),
+  url: `${siteUrl}/proyectos/garcia-delillo/${project.slug}/`,
+  image: evidence?.assets.map((asset: { src: string }) => `${siteUrl}${asset.src}`),
 };
 ---
 <BaseLayout title={`${project.title} · García Delillo`} description={project.lead} canonical={`/proyectos/garcia-delillo/${project.slug}/`}>

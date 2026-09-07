@@ -6,23 +6,20 @@ Repositorio de trabajo para construir un portfolio profesional interactivo organ
 
 ## Estado
 
-Fase de investigación, selección de evidencias y arquitectura narrativa. El contenido actual es un borrador y no constituye todavía el portfolio final.
+La aplicación Astro está integrada y validada localmente. La publicación mediante GitHub Pages está preparada para el repositorio `RamaReid.github.io`; todavía no se hizo push ni se comprobó una URL pública.
 
 ## Estructura
 
 - `docs/`: inventario, borrador narrativo y decisiones de contenido.
 - `public/evidencias/`: materiales aprobados para publicación.
-- `src/`: futura implementación del portfolio interactivo.
+- `src/`: implementación del portfolio interactivo.
+- `.github/workflows/deploy-pages.yml`: comprobación y publicación automática mediante GitHub Pages.
 - `referencias_privadas/`: material local de consulta excluido de Git.
 
 Las instrucciones para pasar encargos a otros modelos están en [INICIO.md](docs/ejecucion/INICIO.md) y el estado de ejecución se mantiene en el [tablero de tareas](docs/ejecucion/TAREAS.md).
 
-## Próximos pasos
+## Publicación
 
-El [plan de desarrollo por paquetes](docs/plan_desarrollo.md) detalla la secuencia de implementación, las dependencias, los entregables y los criterios de cierre. El primer paquete propuesto es definir el foco profesional y el alcance inicial.
+El repositorio debe llamarse `RamaReid.github.io` para publicar el sitio en `https://ramareid.github.io/`. Al hacer push sobre `main`, GitHub Actions ejecutará `npm ci`, `npm run check`, `npm run build` y desplegará `dist/` en GitHub Pages.
 
-1. Consolidar fechas, roles y métricas.
-2. Seleccionar proyectos protagonistas.
-3. Revisar y aprobar evidencias visuales.
-4. Definir la arquitectura de información.
-5. Elegir el stack técnico antes de iniciar la aplicación.
+El [tablero de tareas](docs/ejecucion/TAREAS.md) registra qué está cerrado y separa cambio local, commit, push, despliegue y URL comprobada.

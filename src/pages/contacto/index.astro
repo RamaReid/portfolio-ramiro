@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { siteUrl } from '../../data/site';
 import '../../styles/global.css';
 
 const profileUrl = 'https://github.com/RamaReid';
@@ -8,7 +9,7 @@ const structuredData = {
   '@type': 'ProfilePage',
   name: 'Contacto y perfil público de Ramiro García Reid',
   description: 'Perfil profesional y canal de contacto público de Ramiro García Reid.',
-  url: 'https://example.invalid/contacto/',
+  url: `${siteUrl}/contacto/`,
   mainEntity: {
     '@type': 'Person',
     name: 'Ramiro García Reid',

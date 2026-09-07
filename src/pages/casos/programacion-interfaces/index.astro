@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { capabilities, programmingCase } from '../../../data/portfolio';
+import { siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
 const relatedCapabilities = capabilities.filter((capability) => programmingCase.capabilityIds.includes(capability.id));
@@ -10,7 +11,7 @@ const structuredData = {
   '@type': 'WebPage',
   name: programmingCase.title,
   description: programmingCase.summary,
-  url: 'https://example.invalid/casos/programacion-interfaces/',
+  url: `${siteUrl}/casos/programacion-interfaces/`,
 };
 ---
 <BaseLayout title={`${programmingCase.title} · Portfolio`} description={programmingCase.summary} canonical={programmingCase.href}>

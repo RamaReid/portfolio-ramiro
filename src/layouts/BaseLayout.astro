@@ -1,4 +1,6 @@
 ---
+import { siteUrl } from '../data/site';
+
 interface Props {
   title?: string;
   description?: string;
@@ -10,7 +12,6 @@ const {
   description = 'Portfolio profesional organizado alrededor del eje: El output cambia. El método permanece.',
   canonical,
 } = Astro.props;
-const siteUrl = 'https://example.invalid';
 const canonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
 ---
 <!doctype html>

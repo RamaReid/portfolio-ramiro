@@ -28,7 +28,7 @@ Para el mapa del piloto se adopta como dirección de implementación React dentr
 | D10 | Autorización de cada pieza y afirmación pública | T03/T04 y cada ampliación | Qué texto y derivado se autoriza; el respaldo sensible se conserva en privado |
 | D11 | Arquitectura, URLs y estructura de contenido | T05 | Contrato de páginas y datos; resolver la propuesta de URL por caso desarrollado |
 | D12 | Dirección visual y comportamientos | T06 | Vistas y estados aprobados; coherencia entre diseño y navegación sin JavaScript |
-| D14 | Alojamiento, dominio y publicación | T15 prepara con antecedentes de T07 | Destino, configuración y efecto del push; autorización de publicación aplicable |
+| D14 | Alojamiento, dominio y publicación | Confirmado por Ramiro al elegir la alternativa explicada | GitHub Pages sobre el repositorio `RamaReid.github.io`, con URL inicial `https://ramareid.github.io/`; dominio propio queda para una etapa posterior |
 | D15 | Analítica y mantenimiento | T15 | Necesidad de analítica si se elige, responsable y forma de actualización |
 
 Para el caso curricular de T03, la autorización textual cubre GD-01 a GD-04. Además, el titular confirmó que los textos de las páginas de proyecto de `GDweb` ya cuentan con revisión editorial por formar parte de la web de la empresa; esos textos se incorporan al catálogo de proyectos con su procedencia. T04 mantuvo separada la selección visual y completó ficha, procedencia, textos alternativos y revisión para las 102 imágenes que ahora tienen derivados web locales. Imágenes, planos, videos, renders y documentos adicionales siguen requiriendo revisión propia antes de incorporarse.

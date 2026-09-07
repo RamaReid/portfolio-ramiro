@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { capabilities, productoriaCase } from '../../../data/portfolio';
+import { siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
 const relatedCapabilities = capabilities.filter((capability) => productoriaCase.capabilityIds.includes(capability.id));
@@ -11,7 +12,7 @@ const structuredData = {
   '@type': 'WebPage',
   name: productoriaCase.title,
   description: productoriaCase.summary,
-  url: 'https://example.invalid/casos/productoria/',
+  url: `${siteUrl}/casos/productoria/`,
 };
 ---
 <BaseLayout title={`${productoriaCase.title} · Portfolio`} description={productoriaCase.summary} canonical={productoriaCase.href}>
