@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadPublicProjection } from '../../data/public-projection';
+import { sitePath } from '../../data/site';
+import '../../styles/global.css';
+
+const projection = loadPublicProjection();
+---
+<BaseLayout title="Vista Markdown · Portfolio" description="Índice legible por agentes de la vista profesional de Ramiro García Reid." canonical="/markdown/">
+  <section class="project-hero page-width">
+    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / Markdown</p>
+    <p class="eyebrow">Lectura automática</p>
+    <h1>Vista Markdown</h1>
+    <p class="project-lead">Una entrada para agentes, indexadores y lectura lineal. El contenido completo está disponible en Markdown y cada caso y capacidad tiene su propia ruta.</p>
+    <p><a class="button-link" href={sitePath('/markdown/index.md')}>Abrir índice Markdown</a></p>
+  </section>
+  <section class="section page-width" aria-labelledby="rutas-markdown-titulo">
+    <div class="prose">
+      <h2 id="rutas-markdown-titulo">Rutas disponibles</h2>
+      <ul>
+        <li><a href={sitePath('/markdown/index.md')}>Índice general</a></li>
+        <li><a href={sitePath('/markdown/casos/garcia-delillo.md')}>Caso García Delillo</a></li>
+        <li><a href={sitePath('/markdown/casos/productoria.md')}>Caso Productoria</a></li>
+        <li><a href={sitePath('/markdown/casos/programacion-interfaces.md')}>Caso programación e interfaces</a></li>
+        <li><a href={sitePath('/markdown/is-my-life.md')}>Proyección de Is My Life ({projection ? 'disponible' : 'pendiente'})</a></li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
