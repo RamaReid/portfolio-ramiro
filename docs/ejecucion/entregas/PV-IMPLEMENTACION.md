@@ -67,12 +67,12 @@ No se eliminaron archivos. Is My Life se modificó dentro de su base local autor
 ## Estado de publicación
 
 - Cambio local: implementado y verificado.
-- Commit creado por esta entrega: pendiente de crear.
-- Push: pendiente de crear.
-- Despliegue: pendiente de la publicación de GitHub Pages.
-- Frontend: build local verificado; falta comprobar la URL remota después del push.
+- Commit creado por esta entrega: `cb963e7` (`feat: import approved Is My Life public projection`).
+- Push: realizado a `origin/main`.
+- Despliegue: GitHub Pages ejecutado con éxito en el workflow `34306415175`.
+- Frontend: comprobado en la URL remota; portada, `/markdown/`, `/markdown/index.md` y el manifiesto responden 200.
 - Migraciones o funciones de servidor: no aplican; el registro de export se preparó en la base local de Is My Life.
 
 ## Siguiente paso
 
-Crear el commit y el push del snapshot importado, esperar el workflow de GitHub Pages y verificar la portada, `/markdown/` y `/markdown/index.md` en la URL publicada.
+La siguiente iteración puede revisar el contenido editorial de los casos y, si corresponde, ampliar el snapshot mediante otro export aprobado. La implementación publicada queda disponible en `https://ramareid.github.io/portfolio-ramiro/`.
