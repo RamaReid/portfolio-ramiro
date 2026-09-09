@@ -77,9 +77,9 @@ No se eliminaron archivos. Is My Life se modificó dentro de su base local autor
 ## Estado de publicación
 
 - Cambio local: implementado y verificado.
-- Commits creados por esta entrega: `cb963e7`, `42f100c` y `0eb2b82`.
-- Push: los tres commits fueron publicados en `origin/main`.
-- Despliegue: GitHub Pages ejecutado con éxito en el workflow `34395004956`.
+- Commits de implementación registrados: `cb963e7`, `42f100c`, `0eb2b82` y `316e72f`.
+- Push: la rama `main` está publicada en `origin/main`; esta actualización documental acompaña ese estado.
+- Despliegue: GitHub Pages ejecutado con éxito en el workflow `34406644038`.
 - Frontend: la ficha de identidad, sus recursos publicados y la URL canónica de García Delillo responden 200.
 - Migraciones o funciones de servidor: no aplican; el registro de export se preparó en la base local de Is My Life.
 
