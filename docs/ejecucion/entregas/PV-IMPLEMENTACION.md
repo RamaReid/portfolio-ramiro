@@ -16,6 +16,8 @@ La portada comienza por una vista profesional curada: casos, método, capacidade
 
 También se agregó un lector para `public-projection.v1`. El snapshot público aprobado conserva su hash y conteos para trazabilidad, mientras que la salida visible del portfolio deriva el desarrollo institucional de García Delillo a su web canónica y no repite sus obras ni galerías.
 
+La entrada de García Delillo ahora incluye una ficha específica de identidad visual con la identidad original, la transformación, los siete pasos disponibles, el logo final y el video de animación. Las tarjetas de referencia se publican como derivados recortados para no exponer sus datos de contacto.
+
 Archivos creados:
 
 - `src/data/markdown.ts`
@@ -26,6 +28,8 @@ Archivos creados:
 - `src/pages/markdown/capacidades/[slug].md.ts`
 - `src/pages/markdown/is-my-life.md.ts`
 - `src/pages/proyectos/garcia-delillo/[slug].astro`
+- `src/pages/casos/garcia-delillo/identidad/index.astro`
+- `public/identidad/garcia-delillo/`
 - este informe
 
 Archivos modificados:
@@ -60,6 +64,7 @@ No se eliminaron archivos. Is My Life se modificó dentro de su base local autor
 | `npm.cmd run test:db` en Is My Life | Exitoso | Supabase CLI y PostgreSQL local disponibles |
 | `scripts/import-is-my-life.mjs --dry-run` | Válido; 0 removals y 2 archivos administrados | Snapshot aprobado validado antes de aplicar |
 | Revisión de `dist/` | La entrada no contiene tarjetas de obras; las rutas individuales derivan a la web canónica | Build local exitoso |
+| Revisión de identidad | La ficha contiene las dos piezas de referencia, siete pasos, logo final y video | Copias curadas dentro de `public/identidad/garcia-delillo/` |
 | Revisión de enlaces Markdown | Sin enlaces `portfolio-ramirocasos`; enlaces con base correcta | Se corrigió un error textual antes de la verificación final |
 | Revisión de privacidad | La portada generada no contiene `referencias_privadas` | No se inspeccionaron fuentes privadas ni se copiaron al proyecto |
 
@@ -72,8 +77,8 @@ No se eliminaron archivos. Is My Life se modificó dentro de su base local autor
 ## Estado de publicación
 
 - Cambio local: implementado y verificado.
-- Commits creados por esta entrega: `cb963e7` y `42f100c`; este ajuste queda pendiente de commit.
-- Push: los dos commits anteriores fueron publicados en `origin/main`; este ajuste queda pendiente de push.
+- Commits creados por esta entrega: `cb963e7`, `42f100c` y el commit de esta iteración, pendiente al momento de redactar este informe.
+- Push: los commits anteriores fueron publicados en `origin/main`; este ajuste queda pendiente de push.
 - Despliegue: GitHub Pages ejecutado con éxito en los workflows `34306415175` y `34306522781`; falta publicar este ajuste.
 - Frontend: la URL canónica de García Delillo responde 200; el portfolio local está verificado y falta publicar este ajuste.
 - Migraciones o funciones de servidor: no aplican; el registro de export se preparó en la base local de Is My Life.

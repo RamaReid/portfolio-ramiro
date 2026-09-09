@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { caseStudy, capabilities, garciaDelilloLayers, garciaDelilloWebUrl, stages } from '../../../data/portfolio';
+import { caseStudy, capabilities, garciaDelilloIdentityUrl, garciaDelilloLayers, garciaDelilloWebUrl, stages } from '../../../data/portfolio';
 import { sitePath, siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
@@ -26,7 +26,7 @@ const structuredData = {
   <section class="section page-width" aria-labelledby="capas-titulo">
     <div class="section-heading"><div><p class="eyebrow">Una misma carpeta de trabajo</p><h2 id="capas-titulo">La identidad conduce a la experiencia y a las obras</h2></div><p>El portfolio presenta la relacion entre las partes; el desarrollo completo vive en la web de Garcia Delillo.</p></div>
     <div class="card-grid">
-      {garciaDelilloLayers.map((layer) => <article class="card" id={layer.id}><div><h3>{layer.title}</h3><p>{layer.description}</p></div><a class="text-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Ver en la web</a></article>)}
+      {garciaDelilloLayers.map((layer) => <article class="card" id={layer.id}><div><h3>{layer.title}</h3><p>{layer.description}</p></div><a class="text-link" href={layer.id === 'identidad-empresarial' ? garciaDelilloIdentityUrl : layer.id === 'web-y-animacion' ? `${garciaDelilloIdentityUrl}#animacion` : garciaDelilloWebUrl} target={layer.id === 'obras-construidas' ? '_blank' : undefined} rel={layer.id === 'obras-construidas' ? 'noreferrer' : undefined}>{layer.id === 'obras-construidas' ? 'Explorar la web' : 'Ver desarrollo'}</a></article>)}
     </div>
   </section>
 

@@ -74,6 +74,10 @@ El portfolio funciona como entrada y contexto. La experiencia institucional, el 
 
 Los materiales locales y sus copias curadas se conservan para trazabilidad y mantenimiento; no se vuelven a presentar aquí como una segunda web.
 
+## Identidad visual
+
+La ficha [Identidad visual de García Delillo](/portfolio-ramiro/casos/garcia-delillo/identidad/) documenta la secuencia específica del logo: identidad original, transformación, siete pasos de construcción, resultado y animación. Las tarjetas de referencia se incorporan mediante copias recortadas para conservar la lectura visual sin publicar los datos de contacto que aparecen en sus originales. Los archivos fuente permanecen fuera del repositorio.
+
 ## Fuentes y límites de publicación
 
 - GD-01 y GD-02 respaldan la etapa de representación y modelado como declaraciones curriculares.
