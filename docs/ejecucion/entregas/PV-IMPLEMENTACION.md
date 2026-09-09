@@ -4,7 +4,7 @@
 
 - Tarea: implementar la primera parte posible del plan de vista profesional conectado a Is My Life.
 - Ejecutor y función: Codex / desarrollo local.
-- Fecha de entrega: 2026-09-08.
+- Fecha de entrega: 2026-09-09.
 - Rama o directorio de trabajo: `D:\ramiro\portfolio-ramiro`.
 - Commit de partida: cambios locales sin commit.
 - Archivos pendientes recibidos además del commit: plan local bajo `tmp/plan-is-my-life/`, fuera de Git.
@@ -77,10 +77,10 @@ No se eliminaron archivos. Is My Life se modificó dentro de su base local autor
 ## Estado de publicación
 
 - Cambio local: implementado y verificado.
-- Commits creados por esta entrega: `cb963e7`, `42f100c` y el commit de esta iteración, pendiente al momento de redactar este informe.
-- Push: los commits anteriores fueron publicados en `origin/main`; este ajuste queda pendiente de push.
-- Despliegue: GitHub Pages ejecutado con éxito en los workflows `34306415175` y `34306522781`; falta publicar este ajuste.
-- Frontend: la URL canónica de García Delillo responde 200; el portfolio local está verificado y falta publicar este ajuste.
+- Commits creados por esta entrega: `cb963e7`, `42f100c` y `0eb2b82`.
+- Push: los tres commits fueron publicados en `origin/main`.
+- Despliegue: GitHub Pages ejecutado con éxito en el workflow `34395004956`.
+- Frontend: la ficha de identidad, sus recursos publicados y la URL canónica de García Delillo responden 200.
 - Migraciones o funciones de servidor: no aplican; el registro de export se preparó en la base local de Is My Life.
 
 ## Siguiente paso
