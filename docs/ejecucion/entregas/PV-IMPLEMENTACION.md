@@ -18,6 +18,8 @@ También se agregó un lector para `public-projection.v1`. El snapshot público 
 
 La entrada de García Delillo ahora incluye una ficha específica de identidad visual presentada como primer capítulo del caso profesional: las dos piezas originales, contexto, problema empresarial, decisiones gráficas, cambio de denominación, logo final y video de animación. La secuencia de construcción queda a cargo de la animación y no se duplica como una galería de pasos.
 
+La ficha adopta los elementos ya presentes en la web de García Delillo: fondo de plano, paleta, tipografía Inter, títulos centrados, escenas, grillas, tarjetas y ritmo de espacios. La presentación conserva la estructura del sitio existente sin crear un sistema gráfico paralelo.
+
 Archivos creados:
 
 - `src/data/markdown.ts`

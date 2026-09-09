@@ -1,18 +1,24 @@
 ---
-import { sitePath, siteUrl } from '../data/site';
+import { siteBase, sitePath, siteUrl } from '../data/site';
 
 interface Props {
   title?: string;
   description?: string;
   canonical?: string;
+  bodyClass?: string;
 }
 
 const {
   title = 'Portfolio de Ramiro García Reid',
   description = 'Portfolio profesional organizado alrededor del eje: El output cambia. El método permanece.',
   canonical,
+  bodyClass = '',
 } = Astro.props;
-const canonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
+const canonicalUrl = canonical
+  ? canonical.startsWith('http')
+    ? canonical
+    : `${siteUrl}${canonical.startsWith(siteBase) ? canonical.slice(siteBase.length) : canonical}`
+  : siteUrl;
 ---
 <!doctype html>
 <html lang="es">
@@ -26,7 +32,7 @@ const canonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
     <meta property="og:type" content="website" />
     <title>{title}</title>
   </head>
-  <body>
+  <body class={bodyClass}>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <header class="site-header">
       <div class="page-width header-inner">

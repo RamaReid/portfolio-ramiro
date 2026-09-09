@@ -80,6 +80,8 @@ La ficha [Identidad visual de García Delillo](/portfolio-ramiro/casos/garcia-de
 
 Las dos piezas originales se incorporan sin recortes ni reinterpretaciones desde los archivos indicados. Los archivos fuente externos permanecen fuera del repositorio.
 
+La ficha usa el sistema visual que ya existe en la web de García Delillo: fondo de plano, paleta azul/gris/rojo, tipografía Inter, títulos y subtítulos centrados, escenas separadas por el mismo ritmo vertical, grillas y tarjetas con el mismo tratamiento. No se incorpora una tipografía, una forma de titular ni una diagramación nuevas para esta ficha.
+
 ## Fuentes y límites de publicación
 
 - GD-01 y GD-02 respaldan la etapa de representación y modelado como declaraciones curriculares.
