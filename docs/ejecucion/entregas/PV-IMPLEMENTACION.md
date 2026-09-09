@@ -14,7 +14,7 @@
 
 La portada comienza por una vista profesional curada: casos, método, capacidades y luego exploración completa. Se agregó un índice público de casos y rutas Markdown para lectura humana, indexación y agentes.
 
-También se agregó un lector opcional para `public-projection.v1`. Si el importador instala `src/data/is-my-life/public-projection.json`, la salida Markdown puede mostrar sus secciones editoriales. Mientras no exista ese snapshot, la interfaz declara el estado pendiente y conserva el contenido curado actual.
+También se agregó un lector para `public-projection.v1`. Se generó y validó un snapshot público aprobado desde la base local de Is My Life, y el importador instaló `src/data/is-my-life/public-projection.json` junto con su manifiesto de assets. La salida Markdown puede mostrar sus secciones editoriales sin exponer políticas de acceso ni fuentes privadas.
 
 Archivos creados:
 
@@ -33,24 +33,28 @@ Archivos modificados:
 - `src/layouts/BaseLayout.astro`
 - `src/styles/global.css`
 
-No se eliminaron archivos ni se modificó `D:\ramiro\is-my-life`.
+No se eliminaron archivos. Is My Life se modificó dentro de su base local autorizada para preparar el export público; no se modificó su código fuente.
 
 ## Alcance y decisiones
 
 - Se reutilizó el contenido ya presente en `src/data/portfolio.ts`.
 - No se agregaron fechas, roles, métricas, clientes, resultados ni fuentes nuevas.
 - Se eligió la entrada curada por casos y la exploración como segundo modo, tal como proponía el plan local.
-- La conexión con el snapshot canónico se implementó como consumo opcional; no se fabricó un export que todavía no fue importado.
-- La salida `/markdown/is-my-life.md` devuelve un documento explícito de pendiente cuando no hay proyección pública.
+- La conexión con el snapshot canónico se implementó mediante el importador existente, con dry-run previo y aplicación controlada.
+- El export aprobado es `public-ramiro-garcia-reid-2026-09-09`, con hash `ada81429ab31259e3c03924d730b24065776714aba313ecacf7242652d9ce2af`.
+- El snapshot contiene 29 entidades, 23 relaciones, 29 bloques de contenido y 102 assets públicos.
 
 ## Comprobaciones
 
 | Comando o procedimiento | Resultado observado | Evidencia o limitación |
 |---|---|---|
-| `npm.cmd run build` | Exitoso; 32 páginas generadas | Incluyó `/casos/` y las rutas Markdown |
-| `npm.cmd run check` | 0 errores, 0 warnings, 0 hints | 27 archivos Astro revisados |
+| `npm.cmd run build` | Exitoso; 33 páginas generadas | Incluyó `/casos/`, las rutas Markdown y la proyección importada |
+| `npm.cmd run check` | 0 errores, 0 warnings, 0 hints | 28 archivos Astro revisados |
 | `npm.cmd test` | 4 pruebas, 4 exitosas | Importador público y protección de archivos administrados |
-| Revisión de `dist/` | Índice HTML, índice Markdown y casos Markdown presentes | La ruta de proyección quedó marcada como pendiente |
+| `npm.cmd run check` en Is My Life | 0 errores, 0 warnings, 0 hints | Astro, dominio y proyecciones revisados |
+| `npm.cmd run test:db` en Is My Life | Exitoso | Supabase CLI y PostgreSQL local disponibles |
+| `scripts/import-is-my-life.mjs --dry-run` | Válido; 0 removals y 2 archivos administrados | Snapshot aprobado validado antes de aplicar |
+| Revisión de `dist/` | Índice HTML, índice Markdown, casos Markdown y contenido de proyección presentes | Build local exitoso |
 | Revisión de enlaces Markdown | Sin enlaces `portfolio-ramirocasos`; enlaces con base correcta | Se corrigió un error textual antes de la verificación final |
 | Revisión de privacidad | La portada generada no contiene `referencias_privadas` | No se inspeccionaron fuentes privadas ni se copiaron al proyecto |
 
@@ -63,12 +67,12 @@ No se eliminaron archivos ni se modificó `D:\ramiro\is-my-life`.
 ## Estado de publicación
 
 - Cambio local: implementado y verificado.
-- Commit creado por esta entrega: no realizado.
-- Push: no realizado.
-- Despliegue: no realizado.
-- Frontend: no comprobado en una URL remota.
-- Migraciones o funciones de servidor: no aplican.
+- Commit creado por esta entrega: pendiente de crear.
+- Push: pendiente de crear.
+- Despliegue: pendiente de la publicación de GitHub Pages.
+- Frontend: build local verificado; falta comprobar la URL remota después del push.
+- Migraciones o funciones de servidor: no aplican; el registro de export se preparó en la base local de Is My Life.
 
 ## Siguiente paso
 
-Revisar visualmente la portada y decidir si se incorpora un snapshot público real de Is My Life. Esa incorporación depende de un export aprobado; la vista profesional y sus rutas Markdown ya pueden revisarse localmente sin esa fuente.
+Crear el commit y el push del snapshot importado, esperar el workflow de GitHub Pages y verificar la portada, `/markdown/` y `/markdown/index.md` en la URL publicada.

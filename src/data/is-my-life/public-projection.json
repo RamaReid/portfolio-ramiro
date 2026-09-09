@@ -1,0 +1,2718 @@
+{
+  "assets": [
+    {
+      "alt": "Bano con ducha tipo spa en Cedahause",
+      "byteSize": 41950,
+      "height": 1024,
+      "id": "aa23aebf-5bf8-5fb1-b84f-fe8ec2ebb7d9",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-bano-ducha2.webp",
+      "sha256": "53f8648ab8e676dbd4906853e8e73cc546e7579996d5ddfed9ef0a5e978aac1b",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina con ventana horizontal en Cedahause",
+      "byteSize": 15220,
+      "height": 456,
+      "id": "9a4abe2e-f6f1-5461-95c9-13ed9e5dce93",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-cocina-1panoramica.webp",
+      "sha256": "65535ac690b2f7156b9f38a27efbc6d00e6a9ef9f078f21e8d8f6919446d4925",
+      "width": 913
+    },
+    {
+      "alt": "Comedor con gran ventanal en Cedahause",
+      "byteSize": 80696,
+      "height": 990,
+      "id": "32efaaf9-7bd4-50ee-b6cb-107049d6eb5d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-comedor.webp",
+      "sha256": "61249ee4f7e219756d7723481e8dd8d4a77749d23991636857898e1a0b3ffe40",
+      "width": 990
+    },
+    {
+      "alt": "Vestidor integrado en Cedahause",
+      "byteSize": 57784,
+      "height": 1024,
+      "id": "ffbd9538-e989-5c4d-98e0-548adf619c27",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-dormitorio-vestido.webp",
+      "sha256": "4bfc968e8c312a442fcbbdba8506cf7a210875c0072f3bdb5f73578dac989969",
+      "width": 1024
+    },
+    {
+      "alt": "Dormitorio principal al atardecer en Cedahause",
+      "byteSize": 141440,
+      "height": 1536,
+      "id": "47c17705-27d4-56e3-bd82-8dca58202ef0",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-dormitorio-vestido3.webp",
+      "sha256": "8ea1634dd2df26850aadf5f17fd07ca3183868c9f1fcd82af14170f3fc01599c",
+      "width": 1536
+    },
+    {
+      "alt": "Revestimiento vertical con tonos oxidados en Cedahause",
+      "byteSize": 169916,
+      "height": 1536,
+      "id": "a29ffae9-2faa-5597-a186-af2f5101d0bd",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-relacion.webp",
+      "sha256": "6c4be35d548f8cc87b3f4928e7a51a1c84327377612fec1de07d76cdbf3bdc55",
+      "width": 1536
+    },
+    {
+      "alt": "Pilotes elevando la vivienda en Cedahause",
+      "byteSize": 102748,
+      "height": 1376,
+      "id": "ca6a53ff-4a41-5f92-9d01-389c9fc62e85",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-sur.webp",
+      "sha256": "33e5755eb4274842ee5760fb2e75296e4d449d6d3288e00a94d567f43d3c8d9e",
+      "width": 1376
+    },
+    {
+      "alt": "Estructura de hormigon visto en Cedahause",
+      "byteSize": 112382,
+      "height": 1462,
+      "id": "38fe0ca8-6df2-532a-b45c-2bf7782e65c4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-voladisos.webp",
+      "sha256": "ecc6a4c92cf585dc63cca59fe23223c9bc8ab774c918270fbc28b3336bdbd8e5",
+      "width": 1461
+    },
+    {
+      "alt": "Salon con chimenea en Cedahause",
+      "byteSize": 107164,
+      "height": 896,
+      "id": "a0afe619-4ceb-50f6-abb5-54f7762051f1",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-living.webp",
+      "sha256": "849b7955302ba8ac7b6f9f4e0b482ca15ece43e5631a2bb4382570511d50ef91",
+      "width": 896
+    },
+    {
+      "alt": "Puente vidriado sobre el terreno en Cedahause",
+      "byteSize": 137524,
+      "height": 800,
+      "id": "9e8e819c-96a2-5917-a4de-08f6b2d1939f",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-panoramica-frente.webp",
+      "sha256": "6e73ee8f9496208c352a7ee29bef5e13fbd9a9f788081be140f0a32aec9f25ee",
+      "width": 1600
+    },
+    {
+      "alt": "Quincho exterior en Cedahause",
+      "byteSize": 77018,
+      "height": 848,
+      "id": "77055061-c86b-505e-9384-2b7ac1c550b4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-quincho.webp",
+      "sha256": "57271c1c6f9513052fa89eb2e20c83870ed3019dbf715cc189b3a2f8f56646b1",
+      "width": 848
+    },
+    {
+      "alt": "Bano principal en Donahause",
+      "byteSize": 46590,
+      "height": 1024,
+      "id": "abfbc52e-90de-57ea-b693-2f477523a325",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-bano-principal.webp",
+      "sha256": "15c38f5bd2cbd3ae5ae9605e9295bafaad36363c1ba6df66f5de0ebe6449ba5f",
+      "width": 1024
+    },
+    {
+      "alt": "Bano con banera y ventana en Donahause",
+      "byteSize": 57202,
+      "height": 1024,
+      "id": "8496ce56-7b92-507d-a0de-dfeff39615af",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-bano2-banera.webp",
+      "sha256": "9a34ecce321855396071fdd11c1b58f3b10ee00cc701d374200739bf0c2fc412",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina en Donahause",
+      "byteSize": 49194,
+      "height": 1024,
+      "id": "8525c0db-0a08-53cf-9cd5-bb3809d5d03c",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-cocina.webp",
+      "sha256": "99a8de3648f54f3bed0dc74018552ec1c532c25cd9c59459f1dba8758aeb47d5",
+      "width": 1024
+    },
+    {
+      "alt": "Comedor y living en Donahause",
+      "byteSize": 52160,
+      "height": 992,
+      "id": "7533c7df-f50b-59be-8ab0-bf2b08897bc1",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-comedor-living.webp",
+      "sha256": "2290e7b6ecc1f02281cabb668b2d2efff60c934fd26f6aa6669c03ae85bb35f9",
+      "width": 992
+    },
+    {
+      "alt": "Galeria blanca techada en Donahause",
+      "byteSize": 149368,
+      "height": 1024,
+      "id": "7d6154cc-3f2c-5325-8cfb-2e50896dc67d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-esterior-galeria.webp",
+      "sha256": "1bcfb893d424a65602a6b98ded2eb79fb0e6e17bbebc9c1b369ed39bc9a5ce3b",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle exterior en Donahause",
+      "byteSize": 245224,
+      "height": 1024,
+      "id": "1bede55b-4725-5c95-9bd0-269e6df6c4be",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-exterior-detalle.webp",
+      "sha256": "a475c78a6a5a850d0e6b7421cca545b93cc9320b659dca3026fd948903c71371",
+      "width": 1024
+    },
+    {
+      "alt": "Basamento de piedra y revoque de tierra en Donahause",
+      "byteSize": 138272,
+      "height": 988,
+      "id": "de29daa5-224f-57d8-99d1-b8213ef45c45",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-exterior-hero-norte.webp",
+      "sha256": "3b8427db64f64d91c45fadf6a39b3551a1f9e1faab651f7ddb8afa52bc471286",
+      "width": 1483
+    },
+    {
+      "alt": "Exterior sur de Donahause",
+      "byteSize": 152126,
+      "height": 1024,
+      "id": "b06dbe72-2968-53bc-95ca-b12bff71cd82",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/Donahause-exterior-sur (2).webp",
+      "sha256": "f5347514fd2dcdf295f074a25fec047d9f0b744f9bef910f139a4316d9b423b5",
+      "width": 1536
+    },
+    {
+      "alt": "Ingreso interior en Donahause",
+      "byteSize": 79328,
+      "height": 1024,
+      "id": "e2c513b7-d447-5123-b4fd-ebb60207bb67",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-ingreso.interior.webp",
+      "sha256": "6e58b99e9089257627f97c712b5499642114fb8632d45e6af4b99eab3f69e87d",
+      "width": 1024
+    },
+    {
+      "alt": "Salon rojo con pasillo y doble altura en Donahause",
+      "byteSize": 93040,
+      "height": 558,
+      "id": "baea1ba3-8f9f-5725-9f38-fa0d02857ee8",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-panoramica-living-pasillo.webp",
+      "sha256": "274add6d588d7ba39ddedebb2793b7444b225892295bba5eae9ed96511bd91e1",
+      "width": 1600
+    },
+    {
+      "alt": "Quincho en Donahause",
+      "byteSize": 101472,
+      "height": 1588,
+      "id": "121be4f8-0194-5207-b90f-80ebb0bf5651",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-quincho-b.webp",
+      "sha256": "29c4453e6e4afe0e36936d718a29add7c484c40e48052d5a9fd99b19ac9d7fdb",
+      "width": 1588
+    },
+    {
+      "alt": "Baño principal en Gadehause",
+      "byteSize": 103804,
+      "height": 1600,
+      "id": "0a8088aa-04f4-58b6-b30b-e1d565805526",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-bano-principal.webp",
+      "sha256": "38aa330bdfcf940166ffcbe058f4dae5d3fc8ac4cfd8053da9cea6ab4ec1bf6c",
+      "width": 1600
+    },
+    {
+      "alt": "Cocina en Gadehause",
+      "byteSize": 20166,
+      "height": 666,
+      "id": "8fc8076c-56f4-54ff-b59b-218f79123a9b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-cocina.webp",
+      "sha256": "0b8898b70e77da699b915dc1ea860fd0bfa2c6244e860bad3be91c230118d479",
+      "width": 666
+    },
+    {
+      "alt": "Detalle de Gadehause",
+      "byteSize": 22300,
+      "height": 702,
+      "id": "ed1cc606-0a99-52ce-b3b8-de4fb296b597",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-dormitorio.webp",
+      "sha256": "f030fdbe350a2f840996e7da993bdb2f84a657fdda2c8b1fa20d1da3437cc8d5",
+      "width": 702
+    },
+    {
+      "alt": "Tocador y detalles en Gadehause",
+      "byteSize": 74696,
+      "height": 1600,
+      "id": "395812a3-0c94-5049-afa0-25fc2b96ac28",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-dormitorio2.webp",
+      "sha256": "9025da81eebdcc0a8897cf8d5efc692a17c6ed98994986b46ba6dd4c76781f03",
+      "width": 1600
+    },
+    {
+      "alt": "Escritorio en Gadehause",
+      "byteSize": 141066,
+      "height": 1600,
+      "id": "1f3a10c7-35f1-5d35-8ec6-27849dc48f4a",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-escritorio.webp",
+      "sha256": "34917cd8a5d60ce5e69117b2edc48b755a6932da0eeab271526e4521d770156f",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Gadehause",
+      "byteSize": 114620,
+      "height": 1600,
+      "id": "f6d3e281-f0ea-542a-957f-dc9504f7b78e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-este.webp",
+      "sha256": "7d0218f8b7f9d990433e98b0091e57d53b9e7daf8b1875650ac08faf1b6d047f",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Gadehause",
+      "byteSize": 94110,
+      "height": 1600,
+      "id": "1b1eff67-d591-5511-add8-1a1393360733",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-oeste.webp",
+      "sha256": "e3dd18e2d89915f8becc5f174d07c1711a3f520ad18fc41bfccad9e898e4e798",
+      "width": 1600
+    },
+    {
+      "alt": "Exterior sur de Gadehause",
+      "byteSize": 16552,
+      "height": 628,
+      "id": "a635fda9-66ed-588b-b1bb-61f247d8b05d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-sur.webp",
+      "sha256": "aa3eaafff6ec05f56a287034e2923356fad5f4643293c34c0bbadce74fb27281",
+      "width": 627
+    },
+    {
+      "alt": "Estar y comedor integrado en Gadehause",
+      "byteSize": 34712,
+      "height": 412,
+      "id": "ff21eed3-3290-570d-adc8-11796c06d412",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-living-comedor.webp",
+      "sha256": "77560f400d4a51e4ab07932ce7a4b0316eca0acee72a61542c70c9e194fc0168",
+      "width": 1058
+    },
+    {
+      "alt": "Living y comedor en Gadehause",
+      "byteSize": 20468,
+      "height": 630,
+      "id": "587f99bd-0394-5f25-b56b-2eb2339cfce7",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-living-comedor1.webp",
+      "sha256": "0fed2c8c17adf607e3980326d59b2b1ab34ba3d59b3147bcd6f5477db0326ebb",
+      "width": 629
+    },
+    {
+      "alt": "Piscina y exterior en Gadehause",
+      "byteSize": 61098,
+      "height": 1024,
+      "id": "966a851e-1d33-53bd-860f-6a2547c7ca9b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-pileta-portal.webp",
+      "sha256": "038f526fb18fed025bc838256ce90df07183c313089d043b9a903503422643be",
+      "width": 1024
+    },
+    {
+      "alt": "Baño en Jobehause",
+      "byteSize": 28790,
+      "height": 986,
+      "id": "60619e47-3c8a-5574-adf6-9cf6b4e99e25",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-bano-11.webp",
+      "sha256": "1da7f1f41e4940adb10c6f88e482430ceebbc317ce022fb2c48c1cb75ec83df1",
+      "width": 985
+    },
+    {
+      "alt": "Baño en Jobehause",
+      "byteSize": 33994,
+      "height": 1008,
+      "id": "08e80cef-e3e4-5b7f-b3ce-38cb3ac0bc6e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-bano-12.webp",
+      "sha256": "fb90cfb7e71f495b4c442609d09a8bfbf283fcbdd22b82e3514e11cf10ac7edc",
+      "width": 1007
+    },
+    {
+      "alt": "Baño en Jobehause",
+      "byteSize": 29960,
+      "height": 1004,
+      "id": "9f874855-2dfe-5622-b6cf-bed6c5222f8b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-bano-2 (9).webp",
+      "sha256": "06b449e2bef7a2fcb3443df9447bca4874d6be92bc3b37ea1aee2399b6a1ee23",
+      "width": 1003
+    },
+    {
+      "alt": "Detalle de cocina en Jobehause",
+      "byteSize": 107902,
+      "height": 1024,
+      "id": "d6e50303-ab68-59b9-a005-de3ba8cdbd32",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-cocina (3).webp",
+      "sha256": "baa519a6456cd642d14519ff90e88e6579b7394cf075801b2bd7c20dfaecb5d0",
+      "width": 1024
+    },
+    {
+      "alt": "Gran salón en Jobehause",
+      "byteSize": 85008,
+      "height": 668,
+      "id": "2295b083-3140-5876-a12f-c153734eedb7",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-comedor-comedor.webp",
+      "sha256": "ae9c6322c83582c621aeaffb0c272196805caa2bf755a89784518c251dd6069b",
+      "width": 1536
+    },
+    {
+      "alt": "Dormitorio panoramico en Jobehause",
+      "byteSize": 57196,
+      "height": 590,
+      "id": "4ec77d79-4fff-5e81-bf48-ff81b7e8d3ac",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-dormitorio-panoramica2-2.webp",
+      "sha256": "541549456bc1b804463f45a9b6b44c9e5a3c9a40d85918c782df180b848bb2f2",
+      "width": 1536
+    },
+    {
+      "alt": "Ingreso exterior de Jobehause",
+      "byteSize": 66326,
+      "height": 1016,
+      "id": "84358c9a-00bf-5453-91b9-9fff23a5d1cf",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-entrada1.webp",
+      "sha256": "bceb9c564a11ff0d6b601404432073bee91adaea7a8678d0dc8d104c39e2c78d",
+      "width": 1016
+    },
+    {
+      "alt": "Exterior norte de Jobehause",
+      "byteSize": 243710,
+      "height": 1024,
+      "id": "a953fdfa-5e7d-5943-82b7-13445aa79b7b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-norte (2).webp",
+      "sha256": "46e9fb95faa0a7c147c7fd0326a9a96c96d365398096f92b28801ada30ad56ef",
+      "width": 1536
+    },
+    {
+      "alt": "Basamento y volumen en Jobehause",
+      "byteSize": 187132,
+      "height": 1074,
+      "id": "ebb345bd-4832-540b-adc7-60f358d31424",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-oeste (2).webp",
+      "sha256": "551453766b7306500381867c64b320121ff6bf0a4932f1de4c9d275fc00488a6",
+      "width": 1600
+    },
+    {
+      "alt": "Living en Jobehause",
+      "byteSize": 77950,
+      "height": 1024,
+      "id": "65215099-4046-514d-94ad-8f04e92ee8d9",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-living-21.webp",
+      "sha256": "4814441123c2558edb70b3292ee6595d361790bf28885826bac9d32b3ba69fb6",
+      "width": 1024
+    },
+    {
+      "alt": "Living en Jobehause",
+      "byteSize": 42788,
+      "height": 966,
+      "id": "3c01f331-5e9f-52ba-9cf9-1d4e7cb544b6",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-living1.webp",
+      "sha256": "1713c69871cc7856aa490f17dfc5690333c626a969ad77e3971b49e1f45bfa4f",
+      "width": 966
+    },
+    {
+      "alt": "Baño en Jomahause",
+      "byteSize": 36920,
+      "height": 1024,
+      "id": "31ccffbe-c9d9-589d-86d1-b2600d03e7fb",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-bano-bacha.webp",
+      "sha256": "ba717ee21ecc27a3eb831d08e6745cb2d6aa3a0bdc5fd2b7ceebc8ef30f27e40",
+      "width": 1024
+    },
+    {
+      "alt": "Baño en Jomahause",
+      "byteSize": 32150,
+      "height": 1024,
+      "id": "813b6bb0-a380-514a-8a3e-b2ef61dfbb30",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-bano-banera.webp",
+      "sha256": "6e4a2dc0fb69002360383520f6b898b604db76e1b8affcd5ec22509c92630e0c",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina y comedor en Jomahause",
+      "byteSize": 63752,
+      "height": 678,
+      "id": "2898b4b4-d732-5f57-9ff0-52a69b957f5c",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-cocina-comedor-panoramica.webp",
+      "sha256": "6b4ede077e7a2e976b798c8cf0fc76c6820cd8a7ba3bce74cc5d3ac09f1f6793",
+      "width": 1536
+    },
+    {
+      "alt": "Cocina en Jomahause",
+      "byteSize": 56274,
+      "height": 1024,
+      "id": "d146665f-813c-5f95-9ec7-f1071a510774",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-cocina.webp",
+      "sha256": "2c46a01346325a3c343e91f76059c3d69a3cb0dba58bfcf480c9c22c9a3ae0c4",
+      "width": 1024
+    },
+    {
+      "alt": "Dormitorio en Jomahause",
+      "byteSize": 39950,
+      "height": 1024,
+      "id": "5a7ddf37-cdd5-5a6c-a2db-b50c608194dd",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-dormitorio.webp",
+      "sha256": "218424c07ac6409005254d6db3fed6843bd0dcb89904563e477791fae7bc7217",
+      "width": 1024
+    },
+    {
+      "alt": "Ingreso en Jomahause",
+      "byteSize": 71754,
+      "height": 1024,
+      "id": "08916712-65a5-55c2-a258-eaa9d2d0f717",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-entrada.webp",
+      "sha256": "979f6ecf93e99ccc6da7b3945daf64da06820d3fa4fb21e92d28c149ef7c2d45",
+      "width": 1024
+    },
+    {
+      "alt": "Escritorio en Jomahause",
+      "byteSize": 37288,
+      "height": 1024,
+      "id": "09086481-e76f-5744-bf06-7438786650b6",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-escritorio.webp",
+      "sha256": "791fc2f68e3bbe9aaa2a6557585a54dcb8257413ff304cb6a1dba1a5f2179521",
+      "width": 1024
+    },
+    {
+      "alt": "Exterior de acceso en Jomahause",
+      "byteSize": 167688,
+      "height": 1024,
+      "id": "e5d7ff00-a528-5fa5-a098-c16e84bc92ec",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-exterior-entrada.webp",
+      "sha256": "4354dd3255cd2927b81a406532d55c9ddff8d3f9c8e0cf357d9dd069bbb61190",
+      "width": 1024
+    },
+    {
+      "alt": "Estar en Jomahause",
+      "byteSize": 48590,
+      "height": 1024,
+      "id": "de57d90e-e6a6-54fc-a7f7-48b280564907",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-living-2.webp",
+      "sha256": "964674030f9499d606c5d161091235d3eb614a5af71524c512d73de50d851a17",
+      "width": 1024
+    },
+    {
+      "alt": "Estar en Jomahause",
+      "byteSize": 33290,
+      "height": 1024,
+      "id": "77430b71-1d49-5b68-a0cd-1622172021ff",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-living.webp",
+      "sha256": "dc2a2487c79ace8ada8104610b0d9531325f81b980a741cc27ed0803c0efa8ff",
+      "width": 1024
+    },
+    {
+      "alt": "Quincho y comedor en Jomahause",
+      "byteSize": 75730,
+      "height": 626,
+      "id": "eb1c962e-03f1-5e78-9dcd-73bee0312569",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-quincho-comedor-panoramica.webp",
+      "sha256": "3b76aaca8ed0bb5af7457f244e2eb6e9bab7dbfa1b5ab379ed3cb331ea8898f4",
+      "width": 1536
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 10790,
+      "height": 640,
+      "id": "e91835e4-0edd-5c7e-98fa-d05b0f88afe4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-bano-1.webp",
+      "sha256": "6842e13fb748af596eec556a597f9199442cb8db0c4ce2175d0ad7d029e0bb00",
+      "width": 640
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 113452,
+      "height": 1600,
+      "id": "4a63e98e-d776-5073-b4f4-76c3ead9d3d5",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-cocina-1.webp",
+      "sha256": "4ce2bc6de0984bd92a147ca36a02b11eff76218e84d6b0df45e46c59a422f5d5",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 113664,
+      "height": 1600,
+      "id": "23fe59c2-82d0-508e-a058-9497ec0a18b1",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-comedor.webp",
+      "sha256": "373d7a78188711f9590e09b60489b55f291fd0a1e1c4d1b473cfed16420b33c1",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 74380,
+      "height": 848,
+      "id": "35426fb8-21ad-5129-a9cb-70af695943ac",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-dormitorio-2.webp",
+      "sha256": "c9c325fc85f2658955f4aadbcb9eff019b93500c1b49060bd32e4eb9db8f875e",
+      "width": 848
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 195682,
+      "height": 1600,
+      "id": "29f8feb1-e922-5112-a186-1f177212ee1e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-estar-1.webp",
+      "sha256": "9f678a8f4f7c91c3d4b53a43f10f66e6f2e739a2789260ab1d76bb45c7c35fa1",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 44780,
+      "height": 1024,
+      "id": "07505e1f-610c-5f5a-a681-3ecb932473cf",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-este.webp",
+      "sha256": "846112a75983901d92175e9f4690ab2323ad0da5575728d8b30e00fc41940540",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 131934,
+      "height": 688,
+      "id": "a776a81b-8c48-572e-90cd-4de25ed59254",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-norte-panoramica.webp",
+      "sha256": "61274778f55dfbf48e3680e7cef50e74594bac98f903d288f99affe6dc28c049",
+      "width": 1536
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 29672,
+      "height": 540,
+      "id": "ce1ca0af-1ec0-5563-b5ab-9b8fb35d386c",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-oeste.webp",
+      "sha256": "01dbf74222d5987fe88b36813a894f35e3df5dc7e4e63b21e3bde2decebf22f6",
+      "width": 540
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 161016,
+      "height": 1600,
+      "id": "efd60e21-674a-58cd-bdd8-e04837b76ac5",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-portal.webp",
+      "sha256": "0475523aeab27e49e58d8c5501358034cf06d966d5d5ca42993dbf5196cd7d04",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 56110,
+      "height": 602,
+      "id": "f657f039-a624-53e8-bcdd-0df890259502",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-sur-panoramica.webp",
+      "sha256": "f39ad2041964dc96008980407005a2bc3afe7f73ab8b8d68769ba0fd04cff5cf",
+      "width": 1285
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 123004,
+      "height": 1536,
+      "id": "106b4d5f-b42a-5fc0-b3f7-58c73014d4f6",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-quincho.webp",
+      "sha256": "cd293139a5164c89f89d78e000ccddf051514d73e2b4097661de2ad8d5423c0e",
+      "width": 1536
+    },
+    {
+      "alt": "Altillo en Magahause",
+      "byteSize": 267882,
+      "height": 1600,
+      "id": "bbdcfc89-4239-5e07-9f71-985bf5e50cb8",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-altillo (5).webp",
+      "sha256": "8bcf061365843e7403b8c8d509163a634503b97c810360d05f7c3573d1580c36",
+      "width": 1600
+    },
+    {
+      "alt": "Baño en Magahause",
+      "byteSize": 22296,
+      "height": 612,
+      "id": "82c34c0c-d116-56c0-96f7-692fbc4ce21d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-bano-bacha-2.webp",
+      "sha256": "1c4f1e3a45ba89d121a6905e79ee59e109c56dc0240b967319b9d124431c6f8b",
+      "width": 612
+    },
+    {
+      "alt": "Baño en Magahause",
+      "byteSize": 30854,
+      "height": 798,
+      "id": "31977403-1da0-50f8-84b4-c8a896a1eeec",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-bano-ducha.webp",
+      "sha256": "e954093e296630ca43ed43ca708d59adfd0a48b9a2a66c04e76c9682ee663f9b",
+      "width": 797
+    },
+    {
+      "alt": "Cocina en Magahause",
+      "byteSize": 47728,
+      "height": 848,
+      "id": "a72a47fb-a202-5387-8174-457bdeb8b1fb",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-cocina.webp",
+      "sha256": "29f005a3b13107782926e92cf633f4e654fc0c1be26ea7882061f61b788ad105",
+      "width": 848
+    },
+    {
+      "alt": "Dormitorio en Magahause",
+      "byteSize": 69552,
+      "height": 848,
+      "id": "756884c1-e0a7-5907-a21d-39c66da11efa",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-dormitorio.webp",
+      "sha256": "3b65a094482b330567f9a4c02e4babb1b5586b1dceb513bd2ad46e1b8f08d254",
+      "width": 848
+    },
+    {
+      "alt": "Entrada en Magahause",
+      "byteSize": 185902,
+      "height": 1600,
+      "id": "459669d5-b8fe-51e4-a0be-ce85e7ebea2b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-entrada (2).webp",
+      "sha256": "80c8f8520b949235d78ed18e8eb8b8cf06d58aa01f5a42a960e3c6147fdfb475",
+      "width": 894
+    },
+    {
+      "alt": "Detalle exterior en Magahause",
+      "byteSize": 132360,
+      "height": 678,
+      "id": "9ea5b6a3-b0e7-540a-9778-226e85f9908e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte-detalle (2).webp",
+      "sha256": "f60e259b065771e9ac6c99b43bcbc924ad7ad16c06de69f560608aacddbb19e8",
+      "width": 1600
+    },
+    {
+      "alt": "Exterior norte terraza en Magahause",
+      "byteSize": 75910,
+      "height": 960,
+      "id": "c503eaad-f26d-5503-b3f4-e68fd2cc7f2e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte-terraza.webp",
+      "sha256": "691b4de0abc93a8e166915c1f21e08d563bb4d2dd9067d876d02b9320e91951a",
+      "width": 959
+    },
+    {
+      "alt": "Exterior norte de Magahause",
+      "byteSize": 106244,
+      "height": 716,
+      "id": "5a604add-844c-5125-9b3b-77ec8ec05d99",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte(3).webp",
+      "sha256": "cde2fb8d5bb4eacbd59ef8adb29495613ef6a5e4e5adc2c59cb4fd8a0466378a",
+      "width": 1600
+    },
+    {
+      "alt": "Living y comedor en Magahause",
+      "byteSize": 53788,
+      "height": 404,
+      "id": "d50124bc-fdfa-5665-9cce-83ce96df0bc9",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-living-comedor-panoramica.webp",
+      "sha256": "fdf4a3a630686980be5911cb422984643decac8fd093097fd918a10d9695a8cf",
+      "width": 1264
+    },
+    {
+      "alt": "Quincho en Magahause",
+      "byteSize": 98224,
+      "height": 1074,
+      "id": "6df57662-4e6d-52cf-8eb8-0492c08f4ceb",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-quincho (2).webp",
+      "sha256": "09debc2be46df8d4d3866b65e7e7cb9a27a12c44f6275fdf29229ed96d731a64",
+      "width": 1600
+    },
+    {
+      "alt": "Bano con bacha en Markhause",
+      "byteSize": 140760,
+      "height": 1536,
+      "id": "a0758297-13aa-5365-8684-c37b2541cda2",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-bano-bacha-2.webp",
+      "sha256": "e631f14fed030daba07e7e0445db7dc38d446a243d597d138f4096a5131c6ec4",
+      "width": 1536
+    },
+    {
+      "alt": "Bano con ducha en Markhause",
+      "byteSize": 104200,
+      "height": 1024,
+      "id": "555f1194-d7b0-555d-96ab-c3e3a208603f",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-bano-ducha.webp",
+      "sha256": "94bd9f3f72cbc20bb60e26c563cee44b0100ff5325ab0362409eb8e25136dcde",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina en Markhause",
+      "byteSize": 49812,
+      "height": 1024,
+      "id": "f2981bed-cc5e-5d75-b4b1-71fb1283a271",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-cocina.webp",
+      "sha256": "0f9ea60b816dd26720ce73f0b1f244de3002a012797c27b7aa3bec38f1422dad",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle de ventana en Markhause",
+      "byteSize": 195344,
+      "height": 1536,
+      "id": "c3c96b93-d1e3-5fac-b5dd-309650e58759",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-detalle-ventana.webp",
+      "sha256": "c5d847f68804afa75aaf67717e336749dbc4c205c71d4542584b690e0b002ddd",
+      "width": 1024
+    },
+    {
+      "alt": "Dormitorio en Markhause",
+      "byteSize": 69560,
+      "height": 1008,
+      "id": "c20710b7-ca5b-5df7-be22-a9d071a0deae",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-dormitorio.webp",
+      "sha256": "2c9a66cecd727ddd668754e3d5daac745f97b2c70e4dc5bdd6e8fc3df1bdd2c6",
+      "width": 1007
+    },
+    {
+      "alt": "Living y comedor en Markhause",
+      "byteSize": 60500,
+      "height": 624,
+      "id": "710807a1-943f-54a0-83a9-342ce386c68e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-living-comedor-panoramica.webp",
+      "sha256": "a76a6c2e961792df43469e67eeb92840156013030b4377d8c1f1a0d7d8acde9a",
+      "width": 1495
+    },
+    {
+      "alt": "Living en Markhause",
+      "byteSize": 68406,
+      "height": 1024,
+      "id": "c880017f-0109-5444-9852-40870de23751",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-living.webp",
+      "sha256": "f746147b760e7aee2ed905bfb04ec33d110eff8dcc332104f9d72ff99a872845",
+      "width": 1024
+    },
+    {
+      "alt": "Bano en Scohause",
+      "byteSize": 66562,
+      "height": 1024,
+      "id": "12b64199-e581-5de4-bcef-a2fc470d913d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-bano-3.webp",
+      "sha256": "a283e48a3a1d8e50fdfeb0c02a9769bf7e5b15532561e5b14518ee1f7f07be49",
+      "width": 1024
+    },
+    {
+      "alt": "Bano con bacha en Scohause",
+      "byteSize": 42160,
+      "height": 1024,
+      "id": "b1363212-2275-5b32-8c15-4f7a89b1e98a",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-bano-bacha.webp",
+      "sha256": "ed03786ebe5557df6bcff49dfc7dccb05966ec89225af2d549c48467bcd6490f",
+      "width": 1026
+    },
+    {
+      "alt": "Bano con ducha en Scohause",
+      "byteSize": 52336,
+      "height": 1024,
+      "id": "aa369f07-ce49-514f-b56c-76746cbd4652",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-bano-ducha-2.webp",
+      "sha256": "dce681c88447fbc9bd46fb962d73947e70085d1ea7a3baf4e2c24c90c4f3290f",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina en Scohause",
+      "byteSize": 54856,
+      "height": 1024,
+      "id": "e81be214-543b-5635-9007-05b557001430",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-cocina-1.webp",
+      "sha256": "a0899832d74d5001c021209fc79049b242aaf6ea78bd30685bdc907b8cef5fde",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle de Scohause",
+      "byteSize": 57678,
+      "height": 732,
+      "id": "a51cf38f-62d9-5862-901d-59c2310bbfb5",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-cocina-quincho-panoramica.webp",
+      "sha256": "1d1bd630f2405ab8094f3ad329b83cac54a921bfc6194aa3ad21b6fab8e15a69",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Scohause",
+      "byteSize": 87506,
+      "height": 634,
+      "id": "306c1bc9-e401-52b5-88a5-192025e4a3f0",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-galeria-panoramica.webp",
+      "sha256": "8c4c8b0a9e2d3ed08967b1fb5f180170755d9e4ec61cd45a4fd0ae81211c9bda",
+      "width": 1600
+    },
+    {
+      "alt": "Living y comedor en Scohause",
+      "byteSize": 55724,
+      "height": 1024,
+      "id": "38ab16ed-2d44-57ea-9381-556070ac99f7",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-living-comedor.webp",
+      "sha256": "ba7a51675e289d121dc4c3e90f949149ca5c3c439f298b9a505b49505cd286de",
+      "width": 1024
+    },
+    {
+      "alt": "Living interior en Scohause",
+      "byteSize": 63080,
+      "height": 1024,
+      "id": "90a8513b-f52b-500e-a1e8-0597ff5ddb0d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scolahause-interior-living.webp",
+      "sha256": "821f402665ef2b8eb15d2c78a8922fe03047115ae9328e30942bc80d6567a398",
+      "width": 1024
+    },
+    {
+      "alt": "Baño con bacha en Vidahause",
+      "byteSize": 59158,
+      "height": 1074,
+      "id": "ea2cf034-47b2-5c81-8933-d9f475e8b47e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-bano-bacha (3).webp",
+      "sha256": "aed84d2a360a290a87a3edc73185366c75084e1ba3f6e45fe22d066ba7a6025d",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de baño en Vidahause",
+      "byteSize": 110884,
+      "height": 1074,
+      "id": "da8245f9-2d8b-5c75-bdcf-b38a22eb3ea3",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-bano-detalles-b.webp",
+      "sha256": "8f99b9e771ebcd74f4e5fd67ea4b969598ee64a2c17206b52ca91b7a6b75fada",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de cocina en Vidahause",
+      "byteSize": 89968,
+      "height": 1074,
+      "id": "9ee73228-974d-59fc-9ec6-0274a10be63b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-cocina (3).webp",
+      "sha256": "5368970633760e1355ffec42094a5247d361411eca7d84c48df74857903123f1",
+      "width": 1600
+    },
+    {
+      "alt": "Cocina en Vidahause",
+      "byteSize": 49614,
+      "height": 1024,
+      "id": "dcd4dcfb-e220-5a49-8138-e1714ddd3f26",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-cocina.webp",
+      "sha256": "b09d3b55bd6c9fb235632de2944007fcb754eacfebc2e98394c6b7a6d71d1053",
+      "width": 1536
+    },
+    {
+      "alt": "Dormitorio en Vidahause",
+      "byteSize": 79520,
+      "height": 1024,
+      "id": "39ba364e-48e6-5013-bac3-a85b2b2edc27",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-dormitorio.webp",
+      "sha256": "5b5dd723921250b21c3a44a5085d548abcfa1230bc511ef38f9b06bf274186af",
+      "width": 1536
+    },
+    {
+      "alt": "Detalle exterior en Vidahause",
+      "byteSize": 202740,
+      "height": 1024,
+      "id": "5bb0f153-dacb-56d9-8c3b-51a011758cb3",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-detalle1.webp",
+      "sha256": "23ee3785dcd70680ab881baa6b26a6c3dbe3684ed71baa58960c38dc3e00bb38",
+      "width": 1024
+    },
+    {
+      "alt": "Entrada exterior en Vidahause",
+      "byteSize": 18398,
+      "height": 508,
+      "id": "a59b739f-81aa-52d4-aee5-991438ee668a",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-entrada.webp",
+      "sha256": "1c5c7e44500b3a40602a28e9dd1869eacded9466f49dd6cef5210235a7e13b6e",
+      "width": 508
+    },
+    {
+      "alt": "Detalle exterior en Vidahause",
+      "byteSize": 110606,
+      "height": 1024,
+      "id": "2c0198c4-daf7-5dd1-91cc-357e97d3d8a4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-talle1r.webp",
+      "sha256": "26b4bb4f3c53d4ffd6dc970aa522fb3679bea04c7ebab40966e4b26774ea70ba",
+      "width": 1024
+    },
+    {
+      "alt": "Estar en Vidahause",
+      "byteSize": 65094,
+      "height": 1024,
+      "id": "a94363f0-83c6-5be1-bbaf-d0bc343b3568",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-living.webp",
+      "sha256": "13434af4331b56adf0e040373ca9b50cc6bb966d6a8ab13d0a485c4125f54552",
+      "width": 1024
+    },
+    {
+      "alt": "Vista sur patio en Vidahause",
+      "byteSize": 187166,
+      "height": 992,
+      "id": "66def77a-e89b-51ee-becf-31606cdeea59",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-vista-sur-patio.webp",
+      "sha256": "b8b0349761d05728dbba92e30b6d5ed9cce58f6ab33481020710690ef902bdd2",
+      "width": 1487
+    }
+  ],
+  "contentBlocks": [
+    {
+      "entityId": null,
+      "id": "ba80d39d-7609-5b58-8fc5-1452414d99df",
+      "markdown": "## CeDaHause\r\n\r\n**Página de origen:** `GDweb/cedahause.html`  \r\n**Recursos copiados:** 11\r\n\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-bano-ducha2.webp` — Bano con ducha tipo spa en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-cocina-1panoramica.webp` — Cocina con ventana horizontal en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-comedor.webp` — Comedor con gran ventanal en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-dormitorio-vestido.webp` — Vestidor integrado en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-dormitorio-vestido3.webp` — Dormitorio principal al atardecer en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-relacion.webp` — Revestimiento vertical con tonos oxidados en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-sur.webp` — Pilotes elevando la vivienda en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-voladisos.webp` — Estructura de hormigon visto en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-living.webp` — Salon con chimenea en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-panoramica-frente.webp` — Puente vidriado sobre el terreno en Cedahause\r\n- `/evidencias/garcia-delillo-web/cedahause/cedahause-quincho.webp` — Quincho exterior en Cedahause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "f0e98861-ddac-5970-ad0a-13e349996daf",
+      "markdown": "## DoNaHause\r\n\r\n**Página de origen:** `GDweb/donahause.html`  \r\n**Recursos copiados:** 11\r\n\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-bano2-banera.webp` — Bano con banera y ventana en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-bano-principal.webp` — Bano principal en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-cocina.webp` — Cocina en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-comedor-living.webp` — Comedor y living en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-esterior-galeria.webp` — Galeria blanca techada en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-exterior-detalle.webp` — Detalle exterior en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-exterior-hero-norte.webp` — Basamento de piedra y revoque de tierra en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/Donahause-exterior-sur (2).webp` — Exterior sur de Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-ingreso.interior.webp` — Ingreso interior en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-panoramica-living-pasillo.webp` — Salon rojo con pasillo y doble altura en Donahause\r\n- `/evidencias/garcia-delillo-web/donahause/donahause-quincho-b.webp` — Quincho en Donahause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "bb8d2e64-9810-5e6a-a478-83ba0d5b6d71",
+      "markdown": "## GaDeHause\r\n\r\n**Página de origen:** `GDweb/gadehause.html`  \r\n**Recursos copiados:** 11\r\n\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-bano-principal.webp` — Baño principal en Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-cocina.webp` — Cocina en Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-dormitorio.webp` — Detalle de Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-dormitorio2.webp` — Tocador y detalles en Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-escritorio.webp` — Escritorio en Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-este.webp` — Detalle de Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-oeste.webp` — Detalle de Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-sur.webp` — Exterior sur de Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-living-comedor.webp` — Estar y comedor integrado en Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-living-comedor1.webp` — Living y comedor en Gadehause\r\n- `/evidencias/garcia-delillo-web/gadehause/gadehause-pileta-portal.webp` — Piscina y exterior en Gadehause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "ff84c103-9c25-5872-a0b1-5d95ca54fc8f",
+      "markdown": "## JoBeHause\r\n\r\n**Página de origen:** `GDweb/jobehause.html`  \r\n**Recursos copiados:** 11\r\n\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-bano-11.webp` — Baño en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-bano-12.webp` — Baño en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-bano-2 (9).webp` — Baño en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-cocina (3).webp` — Detalle de cocina en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-comedor-comedor.webp` — Gran salón en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-dormitorio-panoramica2-2.webp` — Dormitorio panoramico en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-entrada1.webp` — Ingreso exterior de Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-norte (2).webp` — Exterior norte de Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-oeste (2).webp` — Basamento y volumen en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-living1.webp` — Living en Jobehause\r\n- `/evidencias/garcia-delillo-web/jobehause/jobehause-living-21.webp` — Living en Jobehause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "7df17c14-91b8-526d-8d08-f87a3d26743e",
+      "markdown": "## JoMaHause\r\n\r\n**Página de origen:** `GDweb/jomahause.html`  \r\n**Recursos copiados:** 11\r\n\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-bano-bacha.webp` — Baño en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-bano-banera.webp` — Baño en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-cocina.webp` — Cocina en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-cocina-comedor-panoramica.webp` — Cocina y comedor en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-dormitorio.webp` — Dormitorio en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-entrada.webp` — Ingreso en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-escritorio.webp` — Escritorio en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-exterior-entrada.webp` — Exterior de acceso en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-living.webp` — Estar en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-living-2.webp` — Estar en Jomahause\r\n- `/evidencias/garcia-delillo-web/jomahause/jomahause-quincho-comedor-panoramica.webp` — Quincho y comedor en Jomahause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "e3310398-3590-5493-a8b0-5142b5b3c99a",
+      "markdown": "## JoNoHause\r\n\r\n**Página de origen:** `GDweb/jonohause.html`  \r\n**Recursos copiados:** 11\r\n\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-bano-1.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-cocina-1.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-comedor.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-dormitorio-2.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-estar-1.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-este.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-norte-panoramica.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-oeste.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-portal.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-sur-panoramica.webp` — Detalle de Jonohause\r\n- `/evidencias/garcia-delillo-web/jonohause/jonohause-quincho.webp` — Detalle de Jonohause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "289a9a56-ab70-534c-8f85-45dc92f5d550",
+      "markdown": "## MaGaHause\r\n\r\n**Página de origen:** `GDweb/magahause.html`  \r\n**Recursos copiados:** 11\r\n\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-altillo (5).webp` — Altillo en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-bano-bacha-2.webp` — Baño en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-bano-ducha.webp` — Baño en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-cocina.webp` — Cocina en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-dormitorio.webp` — Dormitorio en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-entrada (2).webp` — Entrada en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte(3).webp` — Exterior norte de Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte-detalle (2).webp` — Detalle exterior en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte-terraza.webp` — Exterior norte terraza en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-living-comedor-panoramica.webp` — Living y comedor en Magahause\r\n- `/evidencias/garcia-delillo-web/magahause/magahause-quincho (2).webp` — Quincho en Magahause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "dce33977-63e2-5850-af8a-d0173caaacab",
+      "markdown": "## MarkHause\r\n\r\n**Página de origen:** `GDweb/markhause.html`  \r\n**Recursos copiados:** 7\r\n\r\n- `/evidencias/garcia-delillo-web/markhause/markhause-bano-bacha-2.webp` — Bano con bacha en Markhause\r\n- `/evidencias/garcia-delillo-web/markhause/markhause-bano-ducha.webp` — Bano con ducha en Markhause\r\n- `/evidencias/garcia-delillo-web/markhause/markhause-cocina.webp` — Cocina en Markhause\r\n- `/evidencias/garcia-delillo-web/markhause/markhause-detalle-ventana.webp` — Detalle de ventana en Markhause\r\n- `/evidencias/garcia-delillo-web/markhause/markhause-dormitorio.webp` — Dormitorio en Markhause\r\n- `/evidencias/garcia-delillo-web/markhause/markhause-living.webp` — Living en Markhause\r\n- `/evidencias/garcia-delillo-web/markhause/markhause-living-comedor-panoramica.webp` — Living y comedor en Markhause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "b6a187fa-9ccc-56bc-8d71-752e0a6146c3",
+      "markdown": "## ScoHause\r\n\r\n**Página de origen:** `GDweb/scohause.html`  \r\n**Recursos copiados:** 8\r\n\r\n- `/evidencias/garcia-delillo-web/scohause/scohause-bano-3.webp` — Bano en Scohause\r\n- `/evidencias/garcia-delillo-web/scohause/scohause-bano-bacha.webp` — Bano con bacha en Scohause\r\n- `/evidencias/garcia-delillo-web/scohause/scohause-bano-ducha-2.webp` — Bano con ducha en Scohause\r\n- `/evidencias/garcia-delillo-web/scohause/scohause-cocina-1.webp` — Cocina en Scohause\r\n- `/evidencias/garcia-delillo-web/scohause/scohause-cocina-quincho-panoramica.webp` — Detalle de Scohause\r\n- `/evidencias/garcia-delillo-web/scohause/scohause-galeria-panoramica.webp` — Detalle de Scohause\r\n- `/evidencias/garcia-delillo-web/scohause/scohause-living-comedor.webp` — Living y comedor en Scohause\r\n- `/evidencias/garcia-delillo-web/scohause/scolahause-interior-living.webp` — Living interior en Scohause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "9147f478-a2e3-5b48-9280-14dd8d8096e1",
+      "markdown": "## ViDaHause\r\n\r\n**Página de origen:** `GDweb/vidahause.html`  \r\n**Recursos copiados:** 10\r\n\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-bano-bacha (3).webp` — Baño con bacha en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-bano-detalles-b.webp` — Detalle de baño en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-cocina (3).webp` — Detalle de cocina en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-cocina.webp` — Cocina en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-dormitorio.webp` — Dormitorio en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-detalle1.webp` — Detalle exterior en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-entrada.webp` — Entrada exterior en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-talle1r.webp` — Detalle exterior en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-living.webp` — Estar en Vidahause\r\n- `/evidencias/garcia-delillo-web/vidahause/vidahause-vista-sur-patio.webp` — Vista sur patio en Vidahause",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "c643ef51-97ca-5d01-bbc4-5646570ec10a",
+      "markdown": "## Alcance de evidencias\n\nEl piloto incorpora 102 imágenes organizadas por proyecto en el [catálogo de evidencias](./evidencias-garcia-delillo.md). La salida local usa derivados WebP con fallback JPEG; los originales PNG permanecen fuera del repositorio. Cada recurso conserva su procedencia y el texto alternativo existente en la página revisada de `GDweb`. Cualquier revisión adicional se hará antes de una publicación externa.",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "2a07d586-6c1b-5cc9-8fc5-7fd8b95946b5",
+      "markdown": "## Dirección de obras\n\n**Período declarado:** desde 2004  \n**Tipo de afirmación:** declaración curricular  \n**Fuente editorial:** GD-04\n\nEl currículum declara que, desde 2004, Ramiro realiza la dirección de obras de la empresa. La expresión “dirección de obras” se conserva tal como aparece en la fuente; no se agregan responsabilidades específicas que el material revisado no detalle.\n\n**Interpretación editorial:** el tramo puede organizarse como una extensión del recorrido desde la representación y el desarrollo de proyectos hacia su ejecución en obra.\n\n**Organización editorial de la capacidad:**\n\n- dirección de obras.\n\nNo se identifican todavía obras, equipos, fechas de intervención ni resultados concretos que puedan publicarse como parte de este caso.",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "70c38460-39fe-5f92-ab33-517ab24cf00b",
+      "markdown": "## Diseño y desarrollo de proyectos\n\n**Período declarado:** desde 2002  \n**Tipo de afirmación:** declaración curricular  \n**Fuente editorial:** GD-03\n\nEl currículum declara que, desde 2002, Ramiro quedó a cargo del área de diseño, relaciones públicas y desarrollo de proyectos de la empresa. El alcance público de esta etapa debe conservar esa formulación general hasta que se identifiquen proyectos, fechas y atribuciones específicas.\n\n**Organización editorial de capacidades:**\n\n- diseño de proyectos;\n- desarrollo de proyectos;\n- comunicación con las personas y equipos relacionados con el proyecto.\n\nLa relación entre estas capacidades es una organización editorial del material de fuente. No se presenta como una lista independiente de resultados ni como atribución a una obra determinada.",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "d7b9d0f6-664c-51b3-8062-d5a28e6c22bf",
+      "markdown": "## El output cambia. El método permanece.\n\nEste caso sigue una secuencia de trabajo declarada en el currículum: primero la representación y el modelado de proyectos, después el diseño y el desarrollo de proyectos, y finalmente la dirección de obras. Cada etapa se presenta con el alcance que permiten las fuentes revisadas. Las afirmaciones sobre períodos y funciones se atribuyen al currículum. El catálogo de proyectos y sus evidencias visuales provienen de las páginas revisadas de `GDweb`.",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "19bcc6f3-df0b-5c27-9a8b-f772447965dc",
+      "markdown": "## Fuentes y límites de publicación\n\n- GD-01 y GD-02 respaldan la etapa de representación y modelado como declaraciones curriculares.\n- GD-03 respalda la etapa de diseño, relaciones públicas y desarrollo de proyectos como declaración curricular.\n- GD-04 respalda la etapa de dirección de obras como declaración curricular.\n- Las afirmaciones cuantificadas y la síntesis de experiencia profesional del PDF quedan fuera de la autorización del piloto.\n- No se asigna ninguna obra concreta al caso por la sola presencia de un archivo en una carpeta privada.\n- Las fuentes originales y la matriz de trazabilidad permanecen en el área privada y no se incorporan al frontend.\n\nLa autorización vigente del relato cubre únicamente GD-01 a GD-04 en esta formulación. El contrato de contenido, la navegación textual y el HTML conservan esa separación. Las evidencias de T04 tienen su propia procedencia, textos alternativos, estado editorial y derivados web.",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "da3acfae-0d00-5830-9709-25865645e2da",
+      "markdown": "# García Delillo Construcciones\n\n**Estado editorial:** texto y evidencias visuales integrados en la versión local del piloto; pendiente de revisión independiente y publicación externa\n**Idioma:** español  \n**Caso piloto:** evolución profesional dentro de una empresa de construcciones en Tandil",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "02808e6b-02ce-5079-9945-0d0cdd9676b3",
+      "markdown": "## Interpretación editorial\n\nLa secuencia permite leer una continuidad metodológica: construir una representación, ampliar esa representación hacia el diseño y el desarrollo de un proyecto, y acompañar su realización en obra. El output cambia en cada tramo —planos, modelos, proyectos y obras— mientras permanece la necesidad de comprender relaciones, tomar decisiones y hacerlas comunicables.\n\nEsta lectura organiza el caso para el portfolio. Es una interpretación editorial basada en la secuencia de funciones declarada en el currículum, no una afirmación independiente de la fuente.",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "f27f29f4-a7a5-5e5c-abbe-e26f06803b54",
+      "markdown": "## Proyectos relacionados\n\nEl catálogo textual de los proyectos de `GDweb`, cuya revisión editorial ya fue realizada en el sitio de origen, está disponible en [Proyectos de García Delillo](./proyectos-garcia-delillo.md). Las imágenes están relacionadas en el [catálogo de evidencias](./evidencias-garcia-delillo.md).",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": null,
+      "id": "bc065b09-30d9-523a-a14e-4e438388f46c",
+      "markdown": "## Representación y modelado\n\n**Período declarado:** 1997–2002  \n**Tipo de afirmación:** declaración curricular  \n**Fuente editorial:** GD-01, GD-02\n\nEl currículum declara una primera etapa como dibujante de planos a mano y en AutoCAD. También registra la producción de maquetas físicas y virtuales, con animación mediante 3D Studio Max.\n\n**Interpretación editorial:** el tramo puede leerse como un trabajo orientado a hacer visible una propuesta para poder entenderla, comunicarla y revisarla.\n\n**Organización editorial de capacidades:**\n\n- representación y dibujo;\n- modelado y visualización;\n- traducción de una idea espacial a formas que otras personas puedan interpretar.\n\nLas herramientas y tareas aparecen aquí como declaración curricular. La documentación revisada no identifica todavía una obra concreta que pueda presentarse como evidencia de esta etapa.",
+      "revision": 1,
+      "viewSectionId": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e"
+    },
+    {
+      "entityId": "5a05017e-d4eb-59d7-9a6f-3ea83204aa9c",
+      "id": "548a9ce0-8e9b-547d-9957-fc5efd470202",
+      "markdown": "## CeDaHause\r\n\r\nHabitar la pendiente sin tocarla\r\n\r\nProyecto Cedahause: Una respuesta arquitectonica a la topografia.\r\n\r\nEl cliente nos planteo un desafio complejo: construir en la ladera sin modificar su naturaleza original. Nuestra respuesta fue despegar la vivienda del suelo. Al elevar la estructura sobre pilotes, garantizamos las mejores vistas del valle y permitimos que el drenaje natural de la sierra siga su curso bajo la casa, logrando que la arquitectura se pose con respeto sobre el paisaje.\r\n\r\nMateria que dialoga con el entorno\r\n\r\nPara responder al deseo de una casa duradera que se mimetizara con el sitio, seleccionamos una paleta de materiales honestos. Combinamos la crudeza estructural del hormigon armado (seguridad y soporte) con un revestimiento de tonos oxidados que actua como una segunda piel. Esta eleccion tecnica asegura un bajo mantenimiento y permite que la obra envejezca al mismo ritmo visual que la piedra y los pastizales de la sierra.\r\n\r\nUna transicion sensorial\r\n\r\nEl nexo entre el area social y la privada debia ser mas que un pasillo. Disenamos un puente de cristal que suspende al habitante sobre el terreno. Al cruzarlo, el sonido del agua bajo la estructura y la transparencia total recuerdan constantemente que se esta viviendo inmerso en la naturaleza, cumpliendo el deseo del cliente de conexion total.\r\n\r\nVida social sin fronteras\r\n\r\nEl objetivo era borrar los limites entre el \"adentro\" y el \"afuera\". Logramos esto mediante una planta libre que fluye desde la calidez del hogar a lena hacia la apertura total de la galeria. La arquitectura actua aqui como un marco invisible, permitiendo que la vida familiar y las reuniones sociales tengan siempre a la sierra como protagonista de fondo.\r\n\r\nConectar la rutina con el horizonte\r\n\r\nPara evitar el encierro en las tareas domesticas, reemplazamos los muros ciegos tradicionales por una sustraccion horizontal estrategica. Esta \"raja\" visual sobre la mesada integra la luz y el paisaje a la cocina, transformando la funcionalidad diaria en una experiencia contemplativa.\r\n\r\nLa arquitectura del descanso\r\n\r\nEn el sector privado, la prioridad del cliente era la desconexion mental y el orden. Respondimos con espacios de lineas puras y texturas suaves. Desde la orientacion de la cama hacia la calma del valle, hasta el diseno tipo spa de los banos y el guardado oculto en los muros, todo esta calculado para reducir el ruido visual y propiciar un descanso profundo.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "6bd6e985-0a55-56cd-a910-115bc718596d",
+      "id": "e8667fb7-70c3-5607-b748-cecec97707e5",
+      "markdown": "## DoNaHause\r\n\r\nTradición con carácter propio\r\n\r\nProyecto Donahause: Cuando el estilo campo se llena de luz y color.\r\n\r\nEl cliente buscaba la calidez de una casa tradicional —techo a dos aguas, basamento, galerías y madera— pero con interiores luminosos y actuales. La respuesta fue conservar una silueta reconocible hacia el paisaje y, al mismo tiempo, abrir la casa a la luz: grandes paños vidriados y espacios generosos que hacen que lo clásico se sienta liviano y habitable.\r\n\r\nLo que la ancla y lo que la sostiene.\r\n\r\nLa casa construye su identidad desde tres gestos complementarios: un basamento mineral que la arraiga al terreno, una galería como espacio intermedio que ordena el vivir cotidiano, y una estructura de madera expuesta que aporta ritmo, escala y calidez. Tradición, sí, pero con aire y luz como materia principal.\r\n\r\nVolumen y temperatura\r\n\r\nEl reto era que la doble altura no se sintiera fría. La solución fue trabajar el “calor” desde el fondo del espacio: un plano protagonista de color rojo terracota y la presencia del hogar, que ordenan la escena y acercan visualmente la escala. La luz entra en abundancia, pero el ambiente se percibe contenido y cálido: un lugar hecho para reunirse.\r\n\r\nIdentidad sin cortes.\r\n\r\nEn vez de compartimentar, la casa organiza la convivencia con recursos sutiles: el color zonifica y crea atmósferas propias, el piso actúa como hilo conductor que cose los ambientes, y las aberturas enmarcan el verde para que el paisaje sea parte activa del interior. Un mismo lenguaje, tres intensidades.\r\n\r\nUna silueta clásica, una casa abierta\r\n\r\nDesde el exterior, la casa se reconoce por su morfología tradicional y su implantación franca en el terreno. Esa calma es el marco para una vivienda pensada para vivirla con luz, con transiciones cubiertas y con una relación directa con el jardín.\r\n\r\nIntimidad luminosa.\r\n\r\nIncluso en los espacios más privados, la casa sostiene la misma premisa: luz natural, proporciones amables y materiales que envejecen bien. La bañera se ubica donde el día acompaña, los paños altos llevan la mirada hacia arriba para “ganar cielo”, y las terminaciones robustas aseguran un confort durable, sin estridencias.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "9e9c7746-9720-56a4-a32e-45e6303b3f07",
+      "id": "bbe9b2b7-cafb-5343-8e56-8192f5d7abca",
+      "markdown": "## GaDeHause\r\n\r\nRacionalismo anclado a la tierra\r\n\r\nCuando la geometría pura se encuentra con la topografía.\r\n\r\nEl terreno en pendiente exigía una base sólida, mientras que el cliente deseaba ligereza visual. Nuestra respuesta fue apoyar los volúmenes blancos y abstractos sobre un zócalo de piedra rústica, logrando que la casa se sienta etérea en su planta noble pero firmemente arraigada al suelo.\r\n\r\nLa calidez dentro de la abstracción\r\n\r\nEl desafío del minimalismo es evitar que la obra se sienta fría. Para contrarrestarlo, trabajamos con una tríada de texturas: la piedra que ancla la casa al sitio, la madera en el acceso para dar una bienvenida cálida y los detalles técnicos en negro para subrayar el orden y dibujar ritmo sobre el lienzo blanco.\r\n\r\nConvivencia sin barreras\r\n\r\nLa premisa fue integrar la vida familiar en un único gran ambiente. Eliminamos tabiques para que estar y comedor compartan un mismo flujo de luz, con la chimenea como pieza de referencia que ordena la escena. Los ventanales de piso a techo amplían la percepción del espacio y conectan directamente con el deck exterior, haciendo que el límite entre adentro y afuera se vuelva continuo.\r\n\r\nRincones con propósito\r\n\r\nDentro de la planta abierta, cada función reclama su identidad mediante el diseño. Zonificamos la cocina con un bloque negro audaz, organizamos la verticalidad con la escalera y el vacío de doble altura, y diseñamos espacios de trabajo perimetrales que aprovechan las vistas para fomentar la concentración sin necesidad de encierro.\r\n\r\nEl agua como espejo\r\n\r\nLa piscina no se diseñó como un elemento aislado, sino integrada a la arquitectura. Al estar pegada al deck, funciona como un espejo de agua que refleja la casa y aporta frescura a la experiencia de la galería, expandiendo la sensación de relax hacia el interior.\r\n\r\nLimpieza mental\r\n\r\nEn el sector privado, interpretamos el descanso como la ausencia de ruido visual. Diseñamos espacios donde la luz natural y las vistas enmarcadas son las protagonistas, creando una atmósfera de spa y desconexión absoluta mediante materiales nobles y líneas puras.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "c4340726-eac6-548d-b4a7-ebe6d9874180",
+      "id": "cc3547c3-887f-569a-94f0-1f2898e3777e",
+      "markdown": "## JoBeHause\r\n\r\nClasicismo atemporal\r\n\r\nCuando la arquitectura busca pertenecer al paisaje para siempre.\r\n\r\nEl pedido no era “moderno”: era permanencia. Una casa que se sintiera heredable, con reglas claras de composición y una presencia tranquila. Tradujimos ese deseo en un lenguaje reconocible —proporciones, jerarquía de acceso, cubiertas protectoras— y lo equilibramos con confort actual: luz, ventilación y transiciones generosas entre interior y exterior.\r\n\r\nLa elegancia de lo formal\r\n\r\nLo “señorial” no se logra agregando ornamento: se logra con orden. Definimos una composición con jerarquía clara (acceso, basamento, cubierta) y repetición controlada de elementos para construir simetría y calma. Las galerías profundas no son un gesto estético: son el dispositivo que hace habitable el borde de la casa, regula el sol y convierte la fachada en un lugar, no en una pared.\r\n\r\nEscala monumental y calidez\r\n\r\nEl desafío fue que un gran ambiente no se sintiera impersonal. Trabajamos con “escala percibida”: altura donde hace falta aire y ceremonia; materialidad y estructura visibles donde hace falta abrigo. La lógica constructiva se vuelve parte del carácter del espacio: no decora, explica cómo la casa se sostiene y, a la vez, hace que lo grande se sienta cercano.\r\n\r\nTradición en los detalles\r\n\r\nLa identidad interior debía resistir el tiempo, no las tendencias. Elegimos una paleta y un conjunto de materiales que envejecen bien y se pueden mantener sin perder dignidad. Los muebles fijos y las piezas “de casa” (guardado, vajillero, hogar) se diseñaron como arquitectura: proporción, encuentros y textura. Esa decisión le da continuidad al lenguaje clásico sin caer en lo escenográfico.\r\n\r\nEnmarcar la naturaleza\r\n\r\nEl paisaje no se “muestra”: se compone. Ubicamos los grandes paños donde el cuerpo realmente descansa, y diseñamos esos lugares como pausas del recorrido. La casa no compite con el entorno; lo edita. En esos puntos, el interior se vuelve silencioso para que lo protagonista sea la profundidad del verde y el cambio de luz durante el día.\r\n\r\nSobriedad luminosa\r\n\r\nEn baños y servicios la consigna fue claridad y control. Materiales claros, superficies legibles, detalles que facilitan mantenimiento y uso cotidiano. Es la parte “hotelera” de la casa: todo funciona, todo se limpia fácil, todo se siente ordenado. Esa sobriedad no contradice el neoclásico/country: lo actualiza, evitando que lo clásico dependa del exceso.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "3d748b79-bd77-5da1-8961-d93ca216a151",
+      "id": "1c63afae-8620-53a1-ab10-f312e1f2a777",
+      "markdown": "## JoMaHause\r\n\r\nArcos que reciben, fuego que reúne\r\n\r\nPresencia clásica, vida tranquila.\r\n\r\nUna fachada simétrica y contenida que no intenta impresionar por exceso, sino por proporción y carácter. El pórtico con arcos marca el gesto de bienvenida y anticipa un interior cálido, de escala doméstica y tiempos lentos. La identidad del proyecto nace de entender qué debía sentirse “hogar” antes que “casa”.\r\n\r\nDel umbral al estar: una secuencia que baja el ritmo.\r\n\r\nEl recorrido se diseña como transición: del exterior al pórtico, del pórtico a un interior que abraza. La casa trabaja con capas (sombra, espesor, cambio de luz) para que la llegada no sea un golpe, sino un pasaje.\r\n\r\nLa casa sucede alrededor de la mesa.\r\n\r\nEste proyecto se apoya en lo cotidiano como motor: cocinar, conversar, resolver el día sin solemnidad. El lenguaje clásico no rigidiza; al contrario, sostiene un uso real, repetible y cómodo. Cuando el cliente pide “calidez” y “vida”, la respuesta está en estas decisiones de escala, vínculo y funcionalidad.\r\n\r\nAmbientes con carácter, sin perder calma.\r\n\r\nLa casa equilibra sociabilidad y refugio: espacios para reunirse y espacios para concentrarse o descansar. El proyecto prioriza confort real (luz, privacidad, acústica doméstica) por encima del gesto. Se percibe una arquitectura que acompaña hábitos, no que obliga a vivirla de una sola manera.\r\n\r\nLa extensión natural de la vida social.\r\n\r\nEl “afuera” no es decorado: es un ambiente más, pensado para encuentros largos y sin esfuerzo logístico. La clave está en la continuidad entre interior y jardín, y en una atmósfera que sostiene conversación, comida y sobremesa. Esto es diseño orientado a uso: entender cómo se celebra y construirlo.\r\n\r\nConfort discreto y oficio.\r\n\r\nLa identidad final se construye en lo que se toca y se usa: un rincón de fuego, un baño que se siente cuidado, terminaciones que no gritan pero duran. Son decisiones que vuelven confiable al proyecto y coherente el relato del habitar. La calidad aparece como consecuencia de una lectura precisa del deseo del cliente.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "4f1c3026-5b87-5bfb-b8f4-611cd257831c",
+      "id": "e9fc2244-7014-595b-a93c-e2764660ac3a",
+      "markdown": "## JoNoHause\r\n\r\nTradición habitada\r\n\r\nUna casa con carácter, hecha para la vida diaria.\r\n\r\nTradujimos un deseo claro —presencia, calidez y pertenencia— en una arquitectura serena y duradera. La forma clásica no es un gesto estético: es una manera de ordenar el habitar. El resultado es un hogar reconocible, luminoso y profundamente vivible.\r\n\r\nEl umbral como promesa.\r\n\r\nLa llegada se diseña como una secuencia de escala, sombra y detalle que prepara el adentro. El pórtico no decora: organiza, jerarquiza y recibe. Una casa que se entiende desde el primer paso.\r\n\r\nPresencia sin exceso.\r\n\r\nProporción, simetría y cubierta construyen una imagen estable y atemporal. La fachada ordena lo público y lo doméstico en una sola lectura. Arquitectura que sostiene identidad sin necesidad de exagerar.\r\n\r\nDiseñada desde la rutina.\r\n\r\nCocina, comedor y expansión trabajan como un sistema continuo para el día a día. Cada decisión responde a usos reales: reunirse, cocinar, circular, abrirse al jardín. No buscamos “escenas”, buscamos comodidad, lógica y luz.\r\n\r\nCuando el verde es parte del proyecto.\r\n\r\nLa vivienda se abre para sumar aire y horizonte a la vida interior. La expansión no es un agregado: es una forma de habitar. El exterior funciona como una habitación más, sin perder el orden del conjunto.\r\n\r\nIntimidad bien resuelta.\r\n\r\nAmbientes serenos donde la luz baja el ritmo y construye calma. El confort aparece en lo esencial: descanso, silencio, rutina. Una casa pensada para sostener lo cotidiano con calidad y equilibrio.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "a508e3fb-a9a8-551e-997f-a6369529603d",
+      "id": "62ccaa6a-dce2-53a9-9d6d-184549381cc5",
+      "markdown": "## MaGaHause\r\n\r\nSolidez habitable\r\n\r\nInspiración anglo-normanda, pensada para durar.\r\n\r\nUna casa construida por capas: piedra que ancla, ladrillo que abriga y un remate claro que declara identidad. La tradición no es un gesto: es método, proporción y oficio. Presencia estable para una vida cotidiana intensa.\r\n\r\nOficio en la piel\r\n\r\nLa identidad se prueba en los encuentros: espesores, remates y texturas reales. La estratificación (piedra–ladrillo–revoque) no decora; construye estabilidad. Detalle controlado para que el conjunto se sienta firme y coherente.\r\n\r\nUna silueta con presencia\r\n\r\nTechos dominantes, frontones y sombra organizan la imagen a distancia. La materialidad refuerza una idea clara: abrigo y permanencia. Una casa clásica, legible y consistente.\r\n\r\nLa casa cuando se usa\r\n\r\nTres escenas reales sostienen la vida diaria: organizar, retirarse y reunirse. El proyecto separa usos para que convivan sin interferirse. Funcionalidad con carácter, sin perder calidez.\r\n\r\nEl corazón social\r\n\r\nUn ámbito central amplio, cálido y jerarquizado, pensado para encuentro y permanencia. La arquitectura acompaña con proporción y luz controlada. Un centro que ordena la casa.\r\n\r\nRituales de calma\r\n\r\nLa calidad aparece en los momentos silenciosos: descanso y recomposición. Materiales, escala y luz sostienen intimidad sin exceso. Privacidad resuelta con el mismo criterio de solidez del exterior.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "35576a53-fb12-57ec-b271-3a68c04bb7c5",
+      "id": "a8a2dd4d-4266-5871-898a-9460f415ca13",
+      "markdown": "## MarkHause\r\n\r\nGalería y luz: una casa de campo contemporánea\r\n\r\nUna arquitectura serena, pensada para habitar el borde entre interior y paisaje.\r\n\r\nUn volumen blanco, claro y atemporal, se ordena con una galería que da sombra, escala y uso real. La casa muestra cómo traducimos un deseo de simpleza y calidez en decisiones constructivas precisas.\r\n\r\nLo simple, bien resuelto.\r\n\r\nLa casa se construye desde tres decisiones coherentes: una espacialidad generosa para la vida diaria, una materialidad cálida y durable, y una modulación que ordena la luz y el detalle. El resultado es un interior sobrio, sin artificios, donde cada encuentro está pensado.\r\n\r\nUn ambiente central para estar, comer y compartir.\r\n\r\nLa doble altura y las ventanas altas sostienen una luz pareja y tranquila durante el día, mientras la madera aporta abrigo acústico y visual. Es el tipo de espacio que demuestra cómo diseñamos para que la casa funcione con vida adentro, no solo para la foto.\r\n\r\nConfort sin exagerar.\r\n\r\nEn los espacios privados, el proyecto prioriza calma, mantenimiento sencillo y proporciones correctas: aberturas generosas, terminaciones honestas y detalles que envejecen bien. Así mostramos una capacidad clave: entender el día a día del cliente y convertirlo en arquitectura consistente.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "a48ffd4e-ddbe-5aa9-9c30-1affa90934ab",
+      "id": "abd3c19d-a838-5434-8411-2b5c9a20b04e",
+      "markdown": "## ScoHause\r\n\r\nTradición contemporánea, vivida\r\n\r\nUna casa que apuesta por lo atemporal: proporción, abrigo y calidez.\r\n\r\nDiseñada desde los rituales cotidianos —llegar, reunirse, cocinar, salir a la galería— para que cada ambiente tenga sentido de uso. Arquitectura que interpreta deseos reales y los convierte en espacio.\r\n\r\nEl ‘entre’ como protagonista.\r\n\r\nLa galería es el lugar donde la casa se vuelve diaria: sombra, conversación, juego, pausa. Una arquitectura que no separa interior y exterior: los integra.\r\n\r\nLa vida social como programa principal.\r\n\r\nCocinar, sentarse a la mesa y estar no son ambientes aislados: son un mismo sistema. GD diseña para que lo cotidiano fluya sin esfuerzo.\r\n\r\nCocina y quincho en continuidad.\r\n\r\nCocinar y reunirse ocurren en un mismo recorrido: superficies prácticas, buena luz y salida directa al exterior. Un espacio social pensado para el uso real, sin fricción.\r\n\r\nAgua y calma cotidiana.\r\n\r\nEn baños, la claridad manda: materiales sobrios, mantenimiento simple y proporciones cómodas. Lo cotidiano se vuelve más fácil cuando el detalle está pensado.",
+      "revision": 1,
+      "viewSectionId": null
+    },
+    {
+      "entityId": "8a771b6b-2a93-572e-8f33-099fd44903b1",
+      "id": "9e31c098-3724-5c23-800d-8de0d78e6bff",
+      "markdown": "## ViDaHause\r\n\r\nVidaHause — Una casa que se vive en la galería\r\n\r\nEntre el interior y el jardín, la galería se vuelve el verdadero centro de la casa.\r\n\r\nDiseñamos un recorrido simple, materialidad sobria y sombra generosa para que el exterior sea parte del día a día. Arquitectura serena, hecha para durar y para usarse.\r\n\r\nLlegada + identidad + oficio\r\n\r\nEl proyecto empieza en el umbral. No diseñamos solo una puerta: diseñamos una transición, una escala y una primera sombra. Lo exterior ya anticipa la calma del interior.\r\n\r\nVida diaria\r\n\r\nLa calidad se define en lo cotidiano. Cocina y estar resuelven rutinas con lógica simple: superficies honestas, guardado, luz y una atmósfera cálida. Una casa que acompaña hábitos, no que los impone.\r\n\r\nExterior vivido\r\n\r\nEl patio funciona como una habitación más. La galería regula el clima, arma el recorrido y habilita estar afuera sin perder abrigo. El resultado es una casa que se expande según la hora y la estación.\r\n\r\nLo privado\r\n\r\nEn lo privado, todo baja un cambio. Buscamos silencio visual, materiales sobrios y proporciones cómodas. Dormir y cuidarse también es parte del proyecto.",
+      "revision": 1,
+      "viewSectionId": null
+    }
+  ],
+  "entities": [
+    {
+      "id": "46c4fdce-bde1-50ed-86f8-7de64a1fbd78",
+      "slug": "ia-aplicada",
+      "summary": "Integrar un agente conversacional dentro de un flujo que produce una representación explorable.",
+      "temporalSpan": null,
+      "title": "IA aplicada",
+      "type": "capability"
+    },
+    {
+      "id": "e1156b20-9b67-5e3a-8df6-8ef88831ab10",
+      "slug": "modelado-de-contenido",
+      "summary": "Estructurar catálogos, fichas y relaciones para que el contenido pueda alimentar distintas vistas.",
+      "temporalSpan": null,
+      "title": "Modelado de contenido",
+      "type": "capability"
+    },
+    {
+      "id": "c8e35737-4846-552e-8398-793f22f166f9",
+      "slug": "arquitectura-conversacional",
+      "summary": "Diseñar entrevistas que avanzan por preguntas y convierten respuestas en una estructura legible.",
+      "temporalSpan": null,
+      "title": "Arquitectura conversacional",
+      "type": "capability"
+    },
+    {
+      "id": "edc61af4-ac72-53f9-9305-62c0cdfe3a84",
+      "slug": "diseno-de-proyectos",
+      "summary": "Organizar decisiones de diseño dentro del desarrollo de un proyecto.",
+      "temporalSpan": null,
+      "title": "Diseño de proyectos",
+      "type": "capability"
+    },
+    {
+      "id": "822938da-9d78-5750-830e-08b8a46d5d56",
+      "slug": "desarrollo-de-proyectos",
+      "summary": "Conectar propuesta, comunicación y desarrollo de proyecto.",
+      "temporalSpan": null,
+      "title": "Desarrollo de proyectos",
+      "type": "capability"
+    },
+    {
+      "id": "55696e30-69bd-5ced-9251-1cfd0d0304fb",
+      "slug": "capability-direccion-de-obras",
+      "summary": "Acompañar la realización de proyectos en obra según el alcance documentado.",
+      "temporalSpan": null,
+      "title": "Dirección de obras",
+      "type": "capability"
+    },
+    {
+      "id": "993f9726-a151-5f07-8fbf-d912d04f6204",
+      "slug": "motion-design-frontend",
+      "summary": "Diseñar loaders, animaciones SVG/CSS y cambios de estado que acompañan la lectura de una interfaz.",
+      "temporalSpan": null,
+      "title": "Motion design frontend",
+      "type": "capability"
+    },
+    {
+      "id": "8d870502-00a0-537f-b435-156e8f85f88b",
+      "slug": "narrativa-interactiva",
+      "summary": "Convertir una secuencia de contenidos en escenas, transiciones y recorridos navegables.",
+      "temporalSpan": null,
+      "title": "Narrativa interactiva",
+      "type": "capability"
+    },
+    {
+      "id": "c5aec284-f0a8-5004-bf49-274d1614beda",
+      "slug": "arquitectura-de-interfaces",
+      "summary": "Organizar rutas, componentes y estados para que una experiencia interactiva tenga una lectura clara.",
+      "temporalSpan": null,
+      "title": "Arquitectura de interfaces",
+      "type": "capability"
+    },
+    {
+      "id": "9a8e4d76-63ee-558f-a578-71db4d796660",
+      "slug": "modelado-y-visualizacion",
+      "summary": "Traducir una idea espacial a formas que otras personas puedan interpretar.",
+      "temporalSpan": null,
+      "title": "Modelado y visualización",
+      "type": "capability"
+    },
+    {
+      "id": "7c3e4dbc-ef69-55fe-bf5f-9bd1327f5329",
+      "slug": "diagnostico-organizacional",
+      "summary": "Ordenar información sobre una empresa para detectar estructura, funcionamiento y áreas de análisis.",
+      "temporalSpan": null,
+      "title": "Diagnóstico organizacional",
+      "type": "capability"
+    },
+    {
+      "id": "18541022-feef-5d9b-8698-51fd90d80d32",
+      "slug": "representacion",
+      "summary": "Hacer visible una propuesta para poder entenderla, comunicarla y revisarla.",
+      "temporalSpan": null,
+      "title": "Representación",
+      "type": "capability"
+    },
+    {
+      "id": "b2631ab8-9478-5726-bda2-d5f0169fb6f1",
+      "slug": "modelado-de-sistemas",
+      "summary": "Representar una organización mediante entidades, relaciones y jerarquías que pueden explorarse.",
+      "temporalSpan": null,
+      "title": "Modelado de sistemas",
+      "type": "capability"
+    },
+    {
+      "id": "45044393-cd57-593a-83da-c31536a64175",
+      "slug": "desarrollo-web",
+      "summary": "Construir interfaces y recorridos web con HTML, CSS, JavaScript, TypeScript y React.",
+      "temporalSpan": null,
+      "title": "Desarrollo web",
+      "type": "capability"
+    },
+    {
+      "id": "d6a5086f-2d49-5ef4-a3fb-bbae51f50130",
+      "slug": "diseno-de-workflows",
+      "summary": "Secuenciar conversación, persistencia y actualización de un resultado visual.",
+      "temporalSpan": null,
+      "title": "Diseño de workflows",
+      "type": "capability"
+    },
+    {
+      "id": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "slug": "garcia-delillo",
+      "summary": "Una evolución profesional desde la representación y el modelado hasta el desarrollo de proyectos y la dirección de obras.",
+      "temporalSpan": null,
+      "title": "García Delillo Construcciones",
+      "type": "organization"
+    },
+    {
+      "id": "5a05017e-d4eb-59d7-9a6f-3ea83204aa9c",
+      "slug": "cedahause",
+      "summary": "Habitar la pendiente sin tocarla",
+      "temporalSpan": null,
+      "title": "CeDaHause",
+      "type": "project"
+    },
+    {
+      "id": "6bd6e985-0a55-56cd-a910-115bc718596d",
+      "slug": "donahause",
+      "summary": "Tradición con carácter propio",
+      "temporalSpan": null,
+      "title": "DoNaHause",
+      "type": "project"
+    },
+    {
+      "id": "9e9c7746-9720-56a4-a32e-45e6303b3f07",
+      "slug": "gadehause",
+      "summary": "Racionalismo anclado a la tierra",
+      "temporalSpan": null,
+      "title": "GaDeHause",
+      "type": "project"
+    },
+    {
+      "id": "c4340726-eac6-548d-b4a7-ebe6d9874180",
+      "slug": "jobehause",
+      "summary": "Clasicismo atemporal",
+      "temporalSpan": null,
+      "title": "JoBeHause",
+      "type": "project"
+    },
+    {
+      "id": "3d748b79-bd77-5da1-8961-d93ca216a151",
+      "slug": "jomahause",
+      "summary": "Arcos que reciben, fuego que reúne",
+      "temporalSpan": null,
+      "title": "JoMaHause",
+      "type": "project"
+    },
+    {
+      "id": "4f1c3026-5b87-5bfb-b8f4-611cd257831c",
+      "slug": "jonohause",
+      "summary": "Tradición habitada",
+      "temporalSpan": null,
+      "title": "JoNoHause",
+      "type": "project"
+    },
+    {
+      "id": "a508e3fb-a9a8-551e-997f-a6369529603d",
+      "slug": "magahause",
+      "summary": "Solidez habitable",
+      "temporalSpan": null,
+      "title": "MaGaHause",
+      "type": "project"
+    },
+    {
+      "id": "35576a53-fb12-57ec-b271-3a68c04bb7c5",
+      "slug": "markhause",
+      "summary": "Galería y luz: una casa de campo contemporánea",
+      "temporalSpan": null,
+      "title": "MarkHause",
+      "type": "project"
+    },
+    {
+      "id": "a48ffd4e-ddbe-5aa9-9c30-1affa90934ab",
+      "slug": "scohause",
+      "summary": "Tradición contemporánea, vivida",
+      "temporalSpan": null,
+      "title": "ScoHause",
+      "type": "project"
+    },
+    {
+      "id": "8a771b6b-2a93-572e-8f33-099fd44903b1",
+      "slug": "vidahause",
+      "summary": "Una casa que se vive en la galería",
+      "temporalSpan": null,
+      "title": "ViDaHause",
+      "type": "project"
+    },
+    {
+      "id": "e102a7b7-2b39-5141-a0f1-0597065b741a",
+      "slug": "experience-direccion-de-obras",
+      "summary": "Dirección de obras según la declaración curricular, sin agregar responsabilidades no documentadas.",
+      "temporalSpan": null,
+      "title": "Dirección de obras",
+      "type": "experience"
+    },
+    {
+      "id": "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+      "slug": "diseno-y-desarrollo",
+      "summary": "Diseño, relaciones públicas y desarrollo de proyectos según la formulación editorial aprobada.",
+      "temporalSpan": null,
+      "title": "Diseño y desarrollo de proyectos",
+      "type": "experience"
+    },
+    {
+      "id": "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+      "slug": "representacion-y-modelado",
+      "summary": "Dibujo de planos, maquetas físicas y virtuales, y visualización de proyectos según la declaración curricular.",
+      "temporalSpan": null,
+      "title": "Representación y modelado",
+      "type": "experience"
+    }
+  ],
+  "exportId": "public-ramiro-garcia-reid-2026-09-09",
+  "generatedAt": "2026-09-09T03:06:30.298Z",
+  "hash": "ada81429ab31259e3c03924d730b24065776714aba313ecacf7242652d9ce2af",
+  "profile": {
+    "slug": "ramiro-garcia-reid"
+  },
+  "relations": [
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "c94ce844-3af6-51c5-bacf-6541a3469cea",
+      "temporalSpan": null,
+      "toEntityId": "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+      "type": "Etapa"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "ec5a9950-4db8-561c-9074-d2ec3ce9a07d",
+      "temporalSpan": null,
+      "toEntityId": "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+      "type": "Etapa"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "f5151d8f-eb50-5e5f-b199-06a8c4bf298b",
+      "temporalSpan": null,
+      "toEntityId": "e102a7b7-2b39-5141-a0f1-0597065b741a",
+      "type": "Etapa"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "1649331b-98c6-5ce3-8f18-caf57d45db62",
+      "temporalSpan": null,
+      "toEntityId": "18541022-feef-5d9b-8698-51fd90d80d32",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "10bb778c-200a-51ad-949a-ace538e7eb83",
+      "temporalSpan": null,
+      "toEntityId": "9a8e4d76-63ee-558f-a578-71db4d796660",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "5b49bf41-daf5-5147-8bcb-6b929ef5506b",
+      "temporalSpan": null,
+      "toEntityId": "edc61af4-ac72-53f9-9305-62c0cdfe3a84",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "525b8b6b-6e61-5a8e-9720-e5ac43358dff",
+      "temporalSpan": null,
+      "toEntityId": "822938da-9d78-5750-830e-08b8a46d5d56",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "c7ec3752-56ad-532f-8c53-92cec8425563",
+      "temporalSpan": null,
+      "toEntityId": "55696e30-69bd-5ced-9251-1cfd0d0304fb",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "c27c403b-87ee-53e7-b3b4-c303e77e7c75",
+      "temporalSpan": null,
+      "toEntityId": "5a05017e-d4eb-59d7-9a6f-3ea83204aa9c",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "38036c0c-1223-5f00-a0e8-1974591f4a14",
+      "temporalSpan": null,
+      "toEntityId": "6bd6e985-0a55-56cd-a910-115bc718596d",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "0c6e1523-1590-53eb-8be8-1cd7547de2c7",
+      "temporalSpan": null,
+      "toEntityId": "9e9c7746-9720-56a4-a32e-45e6303b3f07",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "63ea41ce-fa43-5fbf-9d80-5bc7748abefc",
+      "temporalSpan": null,
+      "toEntityId": "c4340726-eac6-548d-b4a7-ebe6d9874180",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "73e749a9-b4a3-54c1-89dd-06819d62930d",
+      "temporalSpan": null,
+      "toEntityId": "3d748b79-bd77-5da1-8961-d93ca216a151",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "b467f7b7-a0e4-58a3-b901-73af25e4169c",
+      "temporalSpan": null,
+      "toEntityId": "4f1c3026-5b87-5bfb-b8f4-611cd257831c",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "e1a5f016-15f1-518c-856f-e08a10ab5da4",
+      "temporalSpan": null,
+      "toEntityId": "a508e3fb-a9a8-551e-997f-a6369529603d",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "d6a52cad-ce35-5efa-b90c-9d94bc29ff2c",
+      "temporalSpan": null,
+      "toEntityId": "35576a53-fb12-57ec-b271-3a68c04bb7c5",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "90891df1-d9b7-5d53-99b8-3be0d248eb96",
+      "temporalSpan": null,
+      "toEntityId": "a48ffd4e-ddbe-5aa9-9c30-1affa90934ab",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "id": "cfca6a68-015f-5165-84c3-d313051691b2",
+      "temporalSpan": null,
+      "toEntityId": "8a771b6b-2a93-572e-8f33-099fd44903b1",
+      "type": "Proyecto relacionado"
+    },
+    {
+      "fromEntityId": "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+      "id": "693b2fca-2373-5b95-901f-f45d236714b1",
+      "temporalSpan": null,
+      "toEntityId": "18541022-feef-5d9b-8698-51fd90d80d32",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+      "id": "b2f4b7bc-8ef8-5553-b460-31e3bb0006ed",
+      "temporalSpan": null,
+      "toEntityId": "9a8e4d76-63ee-558f-a578-71db4d796660",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+      "id": "d99ba46c-41af-5c70-b9af-4d06bbda1589",
+      "temporalSpan": null,
+      "toEntityId": "edc61af4-ac72-53f9-9305-62c0cdfe3a84",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+      "id": "d4e801fb-362c-5e43-9ce4-48d9876fe47d",
+      "temporalSpan": null,
+      "toEntityId": "822938da-9d78-5750-830e-08b8a46d5d56",
+      "type": "Capacidad aplicada"
+    },
+    {
+      "fromEntityId": "e102a7b7-2b39-5141-a0f1-0597065b741a",
+      "id": "dade3145-a005-5b52-b539-60c5d514d1bd",
+      "temporalSpan": null,
+      "toEntityId": "55696e30-69bd-5ced-9251-1cfd0d0304fb",
+      "type": "Capacidad aplicada"
+    }
+  ],
+  "routes": [
+    {
+      "entityId": "46c4fdce-bde1-50ed-86f8-7de64a1fbd78",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/ia-aplicada/"
+    },
+    {
+      "entityId": "e1156b20-9b67-5e3a-8df6-8ef88831ab10",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/modelado-de-contenido/"
+    },
+    {
+      "entityId": "c8e35737-4846-552e-8398-793f22f166f9",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/arquitectura-conversacional/"
+    },
+    {
+      "entityId": "edc61af4-ac72-53f9-9305-62c0cdfe3a84",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diseno-de-proyectos/"
+    },
+    {
+      "entityId": "822938da-9d78-5750-830e-08b8a46d5d56",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/desarrollo-de-proyectos/"
+    },
+    {
+      "entityId": "55696e30-69bd-5ced-9251-1cfd0d0304fb",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/capability-direccion-de-obras/"
+    },
+    {
+      "entityId": "993f9726-a151-5f07-8fbf-d912d04f6204",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/motion-design-frontend/"
+    },
+    {
+      "entityId": "8d870502-00a0-537f-b435-156e8f85f88b",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/narrativa-interactiva/"
+    },
+    {
+      "entityId": "c5aec284-f0a8-5004-bf49-274d1614beda",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/arquitectura-de-interfaces/"
+    },
+    {
+      "entityId": "9a8e4d76-63ee-558f-a578-71db4d796660",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/modelado-y-visualizacion/"
+    },
+    {
+      "entityId": "7c3e4dbc-ef69-55fe-bf5f-9bd1327f5329",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diagnostico-organizacional/"
+    },
+    {
+      "entityId": "18541022-feef-5d9b-8698-51fd90d80d32",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/representacion/"
+    },
+    {
+      "entityId": "b2631ab8-9478-5726-bda2-d5f0169fb6f1",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/modelado-de-sistemas/"
+    },
+    {
+      "entityId": "45044393-cd57-593a-83da-c31536a64175",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/desarrollo-web/"
+    },
+    {
+      "entityId": "d6a5086f-2d49-5ef4-a3fb-bbae51f50130",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diseno-de-workflows/"
+    },
+    {
+      "entityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/garcia-delillo/"
+    },
+    {
+      "entityId": "5a05017e-d4eb-59d7-9a6f-3ea83204aa9c",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/cedahause/"
+    },
+    {
+      "entityId": "6bd6e985-0a55-56cd-a910-115bc718596d",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/donahause/"
+    },
+    {
+      "entityId": "9e9c7746-9720-56a4-a32e-45e6303b3f07",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/gadehause/"
+    },
+    {
+      "entityId": "c4340726-eac6-548d-b4a7-ebe6d9874180",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/jobehause/"
+    },
+    {
+      "entityId": "3d748b79-bd77-5da1-8961-d93ca216a151",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/jomahause/"
+    },
+    {
+      "entityId": "4f1c3026-5b87-5bfb-b8f4-611cd257831c",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/jonohause/"
+    },
+    {
+      "entityId": "a508e3fb-a9a8-551e-997f-a6369529603d",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/magahause/"
+    },
+    {
+      "entityId": "35576a53-fb12-57ec-b271-3a68c04bb7c5",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/markhause/"
+    },
+    {
+      "entityId": "a48ffd4e-ddbe-5aa9-9c30-1affa90934ab",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/scohause/"
+    },
+    {
+      "entityId": "8a771b6b-2a93-572e-8f33-099fd44903b1",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/vidahause/"
+    },
+    {
+      "entityId": "e102a7b7-2b39-5141-a0f1-0597065b741a",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/experience-direccion-de-obras/"
+    },
+    {
+      "entityId": "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diseno-y-desarrollo/"
+    },
+    {
+      "entityId": "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/representacion-y-modelado/"
+    }
+  ],
+  "schemaVersion": "public-projection.v1",
+  "sections": [
+    {
+      "contentBlockIds": [
+        "ba80d39d-7609-5b58-8fc5-1452414d99df",
+        "f0e98861-ddac-5970-ad0a-13e349996daf",
+        "bb8d2e64-9810-5e6a-a478-83ba0d5b6d71",
+        "ff84c103-9c25-5872-a0b1-5d95ca54fc8f",
+        "7df17c14-91b8-526d-8d08-f87a3d26743e",
+        "e3310398-3590-5493-a8b0-5142b5b3c99a",
+        "289a9a56-ab70-534c-8f85-45dc92f5d550",
+        "dce33977-63e2-5850-af8a-d0173caaacab",
+        "b6a187fa-9ccc-56bc-8d71-752e0a6146c3",
+        "9147f478-a2e3-5b48-9280-14dd8d8096e1",
+        "c643ef51-97ca-5d01-bbc4-5646570ec10a",
+        "2a07d586-6c1b-5cc9-8fc5-7fd8b95946b5",
+        "70c38460-39fe-5f92-ab33-517ab24cf00b",
+        "d7b9d0f6-664c-51b3-8062-d5a28e6c22bf",
+        "19bcc6f3-df0b-5c27-9a8b-f772447965dc",
+        "da3acfae-0d00-5830-9709-25865645e2da",
+        "02808e6b-02ce-5079-9945-0d0cdd9676b3",
+        "f27f29f4-a7a5-5e5c-abbe-e26f06803b54",
+        "bc065b09-30d9-523a-a14e-4e438388f46c"
+      ],
+      "entityIds": [
+        "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+        "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+        "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+        "e102a7b7-2b39-5141-a0f1-0597065b741a",
+        "18541022-feef-5d9b-8698-51fd90d80d32",
+        "9a8e4d76-63ee-558f-a578-71db4d796660",
+        "edc61af4-ac72-53f9-9305-62c0cdfe3a84",
+        "822938da-9d78-5750-830e-08b8a46d5d56",
+        "55696e30-69bd-5ced-9251-1cfd0d0304fb",
+        "5a05017e-d4eb-59d7-9a6f-3ea83204aa9c",
+        "6bd6e985-0a55-56cd-a910-115bc718596d",
+        "9e9c7746-9720-56a4-a32e-45e6303b3f07",
+        "c4340726-eac6-548d-b4a7-ebe6d9874180",
+        "3d748b79-bd77-5da1-8961-d93ca216a151",
+        "4f1c3026-5b87-5bfb-b8f4-611cd257831c",
+        "a508e3fb-a9a8-551e-997f-a6369529603d",
+        "35576a53-fb12-57ec-b271-3a68c04bb7c5",
+        "a48ffd4e-ddbe-5aa9-9c30-1affa90934ab",
+        "8a771b6b-2a93-572e-8f33-099fd44903b1"
+      ],
+      "id": "d2983bde-f3b6-54c1-ac65-8cea301ffe3e",
+      "label": "García Delillo Construcciones",
+      "order": 0,
+      "slug": "garcia-delillo"
+    }
+  ],
+  "sourceRevisions": [
+    {
+      "recordId": "07505e1f-610c-5f5a-a681-3ecb932473cf",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "08916712-65a5-55c2-a258-eaa9d2d0f717",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "08e80cef-e3e4-5b7f-b3ce-38cb3ac0bc6e",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "09086481-e76f-5744-bf06-7438786650b6",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "0a8088aa-04f4-58b6-b30b-e1d565805526",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "106b4d5f-b42a-5fc0-b3f7-58c73014d4f6",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "121be4f8-0194-5207-b90f-80ebb0bf5651",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "12b64199-e581-5de4-bcef-a2fc470d913d",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "1b1eff67-d591-5511-add8-1a1393360733",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "1bede55b-4725-5c95-9bd0-269e6df6c4be",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "1f3a10c7-35f1-5d35-8ec6-27849dc48f4a",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "2295b083-3140-5876-a12f-c153734eedb7",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "23fe59c2-82d0-508e-a058-9497ec0a18b1",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "2898b4b4-d732-5f57-9ff0-52a69b957f5c",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "29f8feb1-e922-5112-a186-1f177212ee1e",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "2c0198c4-daf7-5dd1-91cc-357e97d3d8a4",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "306c1bc9-e401-52b5-88a5-192025e4a3f0",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "31977403-1da0-50f8-84b4-c8a896a1eeec",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "31ccffbe-c9d9-589d-86d1-b2600d03e7fb",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "32efaaf9-7bd4-50ee-b6cb-107049d6eb5d",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "35426fb8-21ad-5129-a9cb-70af695943ac",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "38ab16ed-2d44-57ea-9381-556070ac99f7",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "38fe0ca8-6df2-532a-b45c-2bf7782e65c4",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "395812a3-0c94-5049-afa0-25fc2b96ac28",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "39ba364e-48e6-5013-bac3-a85b2b2edc27",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "3c01f331-5e9f-52ba-9cf9-1d4e7cb544b6",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "459669d5-b8fe-51e4-a0be-ce85e7ebea2b",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "47c17705-27d4-56e3-bd82-8dca58202ef0",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "4a63e98e-d776-5073-b4f4-76c3ead9d3d5",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "4ec77d79-4fff-5e81-bf48-ff81b7e8d3ac",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "555f1194-d7b0-555d-96ab-c3e3a208603f",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "587f99bd-0394-5f25-b56b-2eb2339cfce7",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "5a604add-844c-5125-9b3b-77ec8ec05d99",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "5a7ddf37-cdd5-5a6c-a2db-b50c608194dd",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "5bb0f153-dacb-56d9-8c3b-51a011758cb3",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "60619e47-3c8a-5574-adf6-9cf6b4e99e25",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "65215099-4046-514d-94ad-8f04e92ee8d9",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "66def77a-e89b-51ee-becf-31606cdeea59",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "6df57662-4e6d-52cf-8eb8-0492c08f4ceb",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "710807a1-943f-54a0-83a9-342ce386c68e",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "7533c7df-f50b-59be-8ab0-bf2b08897bc1",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "756884c1-e0a7-5907-a21d-39c66da11efa",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "77055061-c86b-505e-9384-2b7ac1c550b4",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "77430b71-1d49-5b68-a0cd-1622172021ff",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "7d6154cc-3f2c-5325-8cfb-2e50896dc67d",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "813b6bb0-a380-514a-8a3e-b2ef61dfbb30",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "82c34c0c-d116-56c0-96f7-692fbc4ce21d",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "84358c9a-00bf-5453-91b9-9fff23a5d1cf",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "8496ce56-7b92-507d-a0de-dfeff39615af",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "8525c0db-0a08-53cf-9cd5-bb3809d5d03c",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "8fc8076c-56f4-54ff-b59b-218f79123a9b",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "90a8513b-f52b-500e-a1e8-0597ff5ddb0d",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "966a851e-1d33-53bd-860f-6a2547c7ca9b",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "9a4abe2e-f6f1-5461-95c9-13ed9e5dce93",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "9e8e819c-96a2-5917-a4de-08f6b2d1939f",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "9ea5b6a3-b0e7-540a-9778-226e85f9908e",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "9ee73228-974d-59fc-9ec6-0274a10be63b",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "9f874855-2dfe-5622-b6cf-bed6c5222f8b",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a0758297-13aa-5365-8684-c37b2541cda2",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a0afe619-4ceb-50f6-abb5-54f7762051f1",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a29ffae9-2faa-5597-a186-af2f5101d0bd",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a51cf38f-62d9-5862-901d-59c2310bbfb5",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a59b739f-81aa-52d4-aee5-991438ee668a",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a635fda9-66ed-588b-b1bb-61f247d8b05d",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a72a47fb-a202-5387-8174-457bdeb8b1fb",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a776a81b-8c48-572e-90cd-4de25ed59254",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a94363f0-83c6-5be1-bbaf-d0bc343b3568",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "a953fdfa-5e7d-5943-82b7-13445aa79b7b",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "aa23aebf-5bf8-5fb1-b84f-fe8ec2ebb7d9",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "aa369f07-ce49-514f-b56c-76746cbd4652",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "abfbc52e-90de-57ea-b693-2f477523a325",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "b06dbe72-2968-53bc-95ca-b12bff71cd82",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "b1363212-2275-5b32-8c15-4f7a89b1e98a",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "baea1ba3-8f9f-5725-9f38-fa0d02857ee8",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "bbdcfc89-4239-5e07-9f71-985bf5e50cb8",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "c20710b7-ca5b-5df7-be22-a9d071a0deae",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "c3c96b93-d1e3-5fac-b5dd-309650e58759",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "c503eaad-f26d-5503-b3f4-e68fd2cc7f2e",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "c880017f-0109-5444-9852-40870de23751",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "ca6a53ff-4a41-5f92-9d01-389c9fc62e85",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "ce1ca0af-1ec0-5563-b5ab-9b8fb35d386c",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "d146665f-813c-5f95-9ec7-f1071a510774",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "d50124bc-fdfa-5665-9cce-83ce96df0bc9",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "d6e50303-ab68-59b9-a005-de3ba8cdbd32",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "da8245f9-2d8b-5c75-bdcf-b38a22eb3ea3",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "dcd4dcfb-e220-5a49-8138-e1714ddd3f26",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "de29daa5-224f-57d8-99d1-b8213ef45c45",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "de57d90e-e6a6-54fc-a7f7-48b280564907",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "e2c513b7-d447-5123-b4fd-ebb60207bb67",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "e5d7ff00-a528-5fa5-a098-c16e84bc92ec",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "e81be214-543b-5635-9007-05b557001430",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "e91835e4-0edd-5c7e-98fa-d05b0f88afe4",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "ea2cf034-47b2-5c81-8933-d9f475e8b47e",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "eb1c962e-03f1-5e78-9dcd-73bee0312569",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "ebb345bd-4832-540b-adc7-60f358d31424",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "ed1cc606-0a99-52ce-b3b8-de4fb296b597",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "efd60e21-674a-58cd-bdd8-e04837b76ac5",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "f2981bed-cc5e-5d75-b4b1-71fb1283a271",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "f657f039-a624-53e8-bcdd-0df890259502",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "f6d3e281-f0ea-542a-957f-dc9504f7b78e",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "ff21eed3-3290-570d-adc8-11796c06d412",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "ffbd9538-e989-5c4d-98e0-548adf619c27",
+      "recordType": "artifact",
+      "revision": 1
+    },
+    {
+      "recordId": "02808e6b-02ce-5079-9945-0d0cdd9676b3",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "19bcc6f3-df0b-5c27-9a8b-f772447965dc",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "1c63afae-8620-53a1-ab10-f312e1f2a777",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "289a9a56-ab70-534c-8f85-45dc92f5d550",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "2a07d586-6c1b-5cc9-8fc5-7fd8b95946b5",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "548a9ce0-8e9b-547d-9957-fc5efd470202",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "62ccaa6a-dce2-53a9-9d6d-184549381cc5",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "70c38460-39fe-5f92-ab33-517ab24cf00b",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "7df17c14-91b8-526d-8d08-f87a3d26743e",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "9147f478-a2e3-5b48-9280-14dd8d8096e1",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "9e31c098-3724-5c23-800d-8de0d78e6bff",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "a8a2dd4d-4266-5871-898a-9460f415ca13",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "abd3c19d-a838-5434-8411-2b5c9a20b04e",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "b6a187fa-9ccc-56bc-8d71-752e0a6146c3",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "ba80d39d-7609-5b58-8fc5-1452414d99df",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "bb8d2e64-9810-5e6a-a478-83ba0d5b6d71",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "bbe9b2b7-cafb-5343-8e56-8192f5d7abca",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "bc065b09-30d9-523a-a14e-4e438388f46c",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "c643ef51-97ca-5d01-bbc4-5646570ec10a",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "cc3547c3-887f-569a-94f0-1f2898e3777e",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "d7b9d0f6-664c-51b3-8062-d5a28e6c22bf",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "da3acfae-0d00-5830-9709-25865645e2da",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "dce33977-63e2-5850-af8a-d0173caaacab",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "e3310398-3590-5493-a8b0-5142b5b3c99a",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "e8667fb7-70c3-5607-b748-cecec97707e5",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "e9fc2244-7014-595b-a93c-e2764660ac3a",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "f0e98861-ddac-5970-ad0a-13e349996daf",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "f27f29f4-a7a5-5e5c-abbe-e26f06803b54",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "ff84c103-9c25-5872-a0b1-5d95ca54fc8f",
+      "recordType": "content_block",
+      "revision": 1
+    },
+    {
+      "recordId": "18541022-feef-5d9b-8698-51fd90d80d32",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "35576a53-fb12-57ec-b271-3a68c04bb7c5",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "3d748b79-bd77-5da1-8961-d93ca216a151",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "45044393-cd57-593a-83da-c31536a64175",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "46c4fdce-bde1-50ed-86f8-7de64a1fbd78",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "4f1c3026-5b87-5bfb-b8f4-611cd257831c",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "55696e30-69bd-5ced-9251-1cfd0d0304fb",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "5a05017e-d4eb-59d7-9a6f-3ea83204aa9c",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "6bd6e985-0a55-56cd-a910-115bc718596d",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "7c3e4dbc-ef69-55fe-bf5f-9bd1327f5329",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "822938da-9d78-5750-830e-08b8a46d5d56",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "8a771b6b-2a93-572e-8f33-099fd44903b1",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "8d870502-00a0-537f-b435-156e8f85f88b",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "993f9726-a151-5f07-8fbf-d912d04f6204",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "9a8e4d76-63ee-558f-a578-71db4d796660",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "9e9c7746-9720-56a4-a32e-45e6303b3f07",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "a48ffd4e-ddbe-5aa9-9c30-1affa90934ab",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "a508e3fb-a9a8-551e-997f-a6369529603d",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "b2631ab8-9478-5726-bda2-d5f0169fb6f1",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "c4340726-eac6-548d-b4a7-ebe6d9874180",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "c5aec284-f0a8-5004-bf49-274d1614beda",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "c8e35737-4846-552e-8398-793f22f166f9",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "d6a5086f-2d49-5ef4-a3fb-bbae51f50130",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "e102a7b7-2b39-5141-a0f1-0597065b741a",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "e1156b20-9b67-5e3a-8df6-8ef88831ab10",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "edc61af4-ac72-53f9-9305-62c0cdfe3a84",
+      "recordType": "entity",
+      "revision": 1
+    },
+    {
+      "recordId": "0c6e1523-1590-53eb-8be8-1cd7547de2c7",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "10bb778c-200a-51ad-949a-ace538e7eb83",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "1649331b-98c6-5ce3-8f18-caf57d45db62",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "38036c0c-1223-5f00-a0e8-1974591f4a14",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "525b8b6b-6e61-5a8e-9720-e5ac43358dff",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "5b49bf41-daf5-5147-8bcb-6b929ef5506b",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "63ea41ce-fa43-5fbf-9d80-5bc7748abefc",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "693b2fca-2373-5b95-901f-f45d236714b1",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "73e749a9-b4a3-54c1-89dd-06819d62930d",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "90891df1-d9b7-5d53-99b8-3be0d248eb96",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "b2f4b7bc-8ef8-5553-b460-31e3bb0006ed",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "b467f7b7-a0e4-58a3-b901-73af25e4169c",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "c27c403b-87ee-53e7-b3b4-c303e77e7c75",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "c7ec3752-56ad-532f-8c53-92cec8425563",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "c94ce844-3af6-51c5-bacf-6541a3469cea",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "cfca6a68-015f-5165-84c3-d313051691b2",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "d4e801fb-362c-5e43-9ce4-48d9876fe47d",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "d6a52cad-ce35-5efa-b90c-9d94bc29ff2c",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "d99ba46c-41af-5c70-b9af-4d06bbda1589",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "dade3145-a005-5b52-b539-60c5d514d1bd",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "e1a5f016-15f1-518c-856f-e08a10ab5da4",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "ec5a9950-4db8-561c-9074-d2ec3ce9a07d",
+      "recordType": "relation",
+      "revision": 1
+    },
+    {
+      "recordId": "f5151d8f-eb50-5e5f-b199-06a8c4bf298b",
+      "recordType": "relation",
+      "revision": 1
+    }
+  ]
+}

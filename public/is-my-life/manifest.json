@@ -1,0 +1,1147 @@
+{
+  "assets": [
+    {
+      "alt": "Bano con ducha tipo spa en Cedahause",
+      "byteSize": 41950,
+      "height": 1024,
+      "id": "aa23aebf-5bf8-5fb1-b84f-fe8ec2ebb7d9",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-bano-ducha2.webp",
+      "sha256": "53f8648ab8e676dbd4906853e8e73cc546e7579996d5ddfed9ef0a5e978aac1b",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina con ventana horizontal en Cedahause",
+      "byteSize": 15220,
+      "height": 456,
+      "id": "9a4abe2e-f6f1-5461-95c9-13ed9e5dce93",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-cocina-1panoramica.webp",
+      "sha256": "65535ac690b2f7156b9f38a27efbc6d00e6a9ef9f078f21e8d8f6919446d4925",
+      "width": 913
+    },
+    {
+      "alt": "Comedor con gran ventanal en Cedahause",
+      "byteSize": 80696,
+      "height": 990,
+      "id": "32efaaf9-7bd4-50ee-b6cb-107049d6eb5d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-comedor.webp",
+      "sha256": "61249ee4f7e219756d7723481e8dd8d4a77749d23991636857898e1a0b3ffe40",
+      "width": 990
+    },
+    {
+      "alt": "Vestidor integrado en Cedahause",
+      "byteSize": 57784,
+      "height": 1024,
+      "id": "ffbd9538-e989-5c4d-98e0-548adf619c27",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-dormitorio-vestido.webp",
+      "sha256": "4bfc968e8c312a442fcbbdba8506cf7a210875c0072f3bdb5f73578dac989969",
+      "width": 1024
+    },
+    {
+      "alt": "Dormitorio principal al atardecer en Cedahause",
+      "byteSize": 141440,
+      "height": 1536,
+      "id": "47c17705-27d4-56e3-bd82-8dca58202ef0",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-dormitorio-vestido3.webp",
+      "sha256": "8ea1634dd2df26850aadf5f17fd07ca3183868c9f1fcd82af14170f3fc01599c",
+      "width": 1536
+    },
+    {
+      "alt": "Revestimiento vertical con tonos oxidados en Cedahause",
+      "byteSize": 169916,
+      "height": 1536,
+      "id": "a29ffae9-2faa-5597-a186-af2f5101d0bd",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-relacion.webp",
+      "sha256": "6c4be35d548f8cc87b3f4928e7a51a1c84327377612fec1de07d76cdbf3bdc55",
+      "width": 1536
+    },
+    {
+      "alt": "Pilotes elevando la vivienda en Cedahause",
+      "byteSize": 102748,
+      "height": 1376,
+      "id": "ca6a53ff-4a41-5f92-9d01-389c9fc62e85",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-sur.webp",
+      "sha256": "33e5755eb4274842ee5760fb2e75296e4d449d6d3288e00a94d567f43d3c8d9e",
+      "width": 1376
+    },
+    {
+      "alt": "Estructura de hormigon visto en Cedahause",
+      "byteSize": 112382,
+      "height": 1462,
+      "id": "38fe0ca8-6df2-532a-b45c-2bf7782e65c4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-exterior-voladisos.webp",
+      "sha256": "ecc6a4c92cf585dc63cca59fe23223c9bc8ab774c918270fbc28b3336bdbd8e5",
+      "width": 1461
+    },
+    {
+      "alt": "Salon con chimenea en Cedahause",
+      "byteSize": 107164,
+      "height": 896,
+      "id": "a0afe619-4ceb-50f6-abb5-54f7762051f1",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-living.webp",
+      "sha256": "849b7955302ba8ac7b6f9f4e0b482ca15ece43e5631a2bb4382570511d50ef91",
+      "width": 896
+    },
+    {
+      "alt": "Puente vidriado sobre el terreno en Cedahause",
+      "byteSize": 137524,
+      "height": 800,
+      "id": "9e8e819c-96a2-5917-a4de-08f6b2d1939f",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-panoramica-frente.webp",
+      "sha256": "6e73ee8f9496208c352a7ee29bef5e13fbd9a9f788081be140f0a32aec9f25ee",
+      "width": 1600
+    },
+    {
+      "alt": "Quincho exterior en Cedahause",
+      "byteSize": 77018,
+      "height": 848,
+      "id": "77055061-c86b-505e-9384-2b7ac1c550b4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/cedahause/cedahause-quincho.webp",
+      "sha256": "57271c1c6f9513052fa89eb2e20c83870ed3019dbf715cc189b3a2f8f56646b1",
+      "width": 848
+    },
+    {
+      "alt": "Bano principal en Donahause",
+      "byteSize": 46590,
+      "height": 1024,
+      "id": "abfbc52e-90de-57ea-b693-2f477523a325",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-bano-principal.webp",
+      "sha256": "15c38f5bd2cbd3ae5ae9605e9295bafaad36363c1ba6df66f5de0ebe6449ba5f",
+      "width": 1024
+    },
+    {
+      "alt": "Bano con banera y ventana en Donahause",
+      "byteSize": 57202,
+      "height": 1024,
+      "id": "8496ce56-7b92-507d-a0de-dfeff39615af",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-bano2-banera.webp",
+      "sha256": "9a34ecce321855396071fdd11c1b58f3b10ee00cc701d374200739bf0c2fc412",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina en Donahause",
+      "byteSize": 49194,
+      "height": 1024,
+      "id": "8525c0db-0a08-53cf-9cd5-bb3809d5d03c",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-cocina.webp",
+      "sha256": "99a8de3648f54f3bed0dc74018552ec1c532c25cd9c59459f1dba8758aeb47d5",
+      "width": 1024
+    },
+    {
+      "alt": "Comedor y living en Donahause",
+      "byteSize": 52160,
+      "height": 992,
+      "id": "7533c7df-f50b-59be-8ab0-bf2b08897bc1",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-comedor-living.webp",
+      "sha256": "2290e7b6ecc1f02281cabb668b2d2efff60c934fd26f6aa6669c03ae85bb35f9",
+      "width": 992
+    },
+    {
+      "alt": "Galeria blanca techada en Donahause",
+      "byteSize": 149368,
+      "height": 1024,
+      "id": "7d6154cc-3f2c-5325-8cfb-2e50896dc67d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-esterior-galeria.webp",
+      "sha256": "1bcfb893d424a65602a6b98ded2eb79fb0e6e17bbebc9c1b369ed39bc9a5ce3b",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle exterior en Donahause",
+      "byteSize": 245224,
+      "height": 1024,
+      "id": "1bede55b-4725-5c95-9bd0-269e6df6c4be",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-exterior-detalle.webp",
+      "sha256": "a475c78a6a5a850d0e6b7421cca545b93cc9320b659dca3026fd948903c71371",
+      "width": 1024
+    },
+    {
+      "alt": "Basamento de piedra y revoque de tierra en Donahause",
+      "byteSize": 138272,
+      "height": 988,
+      "id": "de29daa5-224f-57d8-99d1-b8213ef45c45",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-exterior-hero-norte.webp",
+      "sha256": "3b8427db64f64d91c45fadf6a39b3551a1f9e1faab651f7ddb8afa52bc471286",
+      "width": 1483
+    },
+    {
+      "alt": "Exterior sur de Donahause",
+      "byteSize": 152126,
+      "height": 1024,
+      "id": "b06dbe72-2968-53bc-95ca-b12bff71cd82",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/Donahause-exterior-sur (2).webp",
+      "sha256": "f5347514fd2dcdf295f074a25fec047d9f0b744f9bef910f139a4316d9b423b5",
+      "width": 1536
+    },
+    {
+      "alt": "Ingreso interior en Donahause",
+      "byteSize": 79328,
+      "height": 1024,
+      "id": "e2c513b7-d447-5123-b4fd-ebb60207bb67",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-ingreso.interior.webp",
+      "sha256": "6e58b99e9089257627f97c712b5499642114fb8632d45e6af4b99eab3f69e87d",
+      "width": 1024
+    },
+    {
+      "alt": "Salon rojo con pasillo y doble altura en Donahause",
+      "byteSize": 93040,
+      "height": 558,
+      "id": "baea1ba3-8f9f-5725-9f38-fa0d02857ee8",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-panoramica-living-pasillo.webp",
+      "sha256": "274add6d588d7ba39ddedebb2793b7444b225892295bba5eae9ed96511bd91e1",
+      "width": 1600
+    },
+    {
+      "alt": "Quincho en Donahause",
+      "byteSize": 101472,
+      "height": 1588,
+      "id": "121be4f8-0194-5207-b90f-80ebb0bf5651",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/donahause/donahause-quincho-b.webp",
+      "sha256": "29c4453e6e4afe0e36936d718a29add7c484c40e48052d5a9fd99b19ac9d7fdb",
+      "width": 1588
+    },
+    {
+      "alt": "Baño principal en Gadehause",
+      "byteSize": 103804,
+      "height": 1600,
+      "id": "0a8088aa-04f4-58b6-b30b-e1d565805526",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-bano-principal.webp",
+      "sha256": "38aa330bdfcf940166ffcbe058f4dae5d3fc8ac4cfd8053da9cea6ab4ec1bf6c",
+      "width": 1600
+    },
+    {
+      "alt": "Cocina en Gadehause",
+      "byteSize": 20166,
+      "height": 666,
+      "id": "8fc8076c-56f4-54ff-b59b-218f79123a9b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-cocina.webp",
+      "sha256": "0b8898b70e77da699b915dc1ea860fd0bfa2c6244e860bad3be91c230118d479",
+      "width": 666
+    },
+    {
+      "alt": "Detalle de Gadehause",
+      "byteSize": 22300,
+      "height": 702,
+      "id": "ed1cc606-0a99-52ce-b3b8-de4fb296b597",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-dormitorio.webp",
+      "sha256": "f030fdbe350a2f840996e7da993bdb2f84a657fdda2c8b1fa20d1da3437cc8d5",
+      "width": 702
+    },
+    {
+      "alt": "Tocador y detalles en Gadehause",
+      "byteSize": 74696,
+      "height": 1600,
+      "id": "395812a3-0c94-5049-afa0-25fc2b96ac28",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-dormitorio2.webp",
+      "sha256": "9025da81eebdcc0a8897cf8d5efc692a17c6ed98994986b46ba6dd4c76781f03",
+      "width": 1600
+    },
+    {
+      "alt": "Escritorio en Gadehause",
+      "byteSize": 141066,
+      "height": 1600,
+      "id": "1f3a10c7-35f1-5d35-8ec6-27849dc48f4a",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-escritorio.webp",
+      "sha256": "34917cd8a5d60ce5e69117b2edc48b755a6932da0eeab271526e4521d770156f",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Gadehause",
+      "byteSize": 114620,
+      "height": 1600,
+      "id": "f6d3e281-f0ea-542a-957f-dc9504f7b78e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-este.webp",
+      "sha256": "7d0218f8b7f9d990433e98b0091e57d53b9e7daf8b1875650ac08faf1b6d047f",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Gadehause",
+      "byteSize": 94110,
+      "height": 1600,
+      "id": "1b1eff67-d591-5511-add8-1a1393360733",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-oeste.webp",
+      "sha256": "e3dd18e2d89915f8becc5f174d07c1711a3f520ad18fc41bfccad9e898e4e798",
+      "width": 1600
+    },
+    {
+      "alt": "Exterior sur de Gadehause",
+      "byteSize": 16552,
+      "height": 628,
+      "id": "a635fda9-66ed-588b-b1bb-61f247d8b05d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-exterior-sur.webp",
+      "sha256": "aa3eaafff6ec05f56a287034e2923356fad5f4643293c34c0bbadce74fb27281",
+      "width": 627
+    },
+    {
+      "alt": "Estar y comedor integrado en Gadehause",
+      "byteSize": 34712,
+      "height": 412,
+      "id": "ff21eed3-3290-570d-adc8-11796c06d412",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-living-comedor.webp",
+      "sha256": "77560f400d4a51e4ab07932ce7a4b0316eca0acee72a61542c70c9e194fc0168",
+      "width": 1058
+    },
+    {
+      "alt": "Living y comedor en Gadehause",
+      "byteSize": 20468,
+      "height": 630,
+      "id": "587f99bd-0394-5f25-b56b-2eb2339cfce7",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-living-comedor1.webp",
+      "sha256": "0fed2c8c17adf607e3980326d59b2b1ab34ba3d59b3147bcd6f5477db0326ebb",
+      "width": 629
+    },
+    {
+      "alt": "Piscina y exterior en Gadehause",
+      "byteSize": 61098,
+      "height": 1024,
+      "id": "966a851e-1d33-53bd-860f-6a2547c7ca9b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/gadehause/gadehause-pileta-portal.webp",
+      "sha256": "038f526fb18fed025bc838256ce90df07183c313089d043b9a903503422643be",
+      "width": 1024
+    },
+    {
+      "alt": "Baño en Jobehause",
+      "byteSize": 28790,
+      "height": 986,
+      "id": "60619e47-3c8a-5574-adf6-9cf6b4e99e25",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-bano-11.webp",
+      "sha256": "1da7f1f41e4940adb10c6f88e482430ceebbc317ce022fb2c48c1cb75ec83df1",
+      "width": 985
+    },
+    {
+      "alt": "Baño en Jobehause",
+      "byteSize": 33994,
+      "height": 1008,
+      "id": "08e80cef-e3e4-5b7f-b3ce-38cb3ac0bc6e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-bano-12.webp",
+      "sha256": "fb90cfb7e71f495b4c442609d09a8bfbf283fcbdd22b82e3514e11cf10ac7edc",
+      "width": 1007
+    },
+    {
+      "alt": "Baño en Jobehause",
+      "byteSize": 29960,
+      "height": 1004,
+      "id": "9f874855-2dfe-5622-b6cf-bed6c5222f8b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-bano-2 (9).webp",
+      "sha256": "06b449e2bef7a2fcb3443df9447bca4874d6be92bc3b37ea1aee2399b6a1ee23",
+      "width": 1003
+    },
+    {
+      "alt": "Detalle de cocina en Jobehause",
+      "byteSize": 107902,
+      "height": 1024,
+      "id": "d6e50303-ab68-59b9-a005-de3ba8cdbd32",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-cocina (3).webp",
+      "sha256": "baa519a6456cd642d14519ff90e88e6579b7394cf075801b2bd7c20dfaecb5d0",
+      "width": 1024
+    },
+    {
+      "alt": "Gran salón en Jobehause",
+      "byteSize": 85008,
+      "height": 668,
+      "id": "2295b083-3140-5876-a12f-c153734eedb7",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-comedor-comedor.webp",
+      "sha256": "ae9c6322c83582c621aeaffb0c272196805caa2bf755a89784518c251dd6069b",
+      "width": 1536
+    },
+    {
+      "alt": "Dormitorio panoramico en Jobehause",
+      "byteSize": 57196,
+      "height": 590,
+      "id": "4ec77d79-4fff-5e81-bf48-ff81b7e8d3ac",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-dormitorio-panoramica2-2.webp",
+      "sha256": "541549456bc1b804463f45a9b6b44c9e5a3c9a40d85918c782df180b848bb2f2",
+      "width": 1536
+    },
+    {
+      "alt": "Ingreso exterior de Jobehause",
+      "byteSize": 66326,
+      "height": 1016,
+      "id": "84358c9a-00bf-5453-91b9-9fff23a5d1cf",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-entrada1.webp",
+      "sha256": "bceb9c564a11ff0d6b601404432073bee91adaea7a8678d0dc8d104c39e2c78d",
+      "width": 1016
+    },
+    {
+      "alt": "Exterior norte de Jobehause",
+      "byteSize": 243710,
+      "height": 1024,
+      "id": "a953fdfa-5e7d-5943-82b7-13445aa79b7b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-norte (2).webp",
+      "sha256": "46e9fb95faa0a7c147c7fd0326a9a96c96d365398096f92b28801ada30ad56ef",
+      "width": 1536
+    },
+    {
+      "alt": "Basamento y volumen en Jobehause",
+      "byteSize": 187132,
+      "height": 1074,
+      "id": "ebb345bd-4832-540b-adc7-60f358d31424",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-exterior-oeste (2).webp",
+      "sha256": "551453766b7306500381867c64b320121ff6bf0a4932f1de4c9d275fc00488a6",
+      "width": 1600
+    },
+    {
+      "alt": "Living en Jobehause",
+      "byteSize": 77950,
+      "height": 1024,
+      "id": "65215099-4046-514d-94ad-8f04e92ee8d9",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-living-21.webp",
+      "sha256": "4814441123c2558edb70b3292ee6595d361790bf28885826bac9d32b3ba69fb6",
+      "width": 1024
+    },
+    {
+      "alt": "Living en Jobehause",
+      "byteSize": 42788,
+      "height": 966,
+      "id": "3c01f331-5e9f-52ba-9cf9-1d4e7cb544b6",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jobehause/jobehause-living1.webp",
+      "sha256": "1713c69871cc7856aa490f17dfc5690333c626a969ad77e3971b49e1f45bfa4f",
+      "width": 966
+    },
+    {
+      "alt": "Baño en Jomahause",
+      "byteSize": 36920,
+      "height": 1024,
+      "id": "31ccffbe-c9d9-589d-86d1-b2600d03e7fb",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-bano-bacha.webp",
+      "sha256": "ba717ee21ecc27a3eb831d08e6745cb2d6aa3a0bdc5fd2b7ceebc8ef30f27e40",
+      "width": 1024
+    },
+    {
+      "alt": "Baño en Jomahause",
+      "byteSize": 32150,
+      "height": 1024,
+      "id": "813b6bb0-a380-514a-8a3e-b2ef61dfbb30",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-bano-banera.webp",
+      "sha256": "6e4a2dc0fb69002360383520f6b898b604db76e1b8affcd5ec22509c92630e0c",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina y comedor en Jomahause",
+      "byteSize": 63752,
+      "height": 678,
+      "id": "2898b4b4-d732-5f57-9ff0-52a69b957f5c",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-cocina-comedor-panoramica.webp",
+      "sha256": "6b4ede077e7a2e976b798c8cf0fc76c6820cd8a7ba3bce74cc5d3ac09f1f6793",
+      "width": 1536
+    },
+    {
+      "alt": "Cocina en Jomahause",
+      "byteSize": 56274,
+      "height": 1024,
+      "id": "d146665f-813c-5f95-9ec7-f1071a510774",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-cocina.webp",
+      "sha256": "2c46a01346325a3c343e91f76059c3d69a3cb0dba58bfcf480c9c22c9a3ae0c4",
+      "width": 1024
+    },
+    {
+      "alt": "Dormitorio en Jomahause",
+      "byteSize": 39950,
+      "height": 1024,
+      "id": "5a7ddf37-cdd5-5a6c-a2db-b50c608194dd",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-dormitorio.webp",
+      "sha256": "218424c07ac6409005254d6db3fed6843bd0dcb89904563e477791fae7bc7217",
+      "width": 1024
+    },
+    {
+      "alt": "Ingreso en Jomahause",
+      "byteSize": 71754,
+      "height": 1024,
+      "id": "08916712-65a5-55c2-a258-eaa9d2d0f717",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-entrada.webp",
+      "sha256": "979f6ecf93e99ccc6da7b3945daf64da06820d3fa4fb21e92d28c149ef7c2d45",
+      "width": 1024
+    },
+    {
+      "alt": "Escritorio en Jomahause",
+      "byteSize": 37288,
+      "height": 1024,
+      "id": "09086481-e76f-5744-bf06-7438786650b6",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-escritorio.webp",
+      "sha256": "791fc2f68e3bbe9aaa2a6557585a54dcb8257413ff304cb6a1dba1a5f2179521",
+      "width": 1024
+    },
+    {
+      "alt": "Exterior de acceso en Jomahause",
+      "byteSize": 167688,
+      "height": 1024,
+      "id": "e5d7ff00-a528-5fa5-a098-c16e84bc92ec",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-exterior-entrada.webp",
+      "sha256": "4354dd3255cd2927b81a406532d55c9ddff8d3f9c8e0cf357d9dd069bbb61190",
+      "width": 1024
+    },
+    {
+      "alt": "Estar en Jomahause",
+      "byteSize": 48590,
+      "height": 1024,
+      "id": "de57d90e-e6a6-54fc-a7f7-48b280564907",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-living-2.webp",
+      "sha256": "964674030f9499d606c5d161091235d3eb614a5af71524c512d73de50d851a17",
+      "width": 1024
+    },
+    {
+      "alt": "Estar en Jomahause",
+      "byteSize": 33290,
+      "height": 1024,
+      "id": "77430b71-1d49-5b68-a0cd-1622172021ff",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-living.webp",
+      "sha256": "dc2a2487c79ace8ada8104610b0d9531325f81b980a741cc27ed0803c0efa8ff",
+      "width": 1024
+    },
+    {
+      "alt": "Quincho y comedor en Jomahause",
+      "byteSize": 75730,
+      "height": 626,
+      "id": "eb1c962e-03f1-5e78-9dcd-73bee0312569",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jomahause/jomahause-quincho-comedor-panoramica.webp",
+      "sha256": "3b76aaca8ed0bb5af7457f244e2eb6e9bab7dbfa1b5ab379ed3cb331ea8898f4",
+      "width": 1536
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 10790,
+      "height": 640,
+      "id": "e91835e4-0edd-5c7e-98fa-d05b0f88afe4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-bano-1.webp",
+      "sha256": "6842e13fb748af596eec556a597f9199442cb8db0c4ce2175d0ad7d029e0bb00",
+      "width": 640
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 113452,
+      "height": 1600,
+      "id": "4a63e98e-d776-5073-b4f4-76c3ead9d3d5",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-cocina-1.webp",
+      "sha256": "4ce2bc6de0984bd92a147ca36a02b11eff76218e84d6b0df45e46c59a422f5d5",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 113664,
+      "height": 1600,
+      "id": "23fe59c2-82d0-508e-a058-9497ec0a18b1",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-comedor.webp",
+      "sha256": "373d7a78188711f9590e09b60489b55f291fd0a1e1c4d1b473cfed16420b33c1",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 74380,
+      "height": 848,
+      "id": "35426fb8-21ad-5129-a9cb-70af695943ac",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-dormitorio-2.webp",
+      "sha256": "c9c325fc85f2658955f4aadbcb9eff019b93500c1b49060bd32e4eb9db8f875e",
+      "width": 848
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 195682,
+      "height": 1600,
+      "id": "29f8feb1-e922-5112-a186-1f177212ee1e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-estar-1.webp",
+      "sha256": "9f678a8f4f7c91c3d4b53a43f10f66e6f2e739a2789260ab1d76bb45c7c35fa1",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 44780,
+      "height": 1024,
+      "id": "07505e1f-610c-5f5a-a681-3ecb932473cf",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-este.webp",
+      "sha256": "846112a75983901d92175e9f4690ab2323ad0da5575728d8b30e00fc41940540",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 131934,
+      "height": 688,
+      "id": "a776a81b-8c48-572e-90cd-4de25ed59254",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-norte-panoramica.webp",
+      "sha256": "61274778f55dfbf48e3680e7cef50e74594bac98f903d288f99affe6dc28c049",
+      "width": 1536
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 29672,
+      "height": 540,
+      "id": "ce1ca0af-1ec0-5563-b5ab-9b8fb35d386c",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-oeste.webp",
+      "sha256": "01dbf74222d5987fe88b36813a894f35e3df5dc7e4e63b21e3bde2decebf22f6",
+      "width": 540
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 161016,
+      "height": 1600,
+      "id": "efd60e21-674a-58cd-bdd8-e04837b76ac5",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-portal.webp",
+      "sha256": "0475523aeab27e49e58d8c5501358034cf06d966d5d5ca42993dbf5196cd7d04",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 56110,
+      "height": 602,
+      "id": "f657f039-a624-53e8-bcdd-0df890259502",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-exterior-sur-panoramica.webp",
+      "sha256": "f39ad2041964dc96008980407005a2bc3afe7f73ab8b8d68769ba0fd04cff5cf",
+      "width": 1285
+    },
+    {
+      "alt": "Detalle de Jonohause",
+      "byteSize": 123004,
+      "height": 1536,
+      "id": "106b4d5f-b42a-5fc0-b3f7-58c73014d4f6",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/jonohause/jonohause-quincho.webp",
+      "sha256": "cd293139a5164c89f89d78e000ccddf051514d73e2b4097661de2ad8d5423c0e",
+      "width": 1536
+    },
+    {
+      "alt": "Altillo en Magahause",
+      "byteSize": 267882,
+      "height": 1600,
+      "id": "bbdcfc89-4239-5e07-9f71-985bf5e50cb8",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-altillo (5).webp",
+      "sha256": "8bcf061365843e7403b8c8d509163a634503b97c810360d05f7c3573d1580c36",
+      "width": 1600
+    },
+    {
+      "alt": "Baño en Magahause",
+      "byteSize": 22296,
+      "height": 612,
+      "id": "82c34c0c-d116-56c0-96f7-692fbc4ce21d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-bano-bacha-2.webp",
+      "sha256": "1c4f1e3a45ba89d121a6905e79ee59e109c56dc0240b967319b9d124431c6f8b",
+      "width": 612
+    },
+    {
+      "alt": "Baño en Magahause",
+      "byteSize": 30854,
+      "height": 798,
+      "id": "31977403-1da0-50f8-84b4-c8a896a1eeec",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-bano-ducha.webp",
+      "sha256": "e954093e296630ca43ed43ca708d59adfd0a48b9a2a66c04e76c9682ee663f9b",
+      "width": 797
+    },
+    {
+      "alt": "Cocina en Magahause",
+      "byteSize": 47728,
+      "height": 848,
+      "id": "a72a47fb-a202-5387-8174-457bdeb8b1fb",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-cocina.webp",
+      "sha256": "29f005a3b13107782926e92cf633f4e654fc0c1be26ea7882061f61b788ad105",
+      "width": 848
+    },
+    {
+      "alt": "Dormitorio en Magahause",
+      "byteSize": 69552,
+      "height": 848,
+      "id": "756884c1-e0a7-5907-a21d-39c66da11efa",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-dormitorio.webp",
+      "sha256": "3b65a094482b330567f9a4c02e4babb1b5586b1dceb513bd2ad46e1b8f08d254",
+      "width": 848
+    },
+    {
+      "alt": "Entrada en Magahause",
+      "byteSize": 185902,
+      "height": 1600,
+      "id": "459669d5-b8fe-51e4-a0be-ce85e7ebea2b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-entrada (2).webp",
+      "sha256": "80c8f8520b949235d78ed18e8eb8b8cf06d58aa01f5a42a960e3c6147fdfb475",
+      "width": 894
+    },
+    {
+      "alt": "Detalle exterior en Magahause",
+      "byteSize": 132360,
+      "height": 678,
+      "id": "9ea5b6a3-b0e7-540a-9778-226e85f9908e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte-detalle (2).webp",
+      "sha256": "f60e259b065771e9ac6c99b43bcbc924ad7ad16c06de69f560608aacddbb19e8",
+      "width": 1600
+    },
+    {
+      "alt": "Exterior norte terraza en Magahause",
+      "byteSize": 75910,
+      "height": 960,
+      "id": "c503eaad-f26d-5503-b3f4-e68fd2cc7f2e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte-terraza.webp",
+      "sha256": "691b4de0abc93a8e166915c1f21e08d563bb4d2dd9067d876d02b9320e91951a",
+      "width": 959
+    },
+    {
+      "alt": "Exterior norte de Magahause",
+      "byteSize": 106244,
+      "height": 716,
+      "id": "5a604add-844c-5125-9b3b-77ec8ec05d99",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-exterior-norte(3).webp",
+      "sha256": "cde2fb8d5bb4eacbd59ef8adb29495613ef6a5e4e5adc2c59cb4fd8a0466378a",
+      "width": 1600
+    },
+    {
+      "alt": "Living y comedor en Magahause",
+      "byteSize": 53788,
+      "height": 404,
+      "id": "d50124bc-fdfa-5665-9cce-83ce96df0bc9",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-living-comedor-panoramica.webp",
+      "sha256": "fdf4a3a630686980be5911cb422984643decac8fd093097fd918a10d9695a8cf",
+      "width": 1264
+    },
+    {
+      "alt": "Quincho en Magahause",
+      "byteSize": 98224,
+      "height": 1074,
+      "id": "6df57662-4e6d-52cf-8eb8-0492c08f4ceb",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/magahause/magahause-quincho (2).webp",
+      "sha256": "09debc2be46df8d4d3866b65e7e7cb9a27a12c44f6275fdf29229ed96d731a64",
+      "width": 1600
+    },
+    {
+      "alt": "Bano con bacha en Markhause",
+      "byteSize": 140760,
+      "height": 1536,
+      "id": "a0758297-13aa-5365-8684-c37b2541cda2",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-bano-bacha-2.webp",
+      "sha256": "e631f14fed030daba07e7e0445db7dc38d446a243d597d138f4096a5131c6ec4",
+      "width": 1536
+    },
+    {
+      "alt": "Bano con ducha en Markhause",
+      "byteSize": 104200,
+      "height": 1024,
+      "id": "555f1194-d7b0-555d-96ab-c3e3a208603f",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-bano-ducha.webp",
+      "sha256": "94bd9f3f72cbc20bb60e26c563cee44b0100ff5325ab0362409eb8e25136dcde",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina en Markhause",
+      "byteSize": 49812,
+      "height": 1024,
+      "id": "f2981bed-cc5e-5d75-b4b1-71fb1283a271",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-cocina.webp",
+      "sha256": "0f9ea60b816dd26720ce73f0b1f244de3002a012797c27b7aa3bec38f1422dad",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle de ventana en Markhause",
+      "byteSize": 195344,
+      "height": 1536,
+      "id": "c3c96b93-d1e3-5fac-b5dd-309650e58759",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-detalle-ventana.webp",
+      "sha256": "c5d847f68804afa75aaf67717e336749dbc4c205c71d4542584b690e0b002ddd",
+      "width": 1024
+    },
+    {
+      "alt": "Dormitorio en Markhause",
+      "byteSize": 69560,
+      "height": 1008,
+      "id": "c20710b7-ca5b-5df7-be22-a9d071a0deae",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-dormitorio.webp",
+      "sha256": "2c9a66cecd727ddd668754e3d5daac745f97b2c70e4dc5bdd6e8fc3df1bdd2c6",
+      "width": 1007
+    },
+    {
+      "alt": "Living y comedor en Markhause",
+      "byteSize": 60500,
+      "height": 624,
+      "id": "710807a1-943f-54a0-83a9-342ce386c68e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-living-comedor-panoramica.webp",
+      "sha256": "a76a6c2e961792df43469e67eeb92840156013030b4377d8c1f1a0d7d8acde9a",
+      "width": 1495
+    },
+    {
+      "alt": "Living en Markhause",
+      "byteSize": 68406,
+      "height": 1024,
+      "id": "c880017f-0109-5444-9852-40870de23751",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/markhause/markhause-living.webp",
+      "sha256": "f746147b760e7aee2ed905bfb04ec33d110eff8dcc332104f9d72ff99a872845",
+      "width": 1024
+    },
+    {
+      "alt": "Bano en Scohause",
+      "byteSize": 66562,
+      "height": 1024,
+      "id": "12b64199-e581-5de4-bcef-a2fc470d913d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-bano-3.webp",
+      "sha256": "a283e48a3a1d8e50fdfeb0c02a9769bf7e5b15532561e5b14518ee1f7f07be49",
+      "width": 1024
+    },
+    {
+      "alt": "Bano con bacha en Scohause",
+      "byteSize": 42160,
+      "height": 1024,
+      "id": "b1363212-2275-5b32-8c15-4f7a89b1e98a",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-bano-bacha.webp",
+      "sha256": "ed03786ebe5557df6bcff49dfc7dccb05966ec89225af2d549c48467bcd6490f",
+      "width": 1026
+    },
+    {
+      "alt": "Bano con ducha en Scohause",
+      "byteSize": 52336,
+      "height": 1024,
+      "id": "aa369f07-ce49-514f-b56c-76746cbd4652",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-bano-ducha-2.webp",
+      "sha256": "dce681c88447fbc9bd46fb962d73947e70085d1ea7a3baf4e2c24c90c4f3290f",
+      "width": 1024
+    },
+    {
+      "alt": "Cocina en Scohause",
+      "byteSize": 54856,
+      "height": 1024,
+      "id": "e81be214-543b-5635-9007-05b557001430",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-cocina-1.webp",
+      "sha256": "a0899832d74d5001c021209fc79049b242aaf6ea78bd30685bdc907b8cef5fde",
+      "width": 1024
+    },
+    {
+      "alt": "Detalle de Scohause",
+      "byteSize": 57678,
+      "height": 732,
+      "id": "a51cf38f-62d9-5862-901d-59c2310bbfb5",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-cocina-quincho-panoramica.webp",
+      "sha256": "1d1bd630f2405ab8094f3ad329b83cac54a921bfc6194aa3ad21b6fab8e15a69",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de Scohause",
+      "byteSize": 87506,
+      "height": 634,
+      "id": "306c1bc9-e401-52b5-88a5-192025e4a3f0",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-galeria-panoramica.webp",
+      "sha256": "8c4c8b0a9e2d3ed08967b1fb5f180170755d9e4ec61cd45a4fd0ae81211c9bda",
+      "width": 1600
+    },
+    {
+      "alt": "Living y comedor en Scohause",
+      "byteSize": 55724,
+      "height": 1024,
+      "id": "38ab16ed-2d44-57ea-9381-556070ac99f7",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scohause-living-comedor.webp",
+      "sha256": "ba7a51675e289d121dc4c3e90f949149ca5c3c439f298b9a505b49505cd286de",
+      "width": 1024
+    },
+    {
+      "alt": "Living interior en Scohause",
+      "byteSize": 63080,
+      "height": 1024,
+      "id": "90a8513b-f52b-500e-a1e8-0597ff5ddb0d",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/scohause/scolahause-interior-living.webp",
+      "sha256": "821f402665ef2b8eb15d2c78a8922fe03047115ae9328e30942bc80d6567a398",
+      "width": 1024
+    },
+    {
+      "alt": "Baño con bacha en Vidahause",
+      "byteSize": 59158,
+      "height": 1074,
+      "id": "ea2cf034-47b2-5c81-8933-d9f475e8b47e",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-bano-bacha (3).webp",
+      "sha256": "aed84d2a360a290a87a3edc73185366c75084e1ba3f6e45fe22d066ba7a6025d",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de baño en Vidahause",
+      "byteSize": 110884,
+      "height": 1074,
+      "id": "da8245f9-2d8b-5c75-bdcf-b38a22eb3ea3",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-bano-detalles-b.webp",
+      "sha256": "8f99b9e771ebcd74f4e5fd67ea4b969598ee64a2c17206b52ca91b7a6b75fada",
+      "width": 1600
+    },
+    {
+      "alt": "Detalle de cocina en Vidahause",
+      "byteSize": 89968,
+      "height": 1074,
+      "id": "9ee73228-974d-59fc-9ec6-0274a10be63b",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-cocina (3).webp",
+      "sha256": "5368970633760e1355ffec42094a5247d361411eca7d84c48df74857903123f1",
+      "width": 1600
+    },
+    {
+      "alt": "Cocina en Vidahause",
+      "byteSize": 49614,
+      "height": 1024,
+      "id": "dcd4dcfb-e220-5a49-8138-e1714ddd3f26",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-cocina.webp",
+      "sha256": "b09d3b55bd6c9fb235632de2944007fcb754eacfebc2e98394c6b7a6d71d1053",
+      "width": 1536
+    },
+    {
+      "alt": "Dormitorio en Vidahause",
+      "byteSize": 79520,
+      "height": 1024,
+      "id": "39ba364e-48e6-5013-bac3-a85b2b2edc27",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-dormitorio.webp",
+      "sha256": "5b5dd723921250b21c3a44a5085d548abcfa1230bc511ef38f9b06bf274186af",
+      "width": 1536
+    },
+    {
+      "alt": "Detalle exterior en Vidahause",
+      "byteSize": 202740,
+      "height": 1024,
+      "id": "5bb0f153-dacb-56d9-8c3b-51a011758cb3",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-detalle1.webp",
+      "sha256": "23ee3785dcd70680ab881baa6b26a6c3dbe3684ed71baa58960c38dc3e00bb38",
+      "width": 1024
+    },
+    {
+      "alt": "Entrada exterior en Vidahause",
+      "byteSize": 18398,
+      "height": 508,
+      "id": "a59b739f-81aa-52d4-aee5-991438ee668a",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-entrada.webp",
+      "sha256": "1c5c7e44500b3a40602a28e9dd1869eacded9466f49dd6cef5210235a7e13b6e",
+      "width": 508
+    },
+    {
+      "alt": "Detalle exterior en Vidahause",
+      "byteSize": 110606,
+      "height": 1024,
+      "id": "2c0198c4-daf7-5dd1-91cc-357e97d3d8a4",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-exterior-talle1r.webp",
+      "sha256": "26b4bb4f3c53d4ffd6dc970aa522fb3679bea04c7ebab40966e4b26774ea70ba",
+      "width": 1024
+    },
+    {
+      "alt": "Estar en Vidahause",
+      "byteSize": 65094,
+      "height": 1024,
+      "id": "a94363f0-83c6-5be1-bbaf-d0bc343b3568",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-living.webp",
+      "sha256": "13434af4331b56adf0e040373ca9b50cc6bb966d6a8ab13d0a485c4125f54552",
+      "width": 1024
+    },
+    {
+      "alt": "Vista sur patio en Vidahause",
+      "byteSize": 187166,
+      "height": 992,
+      "id": "66def77a-e89b-51ee-becf-31606cdeea59",
+      "mimeType": "image/webp",
+      "path": "/evidencias/garcia-delillo-web/vidahause/vidahause-vista-sur-patio.webp",
+      "sha256": "b8b0349761d05728dbba92e30b6d5ed9cce58f6ab33481020710690ef902bdd2",
+      "width": 1487
+    }
+  ],
+  "exportId": "public-ramiro-garcia-reid-2026-09-09",
+  "generatedAt": "2026-09-09T03:06:30.298Z",
+  "profileSlug": "ramiro-garcia-reid",
+  "routes": [
+    {
+      "entityId": "46c4fdce-bde1-50ed-86f8-7de64a1fbd78",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/ia-aplicada/"
+    },
+    {
+      "entityId": "e1156b20-9b67-5e3a-8df6-8ef88831ab10",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/modelado-de-contenido/"
+    },
+    {
+      "entityId": "c8e35737-4846-552e-8398-793f22f166f9",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/arquitectura-conversacional/"
+    },
+    {
+      "entityId": "edc61af4-ac72-53f9-9305-62c0cdfe3a84",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diseno-de-proyectos/"
+    },
+    {
+      "entityId": "822938da-9d78-5750-830e-08b8a46d5d56",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/desarrollo-de-proyectos/"
+    },
+    {
+      "entityId": "55696e30-69bd-5ced-9251-1cfd0d0304fb",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/capability-direccion-de-obras/"
+    },
+    {
+      "entityId": "993f9726-a151-5f07-8fbf-d912d04f6204",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/motion-design-frontend/"
+    },
+    {
+      "entityId": "8d870502-00a0-537f-b435-156e8f85f88b",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/narrativa-interactiva/"
+    },
+    {
+      "entityId": "c5aec284-f0a8-5004-bf49-274d1614beda",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/arquitectura-de-interfaces/"
+    },
+    {
+      "entityId": "9a8e4d76-63ee-558f-a578-71db4d796660",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/modelado-y-visualizacion/"
+    },
+    {
+      "entityId": "7c3e4dbc-ef69-55fe-bf5f-9bd1327f5329",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diagnostico-organizacional/"
+    },
+    {
+      "entityId": "18541022-feef-5d9b-8698-51fd90d80d32",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/representacion/"
+    },
+    {
+      "entityId": "b2631ab8-9478-5726-bda2-d5f0169fb6f1",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/modelado-de-sistemas/"
+    },
+    {
+      "entityId": "45044393-cd57-593a-83da-c31536a64175",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/desarrollo-web/"
+    },
+    {
+      "entityId": "d6a5086f-2d49-5ef4-a3fb-bbae51f50130",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diseno-de-workflows/"
+    },
+    {
+      "entityId": "5a41edb1-38b6-56df-8f0d-92ffcf258517",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/garcia-delillo/"
+    },
+    {
+      "entityId": "5a05017e-d4eb-59d7-9a6f-3ea83204aa9c",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/cedahause/"
+    },
+    {
+      "entityId": "6bd6e985-0a55-56cd-a910-115bc718596d",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/donahause/"
+    },
+    {
+      "entityId": "9e9c7746-9720-56a4-a32e-45e6303b3f07",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/gadehause/"
+    },
+    {
+      "entityId": "c4340726-eac6-548d-b4a7-ebe6d9874180",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/jobehause/"
+    },
+    {
+      "entityId": "3d748b79-bd77-5da1-8961-d93ca216a151",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/jomahause/"
+    },
+    {
+      "entityId": "4f1c3026-5b87-5bfb-b8f4-611cd257831c",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/jonohause/"
+    },
+    {
+      "entityId": "a508e3fb-a9a8-551e-997f-a6369529603d",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/magahause/"
+    },
+    {
+      "entityId": "35576a53-fb12-57ec-b271-3a68c04bb7c5",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/markhause/"
+    },
+    {
+      "entityId": "a48ffd4e-ddbe-5aa9-9c30-1affa90934ab",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/scohause/"
+    },
+    {
+      "entityId": "8a771b6b-2a93-572e-8f33-099fd44903b1",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/vidahause/"
+    },
+    {
+      "entityId": "e102a7b7-2b39-5141-a0f1-0597065b741a",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/experience-direccion-de-obras/"
+    },
+    {
+      "entityId": "b2e8f23c-aaf8-5b73-8104-3aeb0316d971",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/diseno-y-desarrollo/"
+    },
+    {
+      "entityId": "2caeed87-b236-55b3-bccd-8d28bc1f2da7",
+      "path": "/portfolio-ramiro/ramiro-garcia-reid/e/representacion-y-modelado/"
+    }
+  ],
+  "schemaVersion": "public-projection.v1",
+  "snapshotHash": "ada81429ab31259e3c03924d730b24065776714aba313ecacf7242652d9ce2af"
+}
