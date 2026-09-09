@@ -24,51 +24,137 @@ const identitySteps = [
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'CreativeWork',
-  name: 'Identidad visual de Garcia Delillo',
-  description: 'Desarrollo del logo y su animacion para Garcia Delillo Arquitectura, Diseno y Construccion.',
+  name: 'Primera intervención en Garcia Delillo',
+  description: 'Transformación de la identidad visual de Garcia Delillo Construcciones hacia Arquitectura, Diseño y Construcción.',
   url: `${siteUrl}/casos/garcia-delillo/identidad/`,
-  image: `${siteUrl}${logoPath}`,
+  image: `${siteUrl}${transformationPath}`,
 };
 ---
-<BaseLayout title="Identidad visual de Garcia Delillo" description="Desarrollo del logo y su animacion para Garcia Delillo Arquitectura, Diseno y Construccion." canonical={garciaDelilloIdentityUrl}>
+<BaseLayout title="2000 — Primera intervención en García Delillo" description="Transformación de la identidad visual de García Delillo Construcciones hacia Arquitectura, Diseño y Construcción." canonical={garciaDelilloIdentityUrl}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
-  <section class="case-hero page-width">
-    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / <a href={sitePath('/casos/garcia-delillo/')}>Garcia Delillo</a> / Identidad</p>
-    <p class="eyebrow">Diseno de la imagen empresarial</p>
-    <h1>Identidad visual de Garcia Delillo</h1>
-    <p class="lede">Esta ficha reúne el signo, sus versiones de trabajo y la animacion del logo como una capa propia dentro del caso Garcia Delillo.</p>
+
+  <section class="identity-hero page-width">
+    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / <a href={sitePath('/casos/garcia-delillo/')}>García Delillo</a> / Identidad</p>
+    <p class="eyebrow">Primer capítulo del caso García Delillo</p>
+    <h1>2000 — Primera intervención en García Delillo</h1>
+    <p class="lede">De “Construcciones” a “Arquitectura, Diseño y Construcción”.</p>
+
+    <div class="identity-opening">
+      <figure class="identity-card identity-card--original">
+        <img src={originalIdentityPath} alt="Identidad visual original de García Delillo Construcciones" width="2181" height="1150" loading="eager" decoding="async" />
+        <figcaption><span>1980/90</span><strong>García Delillo Construcciones</strong></figcaption>
+      </figure>
+      <figure class="identity-card identity-card--transformation">
+        <img src={transformationPath} alt="Nueva identidad visual de García Delillo Arquitectura, Diseño y Construcción" width="1079" height="1260" loading="eager" decoding="async" />
+        <figcaption><span>2000</span><strong>García Delillo Arquitectura, Diseño y Construcción</strong></figcaption>
+      </figure>
+    </div>
   </section>
 
-  <section class="section page-width" id="transformacion" aria-labelledby="transformacion-titulo">
-    <div class="section-heading"><div><p class="eyebrow">Antes y después</p><h2 id="transformacion-titulo">De la identidad original a la nueva identidad visual</h2></div><p>La transformación conserva el signo de García Delillo y lo lleva a una composición preparada para su uso visual y su posterior animación.</p></div>
-    <div class="identity-comparison">
-      <figure class="identity-artifact"><img src={originalIdentityPath} alt="Identidad visual original de Garcia Delillo" width="2181" height="1150" loading="lazy" decoding="async" /><figcaption><strong>Identidad visual original</strong><span>La tarjeta y el signo con los que comienza el recorrido.</span></figcaption></figure>
-      <figure class="identity-artifact"><img src={transformationPath} alt="Transformación de la identidad visual de Garcia Delillo" width="1079" height="1260" loading="lazy" decoding="async" /><figcaption><strong>Transformación</strong><span>El signo pasa a una construcción geométrica y cromática.</span></figcaption></figure>
+  <section class="section page-width" aria-labelledby="contexto-titulo">
+    <div class="identity-section-heading"><p class="eyebrow">01 · Contexto</p><h2 id="contexto-titulo">Una identidad para una empresa que estaba cambiando</h2></div>
+    <div class="identity-context-grid prose">
+      <div>
+        <p>En 2000, García Delillo Construcciones trabajaba con Pulso, una pequeña startup de diseño que habíamos creado mientras terminábamos la facultad. Realizábamos maquetas físicas y representaciones 3D de sus proyectos.</p>
+        <p>La empresa estaba comenzando a replantear su posicionamiento. Hasta entonces intervenía principalmente como constructora sobre proyectos desarrollados por arquitectos elegidos por los clientes.</p>
+      </div>
+      <div>
+        <p>La nueva propuesta buscaba poder acompañar integralmente el proceso de construir una vivienda: desde el terreno y el proyecto hasta el diseño interior, los objetos, la coordinación de la obra y la entrega llave en mano.</p>
+        <p>Ese cambio necesitaba una identidad capaz de hacerlo visible.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="partida-titulo">
+    <div class="identity-section-heading"><p class="eyebrow">02 · Punto de partida</p><h2 id="partida-titulo">Una identidad de los años 80/90</h2></div>
+    <div class="identity-feature-layout">
+      <figure class="identity-wide-card identity-wide-card--original">
+        <img src={originalIdentityPath} alt="Tarjeta de la identidad visual original de García Delillo" width="2181" height="1150" loading="lazy" decoding="async" />
+        <figcaption>La identidad existente respondía a una estructura corporativa convencional de su época.</figcaption>
+      </figure>
+      <div class="identity-notes">
+        <p>El formato y el contenido definían una empresa reconocible, donde el símbolo concentraba la identidad y la tarjeta funcionaba fundamentalmente como soporte de información.</p>
+        <ul>
+          <li>Formato horizontal</li>
+          <li>Monograma cerrado</li>
+          <li>Azul y rojo concentrados en la marca</li>
+          <li>“Construcciones” como única definición</li>
+        </ul>
+        <p class="identity-note-muted">No hacía falta juzgarla como buena o mala. Era coherente con otro momento de la empresa.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="problema-titulo">
+    <div class="identity-section-heading"><p class="eyebrow">03 · Problema de diseño</p><h2 id="problema-titulo">El problema no era cambiar una tarjeta</h2></div>
+    <div class="identity-statement"><strong>Había que representar una idea de empresa que estaba cambiando.</strong></div>
+    <div class="prose identity-prose">
+      <p>La construcción continuaba siendo central, pero dejaba de ser suficiente para definir el alcance de García Delillo.</p>
+      <p>El desafío consistía en conservar reconocimiento y continuidad, incorporando al mismo tiempo una nueva concepción: <strong>arquitectura, diseño y construcción como partes de un mismo proceso.</strong></p>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="transformacion-titulo">
+    <div class="identity-section-heading"><p class="eyebrow">04 · Transformación gráfica</p><h2 id="transformacion-titulo">2000 — La nueva identidad</h2></div>
+    <div class="identity-transformation">
+      <figure class="identity-wide-card identity-wide-card--transformation">
+        <img src={transformationPath} alt="Tarjeta azul de la nueva identidad visual de García Delillo" width="1079" height="1260" loading="lazy" decoding="async" />
+        <figcaption>El signo deja de ser una forma aislada y se convierte en un sistema visual.</figcaption>
+      </figure>
+      <div class="identity-annotations">
+        <article><h3>Horizontal → vertical</h3><p>El cambio de orientación rompe con la estructura comercial anterior y acerca la pieza a una lámina o superficie de proyecto.</p></article>
+        <article><h3>Logo → sistema gráfico</h3><p>El GD deja de aparecer únicamente como una forma terminada. Ejes, líneas auxiliares, tramas y prolongaciones mantienen visible su proceso de construcción.</p></article>
+        <article><h3>Soporte neutro → campo activo</h3><p>El azul de la identidad original se expande hasta ocupar toda la tarjeta. El soporte pasa a formar parte de la identidad.</p></article>
+        <article><h3>Continuidad cromática</h3><p>Se conserva la relación cromática del monograma original: G azul y D roja. La marca anterior no se elimina; se reinterpreta.</p></article>
+        <article><h3>Positivo / negativo</h3><p>El trabajo entre azul, blanco y rojo introduce inversión, reserva y contraste, vinculando la identidad con los sistemas gráficos de reproducción de documentación técnica.</p></article>
+        <article><h3>Lenguaje de proyecto</h3><p>Líneas de construcción, rayados y geometrías auxiliares recuperan recursos propios del dibujo arquitectónico y de las copias heliográficas utilizadas en aquel momento.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="verbal-titulo">
+    <div class="identity-section-heading"><p class="eyebrow">05 · Cambio verbal</p><h2 id="verbal-titulo">La nueva denominación expresa otra escala de trabajo</h2></div>
+    <div class="identity-before-after">
+      <div><span>Antes</span><strong>GARCÍA DELILLO<br />CONSTRUCCIONES</strong></div>
+      <div class="identity-change-arrow" aria-hidden="true">↓</div>
+      <div><span>2000</span><strong>GARCÍA DELILLO<br />ARQUITECTURA, DISEÑO Y CONSTRUCCIÓN</strong></div>
+    </div>
+    <div class="prose identity-prose">
+      <p>No se trataba simplemente de sumar nuevos servicios. La nueva denominación buscaba expresar la posibilidad de asumir integralmente el proceso de llevar una vivienda desde sus primeras decisiones hasta su ejecución y entrega.</p>
     </div>
   </section>
 
   <section class="section page-width" aria-labelledby="proceso-titulo">
-    <div class="section-heading"><div><p class="eyebrow">Proceso</p><h2 id="proceso-titulo">La construcción paso a paso</h2></div><p>La secuencia visual muestra cómo el signo se arma por capas hasta llegar a la identidad que luego se anima.</p></div>
+    <div class="identity-section-heading"><p class="eyebrow">Proceso de construcción</p><h2 id="proceso-titulo">La identidad se arma por capas</h2></div>
     <div class="identity-process">
       {identitySteps.map((step, index) => <figure class="identity-step"><img src={step.src} alt={step.alt} width="2482" height="2482" loading="lazy" decoding="async" /><figcaption><span>Paso {index + 1}</span><strong>{step.label}</strong></figcaption></figure>)}
     </div>
   </section>
 
-  <section class="section page-width" aria-labelledby="logo-titulo">
-    <div class="section-heading"><div><p class="eyebrow">Resultado</p><h2 id="logo-titulo">El logo como pieza de identidad</h2></div><p>El resultado se conserva como material visual del desarrollo de identidad, sin convertir esta ficha en la web institucional.</p></div>
-    <figure class="identity-logo"><img src={logoPath} alt="Logo de Garcia Delillo sobre fondo oscuro" width="2059" height="1603" loading="eager" decoding="async" /><figcaption>Version visual del logo de Garcia Delillo.</figcaption></figure>
+  <section class="section page-width" aria-labelledby="cierre-titulo">
+    <div class="identity-section-heading"><p class="eyebrow">06 · Cierre del capítulo</p><h2 id="cierre-titulo">La identidad cambió porque había cambiado aquello que necesitaba representar</h2></div>
+    <figure class="identity-closing-card"><img src={transformationPath} alt="Resultado de la transformación de identidad visual de García Delillo" width="1079" height="1260" loading="lazy" decoding="async" /></figure>
+    <div class="prose identity-prose">
+      <p>La intervención mantuvo los elementos reconocibles de García Delillo, pero modificó su organización, su lenguaje y su relación con el soporte para hacer visible una nueva manera de entender la empresa.</p>
+    </div>
+    <div class="identity-credit"><strong>Pulso / 2000</strong><span>Identidad visual · papelería · representación arquitectónica</span></div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="puente-titulo">
+    <div class="identity-bridge">
+      <p class="eyebrow">El capítulo siguiente</p>
+      <h2 id="puente-titulo">Lo que comenzó como una intervención externa de diseño terminó convirtiéndose, durante los años siguientes, en una participación cada vez mayor dentro de García Delillo.</h2>
+      <p>2000 → 2005 → 2007 → conducción</p>
+      <p class="hero-actions"><a class="button-link" href={sitePath('/casos/garcia-delillo/')}>Continuar con el caso García Delillo</a> <a class="text-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Entrar a la web de García Delillo</a></p>
+    </div>
   </section>
 
   <section class="section page-width" id="animacion" aria-labelledby="animacion-titulo">
-    <div class="section-heading"><div><p class="eyebrow">Movimiento</p><h2 id="animacion-titulo">Animacion del logo</h2></div><p>La carpeta de identidad conserva distintas pruebas por hitos y una version animada final.</p></div>
-    <video class="identity-video" controls preload="metadata" poster={logoPath} aria-label="Animacion del logo de Garcia Delillo">
+    <div class="identity-section-heading"><p class="eyebrow">Movimiento</p><h2 id="animacion-titulo">El paso posterior: el logo animado</h2></div>
+    <p class="identity-prose">La identidad visual se prepara para el movimiento. La carpeta conserva esta versión animada como continuidad del mismo proceso.</p>
+    <video class="identity-video" controls preload="metadata" poster={logoPath} aria-label="Animación del logo de García Delillo">
       <source src={animationPath} type="video/mp4" />
       Tu navegador no puede reproducir este video.
     </video>
-  </section>
-
-  <section class="section page-width" aria-labelledby="continuidad-titulo">
-    <div class="section-heading"><div><p class="eyebrow">Continuidad</p><h2 id="continuidad-titulo">De la identidad a la web</h2></div><p>La identidad visual se conecta con la animacion y luego con la experiencia institucional de Arquitectura, Diseno y Construccion.</p></div>
-    <p class="hero-actions"><a class="button-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Entrar a la web de Garcia Delillo</a> <a class="text-link" href={sitePath('/casos/garcia-delillo/')}>Volver al caso</a></p>
   </section>
 </BaseLayout>

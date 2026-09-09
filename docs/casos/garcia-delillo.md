@@ -76,7 +76,9 @@ Los materiales locales y sus copias curadas se conservan para trazabilidad y man
 
 ## Identidad visual
 
-La ficha [Identidad visual de García Delillo](/portfolio-ramiro/casos/garcia-delillo/identidad/) documenta la secuencia específica del logo: identidad original, transformación, siete pasos de construcción, resultado y animación. Las tarjetas de referencia se incorporan mediante copias recortadas para conservar la lectura visual sin publicar los datos de contacto que aparecen en sus originales. Los archivos fuente permanecen fuera del repositorio.
+La ficha [Identidad visual de García Delillo](/portfolio-ramiro/casos/garcia-delillo/identidad/) se presenta como el primer capítulo del caso profesional, no como un proyecto aislado de branding. Abre con la identidad original y la transformación de 2000, desarrolla el contexto y el problema empresarial, explica las decisiones gráficas, muestra el cambio de denominación, conserva los siete pasos de construcción y cierra con el pasaje hacia la animación y la participación posterior dentro de la empresa.
+
+Las tarjetas de referencia se incorporan mediante copias recortadas para conservar la lectura visual sin publicar los datos de contacto que aparecen en sus originales. Los archivos fuente permanecen fuera del repositorio.
 
 ## Fuentes y límites de publicación
 

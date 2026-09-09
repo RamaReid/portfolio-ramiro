@@ -16,7 +16,7 @@ La portada comienza por una vista profesional curada: casos, método, capacidade
 
 También se agregó un lector para `public-projection.v1`. El snapshot público aprobado conserva su hash y conteos para trazabilidad, mientras que la salida visible del portfolio deriva el desarrollo institucional de García Delillo a su web canónica y no repite sus obras ni galerías.
 
-La entrada de García Delillo ahora incluye una ficha específica de identidad visual con la identidad original, la transformación, los siete pasos disponibles, el logo final y el video de animación. Las tarjetas de referencia se publican como derivados recortados para no exponer sus datos de contacto.
+La entrada de García Delillo ahora incluye una ficha específica de identidad visual presentada como primer capítulo del caso profesional: identidad original, transformación de 2000, contexto, problema empresarial, decisiones gráficas, cambio de denominación, siete pasos disponibles, logo final y video de animación. Las tarjetas de referencia se publican como derivados recortados para no exponer sus datos de contacto.
 
 Archivos creados:
 
