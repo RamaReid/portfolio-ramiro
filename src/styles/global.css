@@ -237,6 +237,8 @@ body.gd-identity-page .scene-card.wide { width: calc(100% + 80px); margin-inline
 body.gd-identity-page .scene-card.wide img { display: block; width: 100%; height: auto; }
 body.gd-identity-page .scene-card.portrait { width: min(520px, 100%); margin-inline: auto; }
 body.gd-identity-page .scene-card.portrait img { display: block; width: 100%; height: auto; }
+body.gd-identity-page .analysis-plate { width: min(1122px, 100%); margin-inline: auto; }
+body.gd-identity-page .analysis-plate img { display: block; width: 100%; height: auto; }
 body.gd-identity-page .identity-note-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 30px; }
 body.gd-identity-page .identity-note-grid .scene-subtitle { font-size: 20px; }
 body.gd-identity-page .identity-note-muted { margin-top: 30px !important; color: var(--gd-grey); font-size: 20px; }

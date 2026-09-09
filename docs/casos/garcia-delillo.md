@@ -82,6 +82,8 @@ Las dos piezas originales se incorporan sin recortes ni reinterpretaciones desde
 
 La ficha usa el sistema visual que ya existe en la web de García Delillo: fondo de plano, paleta azul/gris/rojo, tipografía Inter, títulos y subtítulos centrados, escenas separadas por el mismo ritmo vertical, grillas y tarjetas con el mismo tratamiento. No se incorpora una tipografía, una forma de titular ni una diagramación nuevas para esta ficha.
 
+La ficha incorpora además tres láminas entregadas para el análisis gráfico: identidad visual original, nueva identidad de 2000 y análisis comparativo. Se muestran completas como piezas de análisis y no reemplazan la secuencia de construcción que corresponde al logo animado.
+
 ## Fuentes y límites de publicación
 
 - GD-01 y GD-02 respaldan la etapa de representación y modelado como declaraciones curriculares.

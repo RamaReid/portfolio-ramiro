@@ -20,6 +20,8 @@ La entrada de García Delillo ahora incluye una ficha específica de identidad v
 
 La ficha adopta los elementos ya presentes en la web de García Delillo: fondo de plano, paleta, tipografía Inter, títulos centrados, escenas, grillas, tarjetas y ritmo de espacios. La presentación conserva la estructura del sitio existente sin crear un sistema gráfico paralelo.
 
+Se incorporaron las tres láminas de análisis gráfico recibidas, preservadas como archivos completos y presentadas una por escena después de las dos piezas originales. La animación continúa siendo el recurso que muestra la construcción del signo.
+
 Archivos creados:
 
 - `src/data/markdown.ts`
