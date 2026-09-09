@@ -11,7 +11,7 @@
 - Cada caso, proyecto, capacidad, etapa, evidencia y conexión debe tener una URL o un enlace descriptivo cuando sea una entidad navegable.
 - Una afirmación pública debe tener una única fuente editorial y un estado de autorización identificable.
 - Las fuentes privadas, las rutas locales, los originales y los datos sensibles no se serializan en el frontend.
-- El piloto incluye el caso de García Delillo Construcciones, el catálogo textual de diez proyectos y un manifiesto con 102 imágenes provenientes de `GDweb`.
+- El piloto incluye una entrada al caso de García Delillo Construcciones. La identidad empresarial, la animación del logo, la página web y las obras construidas se desarrollan en la web institucional canónica; el portfolio conserva materiales locales para trazabilidad sin duplicar esa experiencia.
 - Las evidencias visuales conservan procedencia y texto alternativo. La censura adicional puede aplicarse antes de una publicación externa efectiva.
 - La implementación técnica prevista es React dentro de Astro, con React Flow y Dagre para el mapa. Este documento define contenido y datos; T07 y T08 validan las bibliotecas.
 
@@ -140,8 +140,8 @@ Estas rutas son una propuesta de T05 y deben conservar slugs estables si D11 no 
 | Tipo | Ruta propuesta | Contenido esencial |
 |---|---|---|
 | Explorador | `/` | Introducción, mapa, lista textual de nodos y enlaces a casos, proyectos y capacidades |
-| Caso | `/casos/garcia-delillo/` | Relato, etapas, capacidades, proyectos relacionados, evidencias y fuentes editoriales públicas |
-| Proyecto | `/proyectos/garcia-delillo/cedahause/` | Texto del proyecto, relación con el caso, galería autorizada y enlaces de retorno |
+| Caso | `/casos/garcia-delillo/` | Entrada, contexto, capas de trabajo, etapas y enlace a la web institucional canónica |
+| Proyecto | `/proyectos/garcia-delillo/cedahause/` | Derivación a la web de García Delillo, sin duplicar el texto ni la galería |
 | Capacidad | `/capacidades/representacion-y-modelado/` | Descripción, proyectos y etapas que la aplican, con texto visible suficiente |
 | Trayectoria | `/trayectoria/` | Eventos temporales y enlaces al contenido existente; las fechas abiertas se mantienen como tales |
 | Contacto | `/contacto/` | Perfil público aprobado, canal de contacto, contexto profesional y límites vigentes |

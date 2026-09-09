@@ -6,7 +6,7 @@
 
 ## Propósito
 
-La página inicial presenta el eje del portfolio y permite explorar la relación entre el caso de García Delillo Construcciones, sus etapas, las capacidades asociadas y los proyectos documentados. El mapa es una forma de exploración; el contenido esencial permanece disponible como HTML, con enlaces directos a cada página.
+La página inicial presenta el eje del portfolio y permite entrar al caso de García Delillo Construcciones. El portfolio explica la relación entre identidad empresarial, web/animación y obras construidas; el desarrollo completo vive en la web institucional enlazada. El mapa es una forma de exploración del trabajo de Ramiro, no un duplicado del sitio de la empresa.
 
 ## Vista de escritorio
 
@@ -16,7 +16,7 @@ La página inicial presenta el eje del portfolio y permite explorar la relación
    - caso piloto;
    - etapas del recorrido;
    - capacidades relacionadas;
-   - proyectos del catálogo autorizado.
+   - la entrada a la web de García Delillo.
 4. Filtros de etapa con estado textual activo.
 5. Controles de desplazamiento y zoom provistos por el mapa.
 6. Acción `Restablecer vista`.
@@ -39,7 +39,7 @@ El mapa ocupa el ancho disponible y conserva desplazamiento y zoom táctiles. El
 
 ## Correspondencia con el contrato de contenido
 
-El mapa y la navegación textual consumen `src/data/portfolio.ts`. Las páginas de proyectos consumen el catálogo y el manifiesto de `public/evidencias/garcia-delillo/`. Las rutas directas son:
+El mapa y la navegación textual consumen `src/data/portfolio.ts`. La página de García Delillo enlaza a `https://gdarqdisenoyconstruccion.lovable.app`; las rutas antiguas de proyectos funcionan como derivación y no vuelven a publicar sus relatos ni galerías. Las rutas directas son:
 
 - `/casos/garcia-delillo/`;
 - `/proyectos/garcia-delillo/{slug}/`;

@@ -1,12 +1,12 @@
 # García Delillo Construcciones
 
-**Estado editorial:** texto y evidencias visuales integrados en la versión local del piloto; pendiente de revisión independiente y publicación externa
+**Estado editorial:** caso de entrada publicado en el portfolio; el desarrollo institucional y el catálogo completo se consultan en la web canónica
 **Idioma:** español  
 **Caso piloto:** evolución profesional dentro de una empresa de construcciones en Tandil
 
 ## El output cambia. El método permanece.
 
-Este caso sigue una secuencia de trabajo declarada en el currículum: primero la representación y el modelado de proyectos, después el diseño y el desarrollo de proyectos, y finalmente la dirección de obras. Cada etapa se presenta con el alcance que permiten las fuentes revisadas. Las afirmaciones sobre períodos y funciones se atribuyen al currículum. El catálogo de proyectos y sus evidencias visuales provienen de las páginas revisadas de `GDweb`.
+Este caso sigue una secuencia de trabajo declarada en el currículum: primero la representación y el modelado de proyectos, después el diseño y el desarrollo de proyectos, y finalmente la dirección de obras. Cada etapa se presenta con el alcance que permiten las fuentes revisadas. Las afirmaciones sobre períodos y funciones se atribuyen al currículum. La identidad empresarial, la animación del logo, la página web y las obras construidas pertenecen a una misma estructura de García Delillo.
 
 ## Representación y modelado
 
@@ -68,9 +68,11 @@ Esta lectura organiza el caso para el portfolio. Es una interpretación editoria
 
 El piloto incorpora 102 imágenes organizadas por proyecto en el [catálogo de evidencias](./evidencias-garcia-delillo.md). La salida local usa derivados WebP con fallback JPEG; los originales PNG permanecen fuera del repositorio. Cada recurso conserva su procedencia y el texto alternativo existente en la página revisada de `GDweb`. Cualquier revisión adicional se hará antes de una publicación externa.
 
-## Proyectos relacionados
+## Web canónica de García Delillo
 
-El catálogo textual de los proyectos de `GDweb`, cuya revisión editorial ya fue realizada en el sitio de origen, está disponible en [Proyectos de García Delillo](./proyectos-garcia-delillo.md). Las imágenes están relacionadas en el [catálogo de evidencias](./evidencias-garcia-delillo.md).
+El portfolio funciona como entrada y contexto. La experiencia institucional, el diseño empresarial, la animación del logo, la página web y el catálogo de obras se desarrollan en [gdarqdisenoyconstruccion.lovable.app](https://gdarqdisenoyconstruccion.lovable.app).
+
+Los materiales locales y sus copias curadas se conservan para trazabilidad y mantenimiento; no se vuelven a presentar aquí como una segunda web.
 
 ## Fuentes y límites de publicación
 

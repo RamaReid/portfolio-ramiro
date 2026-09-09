@@ -38,6 +38,12 @@ export type CaseStudy = {
   projectIds: string[];
 };
 
+export type GarciaDelilloLayer = {
+  id: string;
+  title: string;
+  description: string;
+};
+
 export type TimelineEvent = {
   id: string;
   stageId: string;
@@ -234,7 +240,7 @@ export const caseStudies: CaseStudy[] = [
     href: sitePath('/casos/garcia-delillo/'),
     stageIds: stages.map((stage) => stage.id),
     capabilityIds: capabilities.filter((capability) => capability.caseIds.includes('garcia-delillo')).map((capability) => capability.id),
-    projectIds: projects.filter((project) => project.caseId === 'garcia-delillo').map((project) => project.id),
+    projectIds: [],
   },
   {
     id: 'productoria',
@@ -264,6 +270,26 @@ export const caseStudy = caseStudies[0];
 export const productoriaCase = caseStudies[1];
 export const programmingCase = caseStudies[2];
 
+export const garciaDelilloWebUrl = 'https://gdarqdisenoyconstruccion.lovable.app';
+
+export const garciaDelilloLayers: GarciaDelilloLayer[] = [
+  {
+    id: 'identidad-empresarial',
+    title: 'Diseno de la imagen empresarial',
+    description: 'La identidad empresarial organiza el modo en que Garcia Delillo se presenta como Arquitectura, Diseno y Construccion.',
+  },
+  {
+    id: 'web-y-animacion',
+    title: 'Animacion del logo y pagina web',
+    description: 'La animacion del logo y la pagina web llevan esa identidad a una experiencia digital navegable.',
+  },
+  {
+    id: 'obras-construidas',
+    title: 'Arquitectura, Diseno y Construccion',
+    description: 'Las obras construidas forman el cuerpo de trabajo que la web de Garcia Delillo presenta y desarrolla.',
+  },
+];
+
 export const timelineEvents: TimelineEvent[] = stages.map((stage) => ({
   id: `timeline-${stage.id}`,
   stageId: stage.id,
@@ -279,7 +305,6 @@ export const graphNodes: GraphNode[] = [
   ...caseStudies.map((item) => ({ id: item.id, label: item.title, kind: 'case' as const, href: item.href, description: item.summary })),
   ...stages.map((stage) => ({ id: stage.id, label: stage.title, kind: 'stage' as const, href: sitePath(`/trayectoria/#${stage.slug}`), description: stage.description })),
   ...capabilities.map((capability) => ({ id: capability.id, label: capability.title, kind: 'capability' as const, href: sitePath(`/capacidades/${capability.slug}/`), description: capability.description })),
-  ...projects.map((project) => ({ id: project.id, label: project.title, kind: 'project' as const, href: sitePath(`/proyectos/garcia-delillo/${project.slug}/`), description: project.lead })),
 ];
 
 export const graphEdges: GraphEdge[] = [

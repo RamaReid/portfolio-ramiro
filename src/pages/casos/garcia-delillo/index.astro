@@ -1,13 +1,9 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import EvidencePicture from '../../../components/EvidencePicture.astro';
-import { caseStudy, capabilities, projects, stages } from '../../../data/portfolio';
-import { loadEvidenceManifest } from '../../../data/evidence';
+import { caseStudy, capabilities, garciaDelilloLayers, garciaDelilloWebUrl, stages } from '../../../data/portfolio';
 import { sitePath, siteUrl } from '../../../data/site';
 import '../../../styles/global.css';
 
-const manifest = loadEvidenceManifest();
-const featured = manifest.projects.map((project) => ({ ...project, asset: project.assets[0] })).filter((project) => project.asset);
 const caseCapabilities = capabilities.filter((capability) => capability.caseIds.includes(caseStudy.id));
 const structuredData = {
   '@context': 'https://schema.org',
@@ -17,20 +13,28 @@ const structuredData = {
   url: `${siteUrl}/casos/garcia-delillo/`,
 };
 ---
-<BaseLayout title={`${caseStudy.title} · Portfolio`} description={caseStudy.summary} canonical={caseStudy.href}>
+<BaseLayout title={`${caseStudy.title} - Portfolio`} description={caseStudy.summary} canonical={caseStudy.href}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
   <section class="case-hero page-width">
     <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / Caso</p>
     <p class="eyebrow">Caso piloto</p>
     <h1>{caseStudy.title}</h1>
     <p class="lede">{caseStudy.summary}</p>
+    <p><a class="button-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Entrar a la web de Garcia Delillo</a></p>
+  </section>
+
+  <section class="section page-width" aria-labelledby="capas-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Una misma carpeta de trabajo</p><h2 id="capas-titulo">La identidad conduce a la experiencia y a las obras</h2></div><p>El portfolio presenta la relacion entre las partes; el desarrollo completo vive en la web de Garcia Delillo.</p></div>
+    <div class="card-grid">
+      {garciaDelilloLayers.map((layer) => <article class="card" id={layer.id}><div><h3>{layer.title}</h3><p>{layer.description}</p></div><a class="text-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Ver en la web</a></article>)}
+    </div>
   </section>
 
   <section class="section page-width" aria-labelledby="recorrido-titulo">
     <div class="prose">
-      <p class="eyebrow">El output cambia. El método permanece.</p>
-      <h2 id="recorrido-titulo">Un recorrido por etapas</h2>
-      <p>El caso recorre una secuencia profesional declarada: primero la representación y el modelado, después el diseño y el desarrollo de proyectos, y finalmente la dirección de obras. El catálogo de proyectos de GDweb aporta el relato textual y las evidencias visuales relacionadas.</p>
+      <p class="eyebrow">El output cambia. El metodo permanece.</p>
+      <h2 id="recorrido-titulo">Un recorrido profesional relacionado</h2>
+      <p>El portfolio conserva el recorrido profesional que conecta representacion y modelado, diseno y desarrollo de proyectos, y direccion de obras. La web de Garcia Delillo contiene la experiencia institucional y el catalogo completo.</p>
     </div>
     <div class="stage-grid">
       {stages.map((stage) => <article class="stage-card" id={stage.slug}><strong>{stage.periodLabel}</strong><h3>{stage.title}</h3><p>{stage.description}</p></article>)}
@@ -38,23 +42,14 @@ const structuredData = {
   </section>
 
   <section class="section page-width" aria-labelledby="capacidades-titulo">
-    <div class="section-heading"><div><p class="eyebrow">Capacidades</p><h2 id="capacidades-titulo">Lo que conecta las etapas</h2></div><p>La navegación textual conserva estas relaciones aunque el mapa no se cargue.</p></div>
+    <div class="section-heading"><div><p class="eyebrow">Capacidades</p><h2 id="capacidades-titulo">Lo que conecta el caso con mi trabajo</h2></div><p>Estas capacidades pertenecen a la lectura del portfolio y no reemplazan el contenido de la web de la empresa.</p></div>
     <div class="card-grid">
       {caseCapabilities.map((capability) => <a class="card" href={sitePath(`/capacidades/${capability.slug}/`)}><div><h3>{capability.title}</h3><p>{capability.description}</p></div><span class="text-link">Ver capacidad</span></a>)}
     </div>
   </section>
 
-  <section class="section page-width" aria-labelledby="proyectos-titulo">
-    <div class="section-heading"><div><p class="eyebrow">Catálogo</p><h2 id="proyectos-titulo">Proyectos relacionados</h2></div><p>Texto y recursos visuales provienen de las páginas de proyecto revisadas de GDweb.</p></div>
-    <div class="card-grid">
-      {projects.map((project) => {
-        const resource = featured.find((item) => item.id === project.id);
-        return <a class="card" href={sitePath(`/proyectos/garcia-delillo/${project.slug}/`)}>
-          {resource?.asset && <EvidencePicture asset={resource.asset} />}
-          <div><h3>{project.title}</h3><p>{project.lead}</p></div>
-          <span class="text-link">Abrir proyecto</span>
-        </a>;
-      })}
-    </div>
+  <section class="section page-width" aria-labelledby="obras-titulo">
+    <div class="section-heading"><div><p class="eyebrow">Obras construidas</p><h2 id="obras-titulo">El catalogo completo esta en Garcia Delillo</h2></div><p>Las casas y sus recursos visuales pertenecen a la web de la empresa. El portfolio conserva esta entrada para no separar las obras de la identidad que las organiza.</p></div>
+    <p><a class="button-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Explorar Arquitectura, Diseno y Construccion</a></p>
   </section>
 </BaseLayout>
