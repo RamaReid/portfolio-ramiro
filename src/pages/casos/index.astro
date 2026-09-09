@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { caseStudies } from '../../data/portfolio';
+import { sitePath } from '../../data/site';
+import '../../styles/global.css';
+---
+<BaseLayout title="Casos · Portfolio" description="Casos profesionales y proyectos documentados de Ramiro García Reid." canonical="/casos/">
+  <section class="project-hero page-width">
+    <p class="breadcrumb"><a href={sitePath('/')}>Inicio</a> / Casos</p>
+    <p class="eyebrow">Vista profesional</p>
+    <h1>Casos documentados</h1>
+    <p class="project-lead">Una entrada directa a los recorridos que sostienen esta vista profesional: trabajo espacial, un prototipo de producto digital y una selección de interfaces y sistemas visuales.</p>
+  </section>
+  <section class="section page-width" aria-labelledby="casos-titulo">
+    <div class="card-grid">
+      {caseStudies.map((item) => <a class="card" href={item.href}>
+        <div><p class="eyebrow">Caso</p><h2>{item.title}</h2><p>{item.summary}</p></div>
+        <span class="text-link">Abrir caso</span>
+      </a>)}
+    </div>
+  </section>
+</BaseLayout>

@@ -2,38 +2,77 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Explorer from '../components/Explorer';
 import { caseStudies, caseStudy, capabilities, graphEdges, graphNodes, projects, stages } from '../data/portfolio';
+import { projectionStatus } from '../data/public-projection';
 import { sitePath } from '../data/site';
 import '../styles/global.css';
 
 const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
+const status = projectionStatus();
 ---
 <BaseLayout
   title="Portfolio de Ramiro García Reid"
-  description="Portfolio profesional interactivo: proyectos, capacidades y trayectoria organizados alrededor de un método."
+  description="Vista profesional de proyectos, capacidades y trayectoria organizada alrededor de un método."
   canonical="/"
 >
   <section class="hero page-width">
     <div class="hero-grid">
       <div>
-        <p class="eyebrow">Portfolio profesional · español</p>
+        <p class="eyebrow">Vista profesional · español</p>
         <h1>El output cambia. El método permanece.</h1>
-        <p class="lede">Un recorrido por proyectos, capacidades y decisiones. La experiencia principal es un mapa; la lectura esencial está disponible en HTML.</p>
+        <p class="lede">Una selección de proyectos, capacidades y etapas para leer cómo trabajo: hacer visible una idea, ordenar un sistema y convertirlo en un recorrido que otras personas puedan entender.</p>
+        <div class="hero-actions">
+          <a class="button-link" href={sitePath('/casos/')}>Ver casos</a>
+          <a class="text-link" href="#explorador">Explorar relaciones</a>
+        </div>
       </div>
       <aside class="hero-note">
-        <strong>Objetivo</strong>
-        <p>Presentar capacidades transferibles ante empresas y equipos de tecnología mediante casos concretos y un recorrido comprensible.</p>
-        <a class="text-link" href={caseStudy.href}>Ver el caso piloto</a>
+        <p class="eyebrow">Cómo leer esta vista</p>
+        <p>Los casos muestran trabajo documentado. Las capacidades nombran prácticas transferibles. La trayectoria ordena períodos que tienen respaldo editorial.</p>
+        <a class="text-link" href={caseStudy.href}>Abrir el caso piloto</a>
       </aside>
     </div>
   </section>
 
-  <section class="section page-width" id="explorador" aria-labelledby="explorador-titulo">
+  <section class="section page-width" aria-labelledby="casos-titulo">
     <div class="section-heading">
-      <div>
-        <p class="eyebrow">Experiencia principal</p>
-        <h2 id="explorador-titulo">Explorar relaciones</h2>
+      <div><p class="eyebrow">Trabajo seleccionado</p><h2 id="casos-titulo">Casos para empezar</h2></div>
+      <p>Una lectura breve del conjunto completo. Cada caso conserva su contexto, sus límites y sus fuentes.</p>
+    </div>
+    <div class="card-grid">
+      {caseStudies.map((item, index) => <a class="card" href={item.href}>
+        <div><p class="eyebrow">{index === 0 ? 'Caso piloto' : 'Caso adicional'}</p><h3>{item.title}</h3><p>{item.summary}</p></div>
+        <span class="text-link">Abrir caso completo</span>
+      </a>)}
+    </div>
+    <p><a class="text-link" href={sitePath('/casos/')}>Ver el índice de casos</a></p>
+  </section>
+
+  <section class="section section-tinted" aria-labelledby="metodo-titulo">
+    <div class="page-width">
+      <div class="section-heading">
+        <div><p class="eyebrow">Método en contexto</p><h2 id="metodo-titulo">Las etapas hacen visible el recorrido</h2></div>
+        <p>La cronología funciona como una segunda entrada al mismo contenido y conserva los períodos con la precisión disponible.</p>
       </div>
-      <p>Seleccioná una etapa, capacidad o proyecto para entender su relación con el caso. Los enlaces y explicaciones también están disponibles en texto.</p>
+      <div class="stage-grid">
+        {stages.map((stage, index) => <article class="stage-card"><strong>{String(index + 1).padStart(2, '0')} · {stage.periodLabel}</strong><h3>{stage.title}</h3><p>{stage.description}</p><a class="text-link" href={sitePath(`/trayectoria/#${stage.slug}`)}>Abrir etapa</a></article>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section page-width" aria-labelledby="capacidades-titulo">
+    <div class="section-heading">
+      <div><p class="eyebrow">Prácticas transferibles</p><h2 id="capacidades-titulo">Lo que conecta los casos</h2></div>
+      <p>Las capacidades se pueden leer por separado y volver a conectar con los casos donde aparecen documentadas.</p>
+    </div>
+    <div class="capability-grid">
+      {capabilities.map((capability) => <a class="capability-card" href={sitePath(`/capacidades/${capability.slug}/`)}><strong>{capability.title}</strong><span>{capability.description}</span></a>)}
+    </div>
+  </section>
+
+  <section class="section page-width explorer-section" id="explorador" aria-labelledby="explorador-titulo">
+    <div class="section-heading">
+      <div><p class="eyebrow">Exploración completa</p><h2 id="explorador-titulo">Explorar relaciones</h2></div>
+      <p>El mapa orienta la exploración. La lista y las relaciones explicadas mantienen el mismo contenido en HTML, sin depender de JavaScript.</p>
     </div>
 
     <div class="static-explorer">
@@ -48,14 +87,15 @@ const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
         </ul>
       </div>
       <div>
-        <p class="eyebrow">Cómo leerlo</p>
-        <p class="prose">El mapa destaca conexiones para orientar la exploración. La lista textual mantiene el recorrido cuando no hay JavaScript, en lectores de pantalla y en pantallas pequeñas.</p>
+        <p class="eyebrow">Estado de la fuente</p>
+        <p class="prose">{status.available ? `La vista está vinculada a la proyección pública ${status.exportId}, generada el ${status.generatedAt}.` : 'La proyección pública de Is My Life todavía no fue importada. Esta versión usa el contenido curado ya revisado del portfolio.'}</p>
+        <a class="text-link" href={sitePath('/markdown/')}>Abrir índice Markdown</a>
       </div>
     </div>
 
     <section class="static-connections" aria-labelledby="conexiones-titulo">
       <p class="eyebrow">Relaciones explicadas</p>
-      <h3 id="conexiones-titulo">Como se conecta el recorrido</h3>
+      <h3 id="conexiones-titulo">Cómo se conecta el recorrido</h3>
       <ul class="connection-list">
         {graphEdges.map((edge) => {
           const source = graphNodeById.get(edge.source);
@@ -69,25 +109,5 @@ const graphNodeById = new Map(graphNodes.map((node) => [node.id, node]));
     </section>
 
     <Explorer graphNodes={graphNodes} graphEdges={graphEdges} client:only="react" />
-  </section>
-
-  <section class="section page-width" aria-labelledby="casos-titulo">
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">Casos seleccionados</p>
-        <h2 id="casos-titulo">Trabajo documentado</h2>
-      </div>
-      <p>Tres recorridos muestran cómo el mismo método puede aplicarse a proyectos espaciales, a un prototipo de producto digital y a distintas interfaces web.</p>
-    </div>
-    <div class="card-grid">
-      <a class="card" href={caseStudy.href}>
-        <div><p class="eyebrow">Caso piloto</p><h3>{caseStudy.title}</h3><p>Representación y modelado, diseño y desarrollo de proyectos, y dirección de obras.</p></div>
-        <span class="text-link">Abrir caso completo</span>
-      </a>
-      {caseStudies.filter((item) => item.id !== caseStudy.id).map((item) => <a class="card" href={item.href}>
-        <div><p class="eyebrow">Caso adicional</p><h3>{item.title}</h3><p>{item.summary}</p></div>
-        <span class="text-link">Abrir caso completo</span>
-      </a>)}
-    </div>
   </section>
 </BaseLayout>
