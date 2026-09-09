@@ -6,21 +6,8 @@ import '../../../../styles/global.css';
 
 const logoPath = sitePath('/identidad/garcia-delillo/logo-garcia-delillo.png');
 const animationPath = sitePath('/identidad/garcia-delillo/logo-animado-garcia-delillo.mp4');
-const originalIdentityPath = sitePath('/identidad/garcia-delillo/proceso/identidad-original.png');
-const transformationPath = sitePath('/identidad/garcia-delillo/proceso/transformacion-identidad.png');
-const identitySteps = [
-  ['paso-0.png', 'Base de trabajo'],
-  ['paso-1.png', 'Construcción inicial'],
-  ['paso-2.png', 'Estructura del signo'],
-  ['paso-3.png', 'Aparición del trazo'],
-  ['paso-4.png', 'Composición cromática'],
-  ['paso-5.png', 'Nombre de la empresa'],
-  ['paso-6.png', 'Nueva identidad visual'],
-].map(([file, label], index) => ({
-  src: sitePath(`/identidad/garcia-delillo/proceso/${file}`),
-  alt: `Paso ${index + 1} del proceso de identidad visual de Garcia Delillo`,
-  label,
-}));
+const originalIdentityPath = sitePath('/identidad/garcia-delillo/original/identidad-original.png');
+const transformationPath = sitePath('/identidad/garcia-delillo/original/identidad-transformacion-2000.png');
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'CreativeWork',
@@ -41,11 +28,11 @@ const structuredData = {
 
     <div class="identity-opening">
       <figure class="identity-card identity-card--original">
-        <img src={originalIdentityPath} alt="Identidad visual original de García Delillo Construcciones" width="2181" height="1150" loading="eager" decoding="async" />
+        <img src={originalIdentityPath} alt="Identidad visual original de García Delillo Construcciones" width="1683" height="935" loading="eager" decoding="async" />
         <figcaption><span>1980/90</span><strong>García Delillo Construcciones</strong></figcaption>
       </figure>
       <figure class="identity-card identity-card--transformation">
-        <img src={transformationPath} alt="Nueva identidad visual de García Delillo Arquitectura, Diseño y Construcción" width="1079" height="1260" loading="eager" decoding="async" />
+        <img src={transformationPath} alt="Nueva identidad visual de García Delillo Arquitectura, Diseño y Construcción" width="1079" height="2106" loading="eager" decoding="async" />
         <figcaption><span>2000</span><strong>García Delillo Arquitectura, Diseño y Construcción</strong></figcaption>
       </figure>
     </div>
@@ -69,7 +56,7 @@ const structuredData = {
     <div class="identity-section-heading"><p class="eyebrow">02 · Punto de partida</p><h2 id="partida-titulo">Una identidad de los años 80/90</h2></div>
     <div class="identity-feature-layout">
       <figure class="identity-wide-card identity-wide-card--original">
-        <img src={originalIdentityPath} alt="Tarjeta de la identidad visual original de García Delillo" width="2181" height="1150" loading="lazy" decoding="async" />
+        <img src={originalIdentityPath} alt="Tarjeta de la identidad visual original de García Delillo" width="1683" height="935" loading="lazy" decoding="async" />
         <figcaption>La identidad existente respondía a una estructura corporativa convencional de su época.</figcaption>
       </figure>
       <div class="identity-notes">
@@ -98,7 +85,7 @@ const structuredData = {
     <div class="identity-section-heading"><p class="eyebrow">04 · Transformación gráfica</p><h2 id="transformacion-titulo">2000 — La nueva identidad</h2></div>
     <div class="identity-transformation">
       <figure class="identity-wide-card identity-wide-card--transformation">
-        <img src={transformationPath} alt="Tarjeta azul de la nueva identidad visual de García Delillo" width="1079" height="1260" loading="lazy" decoding="async" />
+        <img src={transformationPath} alt="Tarjeta azul de la nueva identidad visual de García Delillo" width="1079" height="2106" loading="lazy" decoding="async" />
         <figcaption>El signo deja de ser una forma aislada y se convierte en un sistema visual.</figcaption>
       </figure>
       <div class="identity-annotations">
@@ -124,16 +111,9 @@ const structuredData = {
     </div>
   </section>
 
-  <section class="section page-width" aria-labelledby="proceso-titulo">
-    <div class="identity-section-heading"><p class="eyebrow">Proceso de construcción</p><h2 id="proceso-titulo">La identidad se arma por capas</h2></div>
-    <div class="identity-process">
-      {identitySteps.map((step, index) => <figure class="identity-step"><img src={step.src} alt={step.alt} width="2482" height="2482" loading="lazy" decoding="async" /><figcaption><span>Paso {index + 1}</span><strong>{step.label}</strong></figcaption></figure>)}
-    </div>
-  </section>
-
   <section class="section page-width" aria-labelledby="cierre-titulo">
     <div class="identity-section-heading"><p class="eyebrow">06 · Cierre del capítulo</p><h2 id="cierre-titulo">La identidad cambió porque había cambiado aquello que necesitaba representar</h2></div>
-    <figure class="identity-closing-card"><img src={transformationPath} alt="Resultado de la transformación de identidad visual de García Delillo" width="1079" height="1260" loading="lazy" decoding="async" /></figure>
+    <figure class="identity-closing-card"><img src={transformationPath} alt="Resultado de la transformación de identidad visual de García Delillo" width="1079" height="2106" loading="lazy" decoding="async" /></figure>
     <div class="prose identity-prose">
       <p>La intervención mantuvo los elementos reconocibles de García Delillo, pero modificó su organización, su lenguaje y su relación con el soporte para hacer visible una nueva manera de entender la empresa.</p>
     </div>

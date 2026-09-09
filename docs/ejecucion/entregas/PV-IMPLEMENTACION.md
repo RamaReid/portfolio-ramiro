@@ -16,7 +16,7 @@ La portada comienza por una vista profesional curada: casos, método, capacidade
 
 También se agregó un lector para `public-projection.v1`. El snapshot público aprobado conserva su hash y conteos para trazabilidad, mientras que la salida visible del portfolio deriva el desarrollo institucional de García Delillo a su web canónica y no repite sus obras ni galerías.
 
-La entrada de García Delillo ahora incluye una ficha específica de identidad visual presentada como primer capítulo del caso profesional: identidad original, transformación de 2000, contexto, problema empresarial, decisiones gráficas, cambio de denominación, siete pasos disponibles, logo final y video de animación. Las tarjetas de referencia se publican como derivados recortados para no exponer sus datos de contacto.
+La entrada de García Delillo ahora incluye una ficha específica de identidad visual presentada como primer capítulo del caso profesional: las dos piezas originales, contexto, problema empresarial, decisiones gráficas, cambio de denominación, logo final y video de animación. La secuencia de construcción queda a cargo de la animación y no se duplica como una galería de pasos.
 
 Archivos creados:
 
@@ -64,7 +64,7 @@ No se eliminaron archivos. Is My Life se modificó dentro de su base local autor
 | `npm.cmd run test:db` en Is My Life | Exitoso | Supabase CLI y PostgreSQL local disponibles |
 | `scripts/import-is-my-life.mjs --dry-run` | Válido; 0 removals y 2 archivos administrados | Snapshot aprobado validado antes de aplicar |
 | Revisión de `dist/` | La entrada no contiene tarjetas de obras; las rutas individuales derivan a la web canónica | Build local exitoso |
-| Revisión de identidad | La ficha contiene las dos piezas de referencia, siete pasos, logo final y video | Copias curadas dentro de `public/identidad/garcia-delillo/` |
+| Revisión de identidad | La ficha contiene las dos piezas originales, logo final y video; la secuencia queda en la animación | Archivos originales dentro de `public/identidad/garcia-delillo/original/` |
 | Revisión de enlaces Markdown | Sin enlaces `portfolio-ramirocasos`; enlaces con base correcta | Se corrigió un error textual antes de la verificación final |
 | Revisión de privacidad | La portada generada no contiene `referencias_privadas` | No se inspeccionaron fuentes privadas ni se copiaron al proyecto |
 
