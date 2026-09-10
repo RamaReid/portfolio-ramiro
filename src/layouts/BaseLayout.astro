@@ -36,7 +36,10 @@ const canonicalUrl = canonical
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <header class="site-header">
       <div class="page-width header-inner">
-        <a class="brand" href={sitePath('/')}>Ramiro García Reid</a>
+        <a class="brand" href={sitePath('/')} aria-label="Ir al inicio: Ramiro García Reid">
+          <img class="brand-avatar" src={sitePath('/perfil/foto-perfil-2.png')} alt="" width="48" height="48" loading="eager" decoding="async" />
+          <span>Ramiro García Reid</span>
+        </a>
         <nav aria-label="Navegación principal">
           <a href={sitePath('/casos/')}>Casos</a>
           <a href={sitePath('/casos/garcia-delillo/')}>Caso piloto</a>

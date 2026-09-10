@@ -6,6 +6,10 @@
   <title>Logo García Delillo — Hitos 1–6</title>
 
   <style>
+    :root {
+      --loop-duration: 15.5s;
+    }
+
     html, body {
       height: 100%;
       margin: 0;
@@ -48,8 +52,7 @@
       fill: none;
       stroke-dasharray: 2000;
       stroke-dashoffset: 2000;
-      animation: drawGrey 20s ease-out forwards;
-      animation-delay: 11s;
+      animation: drawGrey var(--loop-duration) ease-out infinite;
     }
 
     .str3 {
@@ -61,8 +64,7 @@
       fill: none;
       stroke-dasharray: 2000;
       stroke-dashoffset: 2000;
-      animation: drawGinner 5s ease-in-out forwards;
-      animation-delay: 11s;
+      animation: drawGinner var(--loop-duration) ease-in-out infinite;
     }
 
     .str4 {
@@ -74,8 +76,7 @@
       fill: none;
       stroke-dasharray: 2000;
       stroke-dashoffset: 2000;
-      animation: drawGouter 6s ease-in-out forwards;
-      animation-delay: 12s;
+      animation: drawGouter var(--loop-duration) ease-in-out infinite;
     }
 
     .str5 {
@@ -87,30 +88,68 @@
       fill: none;
       stroke-dasharray: 3000;
       stroke-dashoffset: 3000;
-      animation: drawD 6s ease-in-out forwards;
-      animation-delay: 15s; /* empieza inmediatamente después de la G */
+      animation: drawD var(--loop-duration) ease-in-out infinite;
     }
 
     /* === ANIMACIONES === */
-    @keyframes revealX { from { x:-210px; } to { x:0; } }
-    @keyframes revealY { from { y:-170px; } to { y:0; } }
-    @keyframes revealLeftToRight { from { x:-210px; } to { x:0; } }
-    @keyframes revealTopToBottom { from { y:-170px; } to { y:0; } }
-    @keyframes revealRightToLeft { from { x:210px; } to { x:0; } }
-    @keyframes revealBottomToTop { from { y:170px; } to { y:0; } }
+    @keyframes revealX {
+      0% { x: -210px; }
+      9.677% { x: 0; }
+      100% { x: 0; }
+    }
+    @keyframes revealY {
+      0%, 8.710% { y: -170px; }
+      18.387% { y: 0; }
+      100% { y: 0; }
+    }
+    @keyframes revealLeftToRight {
+      0%, 18.710% { x: -210px; }
+      23.548% { x: 0; }
+      100% { x: 0; }
+    }
+    @keyframes revealTopToBottom {
+      0%, 22.903% { y: -170px; }
+      27.742% { y: 0; }
+      100% { y: 0; }
+    }
+    @keyframes revealRightToLeft {
+      0%, 27.097% { x: 210px; }
+      31.935% { x: 0; }
+      100% { x: 0; }
+    }
+    @keyframes revealBottomToTop {
+      0%, 31.290% { y: 170px; }
+      36.129% { y: 0; }
+      100% { y: 0; }
+    }
 
-    @keyframes drawGrey { to { stroke-dashoffset: 0; } }
-    @keyframes drawGinner { to { stroke-dashoffset: 0; } }
-    @keyframes drawGouter { to { stroke-dashoffset: 0; } }
-    @keyframes drawD { to { stroke-dashoffset: 0; } }
+    @keyframes drawGrey {
+      0%, 35.484% { stroke-dashoffset: 2000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes drawGinner {
+      0%, 35.484% { stroke-dashoffset: 2000; }
+      51.613% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes drawGouter {
+      0%, 38.710% { stroke-dashoffset: 2000; }
+      58.065% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes drawD {
+      0%, 48.387% { stroke-dashoffset: 3000; }
+      67.742% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 0; }
+    }
 
     /* === ASIGNACIÓN DE ANIMACIONES === */
-    #rectX { animation: revealX 3s cubic-bezier(0.55, 0.08, 0.44, 0.99) forwards; }
-    #rectY { animation: revealY 3s cubic-bezier(0.55, 0.08, 0.44, 0.99) forwards; animation-delay: 2.7s; }
-    #rectTop    { animation: revealLeftToRight 1.5s ease-in-out forwards 5.8s; }
-    #rectRight  { animation: revealTopToBottom 1.5s ease-in-out forwards 7.1s; }
-    #rectBottom { animation: revealRightToLeft 1.5s ease-in-out forwards 8.4s; }
-    #rectLeft   { animation: revealBottomToTop 1.5s ease-in-out forwards 9.7s; }
+    #rectX { animation: revealX var(--loop-duration) cubic-bezier(0.55, 0.08, 0.44, 0.99) infinite; }
+    #rectY { animation: revealY var(--loop-duration) cubic-bezier(0.55, 0.08, 0.44, 0.99) infinite; }
+    #rectTop    { animation: revealLeftToRight var(--loop-duration) ease-in-out infinite; }
+    #rectRight  { animation: revealTopToBottom var(--loop-duration) ease-in-out infinite; }
+    #rectBottom { animation: revealRightToLeft var(--loop-duration) ease-in-out infinite; }
+    #rectLeft   { animation: revealBottomToTop var(--loop-duration) ease-in-out infinite; }
 
   </style>
 </head>

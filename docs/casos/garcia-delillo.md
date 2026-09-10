@@ -76,13 +76,13 @@ Los materiales locales y sus copias curadas se conservan para trazabilidad y man
 
 ## Identidad visual
 
-La ficha [Identidad visual de García Delillo](/portfolio-ramiro/casos/garcia-delillo/identidad/) se presenta como el primer capítulo del caso profesional, no como un proyecto aislado de branding. Se organiza como una quinta pieza del sistema visual: hero breve, cuatro láminas completas —años 80/90, 2000, análisis comparativo y reformulación de 2020—, animación viva, lectura del paso del dibujo al código y conexión con la web institucional. La animación conserva la secuencia de construcción del signo.
+La ficha [Identidad visual de García Delillo](/portfolio-ramiro/casos/garcia-delillo/identidad/) se presenta como el primer capítulo del caso profesional, no como un proyecto aislado de branding. Se organiza como una quinta pieza del sistema visual: hero breve, cuatro láminas completas —años 80/90, 2000, análisis comparativo y reformulación de 2020—, animación viva, lectura del paso del dibujo al código y conexión con la web institucional. La copia pública de la animación conserva la geometría y la secuencia de construcción del signo, y la ejecuta en un loop sincronizado.
 
 Las dos piezas originales se incorporan sin recortes ni reinterpretaciones desde los archivos indicados. Los archivos fuente externos permanecen fuera del repositorio.
 
 La ficha usa el sistema visual que ya existe en la web de García Delillo: fondo de plano, campo navy, paleta azul/gris/rojo, tipografía Inter, títulos y subtítulos centrados, escenas separadas por el mismo ritmo vertical y láminas presentadas como documentos dentro del campo de trabajo. No se incorpora una tipografía, una forma de titular ni una diagramación nuevas para esta ficha.
 
-La ficha incorpora además cuatro láminas entregadas para el análisis gráfico: identidad visual original, nueva identidad de 2000, análisis comparativo y reformulación de 2020. Se muestran completas como piezas de análisis; las piezas originales no se repiten como bloques separados porque ya están integradas en las láminas. La animación se ejecuta desde el `animacion.html` original mediante un `iframe`, con enlace al fuente; el MP4 existente se conserva como material del repositorio y no se presenta en esta vista.
+La ficha incorpora además cuatro láminas entregadas para el análisis gráfico: identidad visual original, nueva identidad de 2000, análisis comparativo y reformulación de 2020. Se muestran completas como piezas de análisis; las piezas originales no se repiten como bloques separados porque ya están integradas en las láminas. La animación se ejecuta desde una copia pública derivada del `animacion.html` original mediante un `iframe`, con loop continuo a doble velocidad y enlace al fuente; el MP4 existente se conserva como material del repositorio y no se presenta en esta vista.
 
 ## Fuentes y límites de publicación
 
