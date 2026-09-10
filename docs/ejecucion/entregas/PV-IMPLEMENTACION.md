@@ -53,7 +53,7 @@ No se eliminaron archivos. Is My Life se modificó dentro de su base local autor
 - No se agregaron fechas, roles, métricas, clientes, resultados ni fuentes nuevas.
 - Se eligió la entrada curada por casos y la exploración como segundo modo, tal como proponía el plan local.
 - La conexión con el snapshot canónico se conserva mediante el importador existente, con dry-run previo y aplicación controlada; no se usa para duplicar la web institucional.
-- García Delillo funciona como entrada a `https://gdarqdisenoyconstruccion.lovable.app`.
+- García Delillo funciona como entrada a `https://gdarq.lovable.app`.
 - El export aprobado es `public-ramiro-garcia-reid-2026-09-09`, con hash `ada81429ab31259e3c03924d730b24065776714aba313ecacf7242652d9ce2af`.
 - El snapshot contiene 29 entidades, 23 relaciones, 29 bloques de contenido y 102 assets públicos.
 

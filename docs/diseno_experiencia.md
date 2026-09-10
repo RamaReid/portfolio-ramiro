@@ -39,7 +39,7 @@ El mapa ocupa el ancho disponible y conserva desplazamiento y zoom táctiles. El
 
 ## Correspondencia con el contrato de contenido
 
-El mapa y la navegación textual consumen `src/data/portfolio.ts`. La página de García Delillo enlaza a `https://gdarqdisenoyconstruccion.lovable.app`; las rutas antiguas de proyectos funcionan como derivación y no vuelven a publicar sus relatos ni galerías. Las rutas directas son:
+El mapa y la navegación textual consumen `src/data/portfolio.ts`. La página de García Delillo enlaza a `https://gdarq.lovable.app`; las rutas antiguas de proyectos funcionan como derivación y no vuelven a publicar sus relatos ni galerías. Las rutas directas son:
 
 - `/casos/garcia-delillo/`;
 - `/proyectos/garcia-delillo/{slug}/`;

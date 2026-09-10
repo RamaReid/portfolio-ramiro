@@ -70,7 +70,7 @@ El piloto incorpora 102 imágenes organizadas por proyecto en el [catálogo de e
 
 ## Web canónica de García Delillo
 
-El portfolio funciona como entrada y contexto. La experiencia institucional, el diseño empresarial, la animación del logo, la página web y el catálogo de obras se desarrollan en [gdarqdisenoyconstruccion.lovable.app](https://gdarqdisenoyconstruccion.lovable.app).
+El portfolio funciona como entrada y contexto. La experiencia institucional, el diseño empresarial, la animación del logo, la página web y el catálogo de obras se desarrollan en [gdarq.lovable.app](https://gdarq.lovable.app).
 
 Los materiales locales y sus copias curadas se conservan para trazabilidad y mantenimiento; no se vuelven a presentar aquí como una segunda web.
 

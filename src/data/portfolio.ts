@@ -270,7 +270,7 @@ export const caseStudy = caseStudies[0];
 export const productoriaCase = caseStudies[1];
 export const programmingCase = caseStudies[2];
 
-export const garciaDelilloWebUrl = 'https://gdarqdisenoyconstruccion.lovable.app';
+export const garciaDelilloWebUrl = 'https://gdarq.lovable.app';
 export const garciaDelilloIdentityUrl = sitePath('/casos/garcia-delillo/identidad/');
 
 export const garciaDelilloLayers: GarciaDelilloLayer[] = [
