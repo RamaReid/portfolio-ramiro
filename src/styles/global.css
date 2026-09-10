@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --ink: #16363b;
   --muted: #557073;
   --paper: #f6f3ec;
@@ -190,7 +190,16 @@ body.gd-identity-page .scene {
   padding: 30px 0;
   position: relative;
 }
-body.gd-identity-page .scene-intro { padding-top: 150px; }
+body.gd-identity-page .gd-identity-hero {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+body.gd-identity-page .gd-identity-hero-mark {
+  display: block;
+  width: min(180px, 38vw);
+  height: auto;
+  margin: 0 auto 30px;
+}
 body.gd-identity-page .scene-title {
   margin: 0 auto 20px;
   color: white;
@@ -219,36 +228,55 @@ body.gd-identity-page .scene-text {
 }
 body.gd-identity-page .scene-text + .scene-text { margin-top: 12px; }
 body.gd-identity-page .scene-text strong { color: white; }
-body.gd-identity-page .scene-identity-pieces,
-body.gd-identity-page .scene-details,
-body.gd-identity-page .identity-note-grid {
-  display: grid;
-  gap: 48px;
+body.gd-identity-page .gd-identity-meta {
+  margin: 0 auto 10px;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: .1em;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
 }
-body.gd-identity-page .scene-identity-pieces { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 30px; }
-body.gd-identity-page .scene-card { display: block; width: 100%; border-radius: 6px; overflow: hidden; }
-body.gd-identity-page .identity-piece { text-align: center; }
-body.gd-identity-page .identity-piece img { display: block; width: 100%; height: min(680px, 70vw); object-fit: contain; }
-body.gd-identity-page .identity-piece .scene-subtitle { margin-top: 16px; }
-body.gd-identity-page .identity-piece .scene-text { font-size: 22px; }
+body.gd-identity-page .gd-identity-hero-copy {
+  max-width: 980px;
+  margin-top: 30px;
+}
 body.gd-identity-page .scene-divider { padding-bottom: 45px; }
 body.gd-identity-page .scene-space { padding-block: 30px; }
-body.gd-identity-page .scene-card.wide { width: calc(100% + 80px); margin-inline: -40px; }
-body.gd-identity-page .scene-card.wide img { display: block; width: 100%; height: auto; }
-body.gd-identity-page .scene-card.portrait { width: min(520px, 100%); margin-inline: auto; }
-body.gd-identity-page .scene-card.portrait img { display: block; width: 100%; height: auto; }
-body.gd-identity-page .analysis-plate { width: min(1122px, 100%); margin-inline: auto; }
-body.gd-identity-page .analysis-plate img { display: block; width: 100%; height: auto; }
-body.gd-identity-page .identity-note-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 30px; }
-body.gd-identity-page .identity-note-grid .scene-subtitle { font-size: 20px; }
-body.gd-identity-page .identity-note-muted { margin-top: 30px !important; color: var(--gd-grey); font-size: 20px; }
-body.gd-identity-page .identity-statement { margin-block: 28px; }
-body.gd-identity-page .identity-statement strong { display: block; color: white; font-size: 32px; }
-body.gd-identity-page .scene-details { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 30px; }
-body.gd-identity-page .scene-details .scene-subtitle { font-size: 22px; }
-body.gd-identity-page .scene-details .scene-text { font-size: 20px; }
-body.gd-identity-page .identity-arrow { color: white; font-size: 34px; }
-body.gd-identity-page .identity-credit { margin-top: 30px; }
+body.gd-identity-page .scene-card {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+body.gd-identity-page .analysis-plate {
+  width: min(1122px, 100%);
+  margin-inline: auto;
+  border: 1px solid rgba(255, 255, 255, .22);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .18);
+}
+body.gd-identity-page .analysis-plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+body.gd-identity-page .gd-identity-animation-shell {
+  width: min(900px, 100%);
+  min-height: 360px;
+  aspect-ratio: 210 / 170;
+  margin: 30px auto 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .22);
+  background: rgba(15, 19, 32, .75);
+}
+body.gd-identity-page .gd-identity-animation {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  border: 0;
+}
+body.gd-identity-page .gd-identity-animation-statement { margin-top: 28px; }
 body.gd-identity-page .identity-actions {
   display: flex;
   justify-content: center;
@@ -266,30 +294,26 @@ body.gd-identity-page .contact-link {
   text-decoration: none;
   transition: color .3s ease, border-color .3s ease;
 }
-body.gd-identity-page .contact-link:hover { border-color: var(--gd-grey); color: var(--gd-grey); }
-body.gd-identity-page .gd-identity-video {
-  display: block;
-  width: 100%;
-  max-width: 1375px;
-  margin: 30px auto 0;
-  border: 1px solid rgba(255, 255, 255, .22);
-  background: rgba(15, 19, 32, .55);
-}
-@media (max-width: 900px) {
-  body.gd-identity-page .scene-details, body.gd-identity-page .identity-note-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+body.gd-identity-page .contact-link:hover {
+  border-color: var(--gd-grey);
+  color: var(--gd-grey);
 }
 @media (max-width: 768px) {
   body.gd-identity-page .site-header { right: 20px; left: 20px; }
   body.gd-identity-page .header-inner { margin-top: 40px; padding-inline: 15px; }
   body.gd-identity-page nav { gap: 20px; }
   body.gd-identity-page .scene-title { font-size: 32px; }
-  body.gd-identity-page .scene-text, body.gd-identity-page .scene-subtitle { font-size: 20px; }
-  body.gd-identity-page .scene-card.wide { width: 100%; margin-inline: 0; }
+  body.gd-identity-page .scene-text,
+  body.gd-identity-page .scene-subtitle { font-size: 20px; }
+  body.gd-identity-page .gd-identity-animation-shell,
+  body.gd-identity-page .gd-identity-animation { min-height: 320px; }
 }
 @media (max-width: 650px) {
-  body.gd-identity-page .page-width, body.gd-identity-page .gd-identity-width { width: calc(100% - 40px); }
-  body.gd-identity-page .scene-identity-pieces, body.gd-identity-page .scene-details, body.gd-identity-page .identity-note-grid { grid-template-columns: 1fr; gap: 30px; }
-  body.gd-identity-page .scene-intro { padding-top: 135px; }
-  body.gd-identity-page .identity-piece img { height: auto; }
+  body.gd-identity-page .page-width,
+  body.gd-identity-page .gd-identity-width { width: calc(100% - 40px); }
+  body.gd-identity-page .scene { padding-block: 24px; }
+  body.gd-identity-page .gd-identity-hero { padding-top: 135px; }
+  body.gd-identity-page .gd-identity-hero-mark { width: 140px; }
+  body.gd-identity-page .gd-identity-meta { font-size: .8rem; }
   body.gd-identity-page .contact-link { font-size: 18px; }
 }

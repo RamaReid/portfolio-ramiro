@@ -16,11 +16,11 @@ La portada comienza por una vista profesional curada: casos, método, capacidade
 
 También se agregó un lector para `public-projection.v1`. El snapshot público aprobado conserva su hash y conteos para trazabilidad, mientras que la salida visible del portfolio deriva el desarrollo institucional de García Delillo a su web canónica y no repite sus obras ni galerías.
 
-La entrada de García Delillo ahora incluye una ficha específica de identidad visual presentada como primer capítulo del caso profesional: las dos piezas originales, contexto, problema empresarial, decisiones gráficas, cambio de denominación, logo final y video de animación. La secuencia de construcción queda a cargo de la animación y no se duplica como una galería de pasos.
+La entrada de García Delillo ahora incluye una ficha específica de identidad visual presentada como una quinta pieza del sistema: hero breve, cuatro láminas completas, animación viva, lectura del paso del dibujo al código y conexión con la web institucional. Las piezas originales no se repiten por separado porque ya están contenidas en las láminas.
 
 La ficha adopta los elementos ya presentes en la web de García Delillo: fondo de plano, paleta, tipografía Inter, títulos centrados, escenas, grillas, tarjetas y ritmo de espacios. La presentación conserva la estructura del sitio existente sin crear un sistema gráfico paralelo.
 
-Se incorporaron las tres láminas de análisis gráfico recibidas, preservadas como archivos completos y presentadas una por escena después de las dos piezas originales. La animación continúa siendo el recurso que muestra la construcción del signo.
+Se incorporó la lámina 04 de análisis gráfico, preservada como archivo completo junto con las tres láminas anteriores. La animación se ejecuta desde el `animacion.html` original dentro de un `iframe`; el MP4 existente queda conservado en el repositorio, sin presentarse en esta vista.
 
 Archivos creados:
 

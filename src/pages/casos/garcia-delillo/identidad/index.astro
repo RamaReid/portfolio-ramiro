@@ -4,147 +4,104 @@ import { garciaDelilloIdentityUrl, garciaDelilloWebUrl } from '../../../../data/
 import { siteBase, sitePath, siteUrl } from '../../../../data/site';
 import '../../../../styles/global.css';
 
-const logoPath = sitePath('/identidad/garcia-delillo/logo-garcia-delillo.png');
-const animationPath = sitePath('/identidad/garcia-delillo/logo-animado-garcia-delillo.mp4');
-const originalIdentityPath = sitePath('/identidad/garcia-delillo/original/identidad-original.png');
-const transformationPath = sitePath('/identidad/garcia-delillo/original/identidad-transformacion-2000.png');
+const logoMarkPath = sitePath('/identidad/garcia-delillo/logo-garcia-delillo.png');
+const animationHtmlPath = sitePath('/identidad/garcia-delillo/animacion/animacion.html');
+const sourceCodeUrl = 'https://github.com/RamaReid/portfolio-ramiro/blob/main/public/identidad/garcia-delillo/animacion/animacion.html';
+const analysisPlates = [
+  {
+    number: '01',
+    title: 'Una identidad de los años 80/90',
+    src: sitePath('/identidad/garcia-delillo/analisis/analisis-identidad-original.png'),
+    alt: 'Lámina de análisis de la identidad visual original de García Delillo de los años 80/90',
+    width: 1122,
+    height: 1402,
+  },
+  {
+    number: '02',
+    title: '2000: una nueva identidad para una nueva idea de empresa',
+    src: sitePath('/identidad/garcia-delillo/analisis/analisis-identidad-2000.png'),
+    alt: 'Lámina de análisis de la nueva identidad visual de García Delillo en 2000',
+    width: 1122,
+    height: 1402,
+  },
+  {
+    number: '03',
+    title: 'De construir a integrar el proceso',
+    src: sitePath('/identidad/garcia-delillo/analisis/analisis-comparativo.png'),
+    alt: 'Lámina de análisis comparativo entre la identidad original y la identidad de 2000 de García Delillo',
+    width: 1122,
+    height: 1402,
+  },
+  {
+    number: '04',
+    title: '2020: reformular sin empezar de nuevo',
+    src: sitePath('/identidad/garcia-delillo/analisis/analisis-identidad-2020.png'),
+    alt: 'Lámina de análisis gráfico de la reformulación de la identidad de García Delillo en 2020',
+    width: 1055,
+    height: 1491,
+  },
+];
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'CreativeWork',
-  name: 'Primera intervención en Garcia Delillo',
-  description: 'Transformación de la identidad visual de Garcia Delillo Construcciones hacia Arquitectura, Diseño y Construcción.',
+  name: 'García Delillo · Identidad visual en evolución',
+  description: 'Recorrido por la evolución de la identidad visual de García Delillo entre los años 80/90, 2000 y 2020.',
   url: `${siteUrl}/casos/garcia-delillo/identidad/`,
-  image: `${siteUrl}${transformationPath.slice(siteBase.length)}`,
+  image: `${siteUrl}${analysisPlates[3].src.slice(siteBase.length)}`,
 };
 ---
-<BaseLayout title="2000 — Primera intervención en García Delillo" description="Transformación de la identidad visual de García Delillo Construcciones hacia Arquitectura, Diseño y Construcción." canonical={garciaDelilloIdentityUrl} bodyClass="gd-identity-page">
+<BaseLayout title="García Delillo · Identidad visual en evolución" description="Recorrido por la evolución de la identidad visual de García Delillo entre los años 80/90, 2000 y 2020." canonical={garciaDelilloIdentityUrl} bodyClass="gd-identity-page">
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
 
-  <section class="scene scene-intro gd-identity-width">
-    <h1 class="scene-title">2000 — Primera intervención en García Delillo</h1>
-    <p class="scene-subtitle">De “Construcciones” a “Arquitectura, Diseño y Construcción”.</p>
+  <section class="scene gd-identity-width gd-identity-hero">
+    <img class="gd-identity-hero-mark" src={logoMarkPath} alt="GD" width="2059" height="1603" loading="eager" decoding="async" />
+    <h1 class="scene-title">Identidad visual en evolución</h1>
+    <p class="gd-identity-meta">Identidad · Diseño gráfico · Motion · Desarrollo web</p>
+    <p class="gd-identity-meta">1980/90 — 2000 — 2020</p>
+    <p class="scene-text gd-identity-hero-copy">Una identidad construida a través del tiempo. El proyecto recorre más de cuarenta años de continuidad gráfica dentro de una empresa con más de cien años de trayectoria, desde el monograma original hasta su reformulación como sistema visual y digital.</p>
   </section>
 
-  <section class="scene scene-identity-pieces gd-identity-width" aria-label="Identidad original y transformación de 2000">
-    <div class="scene-card identity-piece">
-      <img src={originalIdentityPath} alt="Identidad visual original de García Delillo Construcciones" width="1683" height="935" loading="eager" decoding="async" />
-      <p class="scene-subtitle">1980/90</p>
-      <p class="scene-text">García Delillo Construcciones</p>
+  {analysisPlates.map((plate, index) => (
+    <section class="scene scene-space gd-identity-width" aria-labelledby={`analisis-${plate.number}`}>
+      <h2 class="sr-only" id={`analisis-${plate.number}`}>{plate.number} · {plate.title}</h2>
+      <figure class="scene-card analysis-plate">
+        <img src={plate.src} alt={plate.alt} width={plate.width} height={plate.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+      </figure>
+    </section>
+  ))}
+
+  <section class="scene scene-divider gd-identity-width" aria-label="Bisagra hacia el sistema digital">
+    <p class="scene-subtitle">De la identidad gráfica al sistema digital.</p>
+  </section>
+
+  <section class="scene scene-divider gd-identity-width" id="animacion" aria-labelledby="animacion-titulo">
+    <h2 class="scene-title scene-title-small" id="animacion-titulo">La forma empieza a moverse</h2>
+    <p class="scene-text">La construcción visible del GD permitía trasladar naturalmente el signo al tiempo. Ejes, líneas, tramas y superficies podían aparecer en secuencia hasta reconstruir el monograma.</p>
+    <div class="gd-identity-animation-shell">
+      <iframe class="gd-identity-animation" name="gd-identity-animation" src={animationHtmlPath} title="Animación viva del logo de García Delillo" loading="eager"></iframe>
     </div>
-    <div class="scene-card identity-piece">
-      <img src={transformationPath} alt="Nueva identidad visual de García Delillo Arquitectura, Diseño y Construcción" width="1079" height="2106" loading="eager" decoding="async" />
-      <p class="scene-subtitle">2000</p>
-      <p class="scene-text">García Delillo Arquitectura, Diseño y Construcción</p>
-    </div>
+    <p class="scene-text gd-identity-animation-statement"><strong>El movimiento no se agrega al signo. Surge de la manera en que el signo está construido.</strong></p>
+    <p class="identity-actions">
+      <a class="contact-link" href={animationHtmlPath} target="gd-identity-animation">Reiniciar animación</a>
+      <a class="contact-link" href={sourceCodeUrl} target="_blank" rel="noreferrer">Ver código fuente</a>
+    </p>
   </section>
 
-  <section class="scene scene-divider gd-identity-width" aria-labelledby="analisis-grafico-titulo">
-    <p class="scene-subtitle" id="analisis-grafico-titulo">Análisis gráfico</p>
-    <p class="scene-text">La evolución de la identidad se presenta en tres láminas de lectura: el punto de partida, la intervención de 2000 y la comparación entre ambas piezas.</p>
+  <section class="scene scene-divider gd-identity-width" aria-labelledby="codigo-titulo">
+    <h2 class="scene-title scene-title-small" id="codigo-titulo">Del dibujo al código</h2>
+    <p class="scene-text">Esta animación fue también uno de los primeros mojones de mi ingreso a la programación aplicada al diseño. A partir de los conocimientos adquiridos en la Tecnicatura en Desarrollo de Aplicaciones, desarrollé el movimiento utilizando HTML, CSS y SVG.</p>
+    <p class="scene-text">Hasta entonces había trabajado principalmente sobre la forma y su representación. El código incorporó otra dimensión: poder definir también su comportamiento, su secuencia y su relación con el tiempo.</p>
+    <p class="scene-text"><strong>La identidad había hecho visible el proceso de construcción de una forma. El código permitió construir también su comportamiento.</strong></p>
   </section>
 
-  <section class="scene scene-space gd-identity-width" aria-labelledby="analisis-original-titulo">
-    <p class="scene-subtitle" id="analisis-original-titulo">01 · Identidad visual original</p>
-    <figure class="scene-card analysis-plate">
-      <img src={sitePath('/identidad/garcia-delillo/analisis/analisis-identidad-original.png')} alt="Lámina de análisis de la identidad visual original de García Delillo de los años 80/90" width="1122" height="1402" loading="lazy" decoding="async" />
-    </figure>
+  <section class="scene scene-divider gd-identity-width" aria-labelledby="web-titulo">
+    <h2 class="scene-title scene-title-small" id="web-titulo">La identidad se convierte en entorno</h2>
+    <p class="scene-text">La reformulación no termina en la tarjeta ni en el monograma. El mismo campo navy, la nueva relación tipográfica y la reducción de elementos se trasladan al entorno digital de GD.</p>
+    <p class="identity-actions"><a class="contact-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Entrar a la web de García Delillo</a></p>
   </section>
 
-  <section class="scene scene-space gd-identity-width" aria-labelledby="analisis-2000-titulo">
-    <p class="scene-subtitle" id="analisis-2000-titulo">02 · Una nueva identidad para una nueva idea de empresa</p>
-    <figure class="scene-card analysis-plate">
-      <img src={sitePath('/identidad/garcia-delillo/analisis/analisis-identidad-2000.png')} alt="Lámina de análisis de la nueva identidad visual de García Delillo en 2000" width="1122" height="1402" loading="lazy" decoding="async" />
-    </figure>
-  </section>
-
-  <section class="scene scene-space gd-identity-width" aria-labelledby="analisis-comparativo-titulo">
-    <p class="scene-subtitle" id="analisis-comparativo-titulo">03 · Análisis comparativo</p>
-    <figure class="scene-card analysis-plate">
-      <img src={sitePath('/identidad/garcia-delillo/analisis/analisis-comparativo.png')} alt="Lámina de análisis comparativo entre la identidad original y la identidad de 2000 de García Delillo" width="1122" height="1402" loading="lazy" decoding="async" />
-    </figure>
-  </section>
-
-  <section class="scene scene-divider gd-identity-width" aria-labelledby="contexto-titulo">
-    <p class="scene-subtitle" id="contexto-titulo">01 · Contexto</p>
-    <p class="scene-text">En 2000, García Delillo Construcciones trabajaba con Pulso, una pequeña startup de diseño que habíamos creado mientras terminábamos la facultad. Realizábamos maquetas físicas y representaciones 3D de sus proyectos.</p>
-    <p class="scene-text">La empresa estaba comenzando a replantear su posicionamiento. Hasta entonces intervenía principalmente como constructora sobre proyectos desarrollados por arquitectos elegidos por los clientes.</p>
-    <p class="scene-text">La nueva propuesta buscaba poder acompañar integralmente el proceso de construir una vivienda: desde el terreno y el proyecto hasta el diseño interior, los objetos, la coordinación de la obra y la entrega llave en mano.</p>
-    <p class="scene-text">Ese cambio necesitaba una identidad capaz de hacerlo visible.</p>
-  </section>
-
-  <section class="scene scene-space gd-identity-width" aria-labelledby="partida-titulo">
-    <p class="scene-subtitle" id="partida-titulo">02 · Punto de partida</p>
-    <figure class="scene-card wide identity-original-feature">
-      <img src={originalIdentityPath} alt="Tarjeta de la identidad visual original de García Delillo" width="1683" height="935" loading="lazy" decoding="async" />
-    </figure>
-  </section>
-  <section class="scene scene-divider gd-identity-width">
-    <p class="scene-text">Una identidad de los años 80/90. La identidad existente respondía a una estructura corporativa convencional de su época: formato horizontal, soporte blanco, monograma compacto y una definición inequívoca de la actividad: <strong>García Delillo Construcciones.</strong></p>
-    <div class="identity-note-grid">
-      <p class="scene-subtitle">Formato horizontal</p>
-      <p class="scene-subtitle">Monograma cerrado</p>
-      <p class="scene-subtitle">Azul y rojo concentrados en la marca</p>
-      <p class="scene-subtitle">“Construcciones” como única definición</p>
-    </div>
-    <p class="scene-text identity-note-muted">El símbolo concentraba la identidad mientras la tarjeta funcionaba fundamentalmente como soporte de información. Era coherente con otro momento de la empresa.</p>
-  </section>
-
-  <section class="scene scene-divider gd-identity-width" aria-labelledby="problema-titulo">
-    <p class="scene-subtitle" id="problema-titulo">03 · El problema de diseño</p>
-    <p class="scene-text identity-statement"><strong>Había que representar una idea de empresa que estaba cambiando.</strong></p>
-    <p class="scene-text">La construcción continuaba siendo central, pero dejaba de ser suficiente para definir el alcance de García Delillo.</p>
-    <p class="scene-text">El desafío consistía en conservar reconocimiento y continuidad, incorporando al mismo tiempo una nueva concepción: <strong>arquitectura, diseño y construcción como partes de un mismo proceso.</strong></p>
-  </section>
-
-  <section class="scene scene-space gd-identity-width" aria-labelledby="transformacion-titulo">
-    <p class="scene-subtitle" id="transformacion-titulo">04 · Transformación gráfica</p>
-    <p class="scene-title scene-title-small">2000 — La nueva identidad</p>
-    <figure class="scene-card portrait identity-transformation-feature">
-      <img src={transformationPath} alt="Tarjeta azul de la nueva identidad visual de García Delillo" width="1079" height="2106" loading="lazy" decoding="async" />
-    </figure>
-  </section>
-  <section class="scene scene-details gd-identity-width" aria-label="Decisiones de la transformación gráfica">
-    <article><p class="scene-subtitle">Horizontal → vertical</p><p class="scene-text">El cambio de orientación rompe con la estructura comercial anterior y acerca la pieza a una lámina o superficie de proyecto.</p></article>
-    <article><p class="scene-subtitle">Logo → sistema gráfico</p><p class="scene-text">El GD deja de aparecer únicamente como una forma terminada. Ejes, líneas auxiliares, tramas y prolongaciones mantienen visible su proceso de construcción.</p></article>
-    <article><p class="scene-subtitle">Soporte neutro → campo activo</p><p class="scene-text">El azul de la identidad original se expande hasta ocupar toda la tarjeta. El soporte pasa a formar parte de la identidad.</p></article>
-    <article><p class="scene-subtitle">Continuidad cromática</p><p class="scene-text">Se conserva la relación cromática del monograma original: G azul y D roja. La marca anterior no se elimina; se reinterpreta.</p></article>
-    <article><p class="scene-subtitle">Positivo / negativo</p><p class="scene-text">El trabajo entre azul, blanco y rojo introduce inversión, reserva y contraste, vinculando la identidad con los sistemas gráficos de reproducción de documentación técnica.</p></article>
-    <article><p class="scene-subtitle">Lenguaje de proyecto</p><p class="scene-text">Líneas de construcción, rayados y geometrías auxiliares recuperan recursos propios del dibujo arquitectónico y de las copias heliográficas utilizadas en aquel momento.</p></article>
-  </section>
-
-  <section class="scene scene-divider gd-identity-width" aria-labelledby="verbal-titulo">
-    <p class="scene-subtitle" id="verbal-titulo">05 · El cambio verbal</p>
-    <p class="scene-text">ANTES</p>
-    <p class="scene-title scene-title-small">GARCÍA DELILLO<br />CONSTRUCCIONES</p>
-    <p class="scene-text identity-arrow" aria-hidden="true">↓</p>
-    <p class="scene-text">2000</p>
-    <p class="scene-title scene-title-small">GARCÍA DELILLO<br />ARQUITECTURA, DISEÑO Y CONSTRUCCIÓN</p>
-    <p class="scene-text">No se trataba simplemente de sumar nuevos servicios. La nueva denominación buscaba expresar la posibilidad de asumir integralmente el proceso de llevar una vivienda desde sus primeras decisiones hasta su ejecución y entrega.</p>
-  </section>
-
-  <section class="scene scene-space gd-identity-width" aria-labelledby="cierre-titulo">
-    <p class="scene-subtitle" id="cierre-titulo">06 · Cierre del capítulo</p>
-    <p class="scene-title scene-title-small">La identidad cambió porque había cambiado aquello que necesitaba representar.</p>
-    <figure class="scene-card portrait identity-closing-feature">
-      <img src={transformationPath} alt="Resultado de la transformación de identidad visual de García Delillo" width="1079" height="2106" loading="lazy" decoding="async" />
-    </figure>
-    <p class="scene-text">La intervención mantuvo los elementos reconocibles de García Delillo, pero modificó su organización, su lenguaje y su relación con el soporte para hacer visible una nueva manera de entender la empresa.</p>
-    <p class="scene-text identity-credit"><strong>Pulso / 2000</strong><br />Identidad visual · papelería · representación arquitectónica</p>
-  </section>
-
-  <section class="scene scene-divider gd-identity-width" aria-labelledby="puente-titulo">
-    <p class="scene-subtitle" id="puente-titulo">El capítulo siguiente</p>
-    <p class="scene-text">Lo que comenzó como una intervención externa de diseño terminó convirtiéndose, durante los años siguientes, en una participación cada vez mayor dentro de García Delillo.</p>
-    <p class="scene-text">2000 → 2005 → 2007 → conducción</p>
-    <p class="identity-actions"><a class="contact-link" href={sitePath('/casos/garcia-delillo/')}>Continuar con el caso García Delillo</a> <a class="contact-link" href={garciaDelilloWebUrl} target="_blank" rel="noreferrer">Entrar a la web de García Delillo</a></p>
-  </section>
-
-  <section class="scene scene-divider scene-contact gd-identity-width" id="animacion" aria-labelledby="animacion-titulo">
-    <p class="scene-subtitle" id="animacion-titulo">El paso posterior: el logo animado</p>
-    <p class="scene-text">La identidad visual se prepara para el movimiento. La carpeta conserva esta versión animada como continuidad del mismo proceso.</p>
-    <video class="gd-identity-video" controls preload="metadata" poster={logoPath} aria-label="Animación del logo de García Delillo">
-      <source src={animationPath} type="video/mp4" />
-      Tu navegador no puede reproducir este video.
-    </video>
+  <section class="scene scene-divider gd-identity-width" aria-labelledby="cierre-titulo">
+    <h2 class="scene-title scene-title-small" id="cierre-titulo">Una misma identidad. Distintos momentos, soportes y herramientas.</h2>
+    <p class="scene-text">Lo que comenzó como una intervención gráfica terminó convirtiéndose también en un campo para explorar arquitectura, diseño, animación y programación como partes de un mismo proceso proyectual.</p>
   </section>
 </BaseLayout>
