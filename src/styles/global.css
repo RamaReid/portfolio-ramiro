@@ -168,7 +168,7 @@ body.gd-identity-page .page-width,
 body.gd-identity-page .gd-identity-width { width: min(1375px, calc(100% - 80px)); }
 body.gd-identity-page .site-header {
   position: fixed;
-  top: 5px;
+  top: 45px;
   right: 40px;
   left: 40px;
   z-index: 40;
@@ -181,7 +181,7 @@ body.gd-identity-page .header-inner {
   width: 100%;
   max-width: 1375px;
   min-height: 4rem;
-  margin: 40px auto 0;
+  margin: 0 auto;
   padding: 0 35px 0 15px;
   border: 1px solid rgba(255, 255, 255, .22);
   border-radius: 9999px;
@@ -316,7 +316,7 @@ body.gd-identity-page .contact-link:hover {
 }
 @media (max-width: 768px) {
   body.gd-identity-page .site-header { right: 20px; left: 20px; }
-  body.gd-identity-page .header-inner { margin-top: 40px; padding-inline: 15px; }
+  body.gd-identity-page .header-inner { padding-inline: 15px; }
   body.gd-identity-page nav { gap: 20px; }
   body.gd-identity-page .scene-title { font-size: 32px; }
   body.gd-identity-page .scene-text,
